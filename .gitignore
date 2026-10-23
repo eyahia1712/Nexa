@@ -1,0 +1,25 @@
+# Dependencies & builds
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+next-env.d.ts
+
+# Environment — never commit secrets
+.env
+.env*.local
+
+# Raw downloads (re-create with scripts/fetch_data.sh) and live cache
+data/raw/
+data/cache/
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/

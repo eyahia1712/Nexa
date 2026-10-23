@@ -1,0 +1,17 @@
+# Replit runs Nexa as a Next.js app. "Run" starts the dev server;
+# Deployments build once and serve the production build.
+run = "npm run dev -- -H 0.0.0.0 -p 3000"
+entrypoint = "app/page.tsx"
+modules = ["nodejs-22"]
+
+[nix]
+channel = "stable-24_05"
+
+[deployment]
+build = ["sh", "-c", "npm ci && npm run build"]
+run = ["sh", "-c", "npm run start"]
+deploymentTarget = "autoscale"
+
+[[ports]]
+localPort = 3000
+externalPort = 80

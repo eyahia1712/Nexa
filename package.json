@@ -1,0 +1,51 @@
+{
+  "name": "nexa",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Nexa: see which of your tasks AI is shifting, which skills carry you forward, and the cited path to your next role. Team EcoByte, SDC Hackathon 2026, Domain 1.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start -H 0.0.0.0 -p ${PORT:-3000}",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "data": "sh scripts/fetch_data.sh",
+    "signals": "tsx scripts/snapshot-signals.ts",
+    "signals:history": "tsx scripts/history-signals.ts",
+    "check:links": "python3 -I scripts/check_links.py"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.127.0",
+    "clsx": "^2.1.1",
+    "mammoth": "^1.12.3",
+    "motion": "^13.4.0",
+    "next": "^16.3.3",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "server-only": "^0.0.1",
+    "tailwind-merge": "^3.7.0",
+    "unpdf": "^1.8.1",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/node": "^26.6.2",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "^16.3.5",
+    "tailwindcss": "^4.3.3",
+    "tsx": "^4.23.13",
+    "typescript": "^6.0.3",
+    "vitest": "^5.0.1"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true,
+    "unrs-resolver@1.12.2": true
+  }
+}
