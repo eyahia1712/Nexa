@@ -21,9 +21,9 @@
 
 | Resource          | Link                                       |
 | ----------------- | ------------------------------------------ |
-| GitHub Repository | _TODO: add after creating the repo_        |
-| Replit Project    | _TODO: add Replit project link_            |
-| Live Demo         | _TODO: add Replit deployment URL_          |
+| GitHub Repository | https://github.com/eyahia1712/Nexa          |
+| Replit Proof      | `submission/SDC2026_EcoByte_Replit_POU.pdf` |
+| Live Demo         | _TODO: add Vercel URL_                     |
 | RunPod Endpoint   | _TODO: add endpoint URL (or "not used")_   |
 | Slide Deck        | _TODO: add slide deck link_                |
 | Demo Video        | _TODO: add YouTube link (5–7 min)_         |
@@ -60,7 +60,8 @@ All six must-haves from the Domain 1 brief, plus all six good-to-haves:
 | Backend       | Next.js route handlers (TypeScript, Node.js)                               |
 | Database      | Versioned JSON data files built from public datasets (no personal data stored) |
 | AI / Compute  | Deterministic scoring engine · optional Claude (`claude-opus-5-5`) CV reading · optional RunPod GPU semantic similarity (BAAI/bge-small-en-v1.5) |
-| Hosting / Dev | Replit                                                                     |
+| Hosting       | Vercel (auto-deploys every push to GitHub)                                 |
+| Ideation      | Replit (ideas, slide and video drafts)                                     |
 
 ---
 
@@ -101,14 +102,14 @@ All six must-haves from the Domain 1 brief, plus all six good-to-haves:
 ### Architecture
 
 ```
- Person / HR ──► Nexa web app (Next.js, hosted on Replit)
+ Person / HR ──► Nexa web app (Next.js, hosted on Vercel)
                     │
       ┌─────────────┼──────────────────────────┬───────────────────────────┐
       ▼             ▼                          ▼                           ▼
  Evidence data   Scoring engine            Live signals                Optional AI
  O*NET 31.0      task shift · momentum     arXiv API (research)        Claude: CV → skill ids
  Anthropic       matching · pathway        OpenDOSM (labour force)     RunPod GPU: semantic
- Economic Index  org analytics · fairness  → dated snapshot + cache    skill closeness
+ Economic Index  org analytics · fairness  → dated snapshots + live   skill closeness
  WEF · TalentCorp (deterministic, cited)
 ```
 
@@ -118,11 +119,13 @@ Every recommendation comes from the curated catalogue; the language model never 
 
 ## How to Run
 
-### Option 1 — Run on Replit (Recommended)
+### Option 1 — Deploy on Vercel (Recommended)
 
-1. Open the Replit project, or **Create Repl → Import from GitHub** with this repository.
-2. Optional: open **Secrets** (🔒) and add any variables from `.env.example` (`ANTHROPIC_API_KEY`, `RUNPOD_API_KEY`, `RUNPOD_ENDPOINT_ID`). Nexa works fully without them.
-3. Click **Run**. To publish, use **Deploy** — it runs `npm ci && npm run build`, then `npm run start`.
+1. In Vercel, **Add New → Project** and import this GitHub repository (it is detected as one Next.js app; `vercel.json` and `.vercelignore` keep the RunPod folder out).
+2. Optional: under **Settings → Environment Variables**, add any variables from `.env.example` (`ANTHROPIC_API_KEY`, `RUNPOD_API_KEY`, `RUNPOD_ENDPOINT_ID`). Nexa works fully without them.
+3. Click **Deploy**. Every push to `main` redeploys automatically.
+
+Live trend readings run from the browser through two small stateless routes (`/api/arxiv`, `/api/labour`), so they work the same on any host.
 
 ### Option 2 — Run Locally
 
@@ -156,9 +159,9 @@ npm run lint
 
 ## How We Use Replit *(Required)*
 
-- **Hosting:** The app is deployed with Replit Deployments at the Live Demo link above (`.replit` defines build and run).
-- **Development:** The team runs and reviews the app in the shared Repl.
-- **Secrets:** API keys are stored in Replit Secrets, never in the code.
+- **Ideation:** The team used Replit (and its AI credits) to brainstorm features, draft designs, and prepare the pitch slides and video.
+- **Hosting:** The live app itself is hosted on Vercel (see Live Demo above).
+- **Secrets:** API keys are kept in environment variables, never in the code.
 
 📄 Proof of use: [`submission/SDC2026_EcoByte_Replit_POU.pdf`](submission/SDC2026_EcoByte_Replit_POU.pdf)
 
@@ -166,7 +169,7 @@ npm run lint
 
 - **Workload:** Semantic skill similarity — the open-source embedding model `BAAI/bge-small-en-v1.5` runs on a RunPod GPU and measures how close a person's skills are, in meaning, to each target role's skills.
 - **Setup:** `runpod/handler.py` (with `runpod/Dockerfile`) is deployed as a **RunPod Serverless Endpoint**.
-- **Integration:** The Replit app calls the endpoint through `/api/semantic` using `RUNPOD_API_KEY` and `RUNPOD_ENDPOINT_ID`; results appear as "semantic closeness" on each role card. It is context only and never changes the explainable score.
+- **Integration:** The app calls the endpoint through `/api/semantic` using `RUNPOD_API_KEY` and `RUNPOD_ENDPOINT_ID`; results appear as "semantic closeness" on each role card. It is context only and never changes the explainable score.
 
 Example request:
 
@@ -224,7 +227,7 @@ curl -X POST https://api.runpod.ai/v2/$RUNPOD_ENDPOINT_ID/runsync \
 - [ ] Preliminary submission completed (`SDC2026_EcoByte_Preliminary.pdf`)
 - [ ] Technology declaration completed (`SDC2026_EcoByte_TechDeclaration.pdf`)
 - [x] Submission files named with our team name
-- [ ] "How to Run" steps verified on Replit
+- [ ] "How to Run" steps verified on Vercel
 - [x] No API keys or secrets committed to the repository
 
 ## License

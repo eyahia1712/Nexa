@@ -13,7 +13,8 @@ import {
   type Line,
 } from "@/lib/engine/history";
 import type { Profile } from "@/lib/profile";
-import type { LiveSample } from "@/lib/signals/live-stream";
+import { SKILLS } from "@/lib/catalog";
+import { arxivCountVia } from "@/lib/signals/client";
 import type { SignalSnapshot } from "@/lib/signals/snapshot";
 import { cn, monthYear } from "@/lib/utils";
 
@@ -41,7 +42,6 @@ const DOWN = "#ce2c2c";
 const LIVE = "#e34948";
 /** How much real time the live zone shows. */
 const WINDOW_MS = 120_000;
-const POLL_MS = 3_000;
 
 type View = "skills" | "roles" | "research";
 type Scope = "mine" | "movers";
@@ -108,45 +108,75 @@ export interface Tick {
   values: Record<string, number>;
 }
 
-/** Polls the live feed and keeps the last few minutes of samples. */
+/** One live reading: papers per 10,000 on arXiv in the last 30 days, per skill measured so far. */
+interface LiveSample {
+  t: number;
+  perTenK: Record<string, number>;
+}
+
+const LIVE_ROTATION = [
+  "total",
+  ...SKILLS.filter((skill) => skill.arxiv !== null).map((skill) => skill.id),
+];
+const LIVE_GAP_MS = 3_500;
+
+/**
+ * The always-running live feed: while the page is open, the browser asks
+ * arXiv (through /api/arxiv) for the last 30 days of papers, one skill every
+ * few seconds, and records every answer at the moment it arrives.
+ */
 function useLiveFeed() {
   const [samples, setSamples] = useState<LiveSample[]>([]);
   const [error, setError] = useState<string | null>(null);
-  const latest = useRef(0);
+  const counts = useRef<Record<string, number>>({});
 
   useEffect(() => {
     let alive = true;
-    const pull = async () => {
-      try {
-        const since = latest.current
-          ? latest.current + 1
-          : Date.now() - WINDOW_MS * 1.5;
-        const response = await fetch(`/api/live?since=${since}`, {
-          cache: "no-store",
-        });
-        const body = (await response.json()) as {
-          samples: LiveSample[];
-          error: string | null;
-        };
-        if (!alive) return;
-        setError(body.error);
-        if (body.samples.length > 0) {
-          latest.current = body.samples[body.samples.length - 1]!.t;
+    let cursor = 0;
+    let timer: ReturnType<typeof setTimeout> | null = null;
+    const window30 = () => {
+      const now = new Date();
+      return {
+        from: new Date(now.getTime() - 30 * 86_400_000)
+          .toISOString()
+          .slice(0, 10),
+        to: now.toISOString().slice(0, 10),
+      };
+    };
+    const step = async () => {
+      const id = LIVE_ROTATION[cursor % LIVE_ROTATION.length]!;
+      cursor += 1;
+      const value = await arxivCountVia(id, window30());
+      if (!alive) return;
+      if (value === null) {
+        setError("busy");
+      } else {
+        setError(null);
+        counts.current[id] = value;
+        const total = counts.current.total;
+        if (total && total > 0) {
+          const perTenK = Object.fromEntries(
+            Object.entries(counts.current)
+              .filter(([key]) => key !== "total")
+              .map(([key, count]) => [key, (count / total) * 10_000]),
+          );
+          const sample = { t: Date.now(), perTenK };
           setSamples((current) =>
-            [...current, ...body.samples].filter(
-              (sample) => sample.t >= Date.now() - WINDOW_MS * 2,
+            [...current, sample].filter(
+              (item) => item.t >= Date.now() - WINDOW_MS * 2,
             ),
           );
         }
-      } catch {
-        if (alive) setError("offline");
       }
+      timer = setTimeout(
+        () => void step(),
+        value === null ? LIVE_GAP_MS * 2 : LIVE_GAP_MS,
+      );
     };
-    void pull();
-    const id = setInterval(() => void pull(), POLL_MS);
+    void step();
     return () => {
       alive = false;
-      clearInterval(id);
+      if (timer) clearTimeout(timer);
     };
   }, []);
 

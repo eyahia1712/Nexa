@@ -1,0 +1,2 @@
+# The RunPod handler runs on RunPod's GPUs, not on Vercel.
+runpod/

@@ -32,7 +32,9 @@ async function readText(request: Request): Promise<string> {
   }
   if (name.endsWith(".docx")) {
     const mammoth = await import("mammoth");
-    const { value } = await mammoth.extractRawText({ buffer: Buffer.from(bytes) });
+    const { value } = await mammoth.extractRawText({
+      buffer: Buffer.from(bytes),
+    });
     return value;
   }
   return new TextDecoder().decode(bytes);
@@ -43,10 +45,19 @@ export async function POST(request: Request) {
   try {
     text = await readText(request);
   } catch (error) {
-    return NextResponse.json({ error: (error as Error).message || "Could not read that file." }, { status: 400 });
+    return NextResponse.json(
+      { error: (error as Error).message || "Could not read that file." },
+      { status: 400 },
+    );
   }
   if (text.trim().length < 30) {
-    return NextResponse.json({ error: "We could not find enough text in that file. Try a PDF with selectable text, a .docx, or paste the text." }, { status: 400 });
+    return NextResponse.json(
+      {
+        error:
+          "We could not find enough text in that file. Try a PDF with selectable text, a .docx, or paste the text.",
+      },
+      { status: 400 },
+    );
   }
 
   const keywords = extractWithKeywords(text);
@@ -61,11 +72,18 @@ export async function POST(request: Request) {
         years: ai.years ?? keywords.years,
         name: ai.name ?? keywords.name,
         avatar: ai.avatar ?? keywords.avatar,
-        skills: [...ai.skills, ...keywords.skills.filter((skill) => !ids.has(skill.id))],
+        skills: [
+          ...ai.skills,
+          ...keywords.skills.filter((skill) => !ids.has(skill.id)),
+        ],
         characters: text.length,
       });
     } catch (error) {
-      return NextResponse.json({ ...keywords, characters: text.length, notice: `AI reading unavailable (${(error as Error).message}); used keyword matching.` });
+      return NextResponse.json({
+        ...keywords,
+        characters: text.length,
+        notice: `AI reading unavailable (${(error as Error).message}); used keyword matching.`,
+      });
     }
   }
   return NextResponse.json({ ...keywords, characters: text.length });

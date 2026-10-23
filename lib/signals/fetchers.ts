@@ -5,7 +5,7 @@
  *  - OpenDOSM (api.data.gov.my): Malaysia's monthly labour force survey.
  *
  * Used by scripts/snapshot-signals.ts (to ship dated snapshots with the app)
- * and by /api/signals (the "Refresh signals" button).
+ * and by /api/arxiv and /api/labour (asked one by one from the browser).
  */
 
 const ARXIV = "https://export.arxiv.org/api/query";
