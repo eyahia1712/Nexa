@@ -1,0 +1,366 @@
+@import "tailwindcss";
+
+/* ---------------------------------------------------------------------------
+   Nexa: warm paper, saffron and ink.
+
+   One accent — saffron — for the thing you act on next. Colour is never
+   decoration: green, amber and red only ever mean "human-led", "AI assists"
+   and "AI takes over", so a red bar is always task time AI is absorbing.
+--------------------------------------------------------------------------- */
+
+@theme inline {
+  --font-sans: var(--font-sans);
+  --font-narrow: var(--font-narrow);
+  --font-mono: var(--font-mono);
+
+  --color-paper: var(--paper);
+  --color-paper-2: var(--paper-2);
+  --color-stone: var(--stone);
+  --color-card: var(--card);
+  --color-line: var(--line);
+  --color-line-strong: var(--line-strong);
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-ink-3: var(--ink-3);
+  --color-saffron: var(--saffron);
+  --color-saffron-soft: var(--saffron-soft);
+  --color-saffron-deep: var(--saffron-deep);
+  --color-night: var(--night);
+
+  --color-human: var(--human);
+  --color-assist: var(--assist);
+  --color-auto: var(--auto);
+  --color-ok: var(--human);
+  --color-warn: var(--assist);
+  --color-bad: var(--auto);
+}
+
+:root {
+  --paper: #faf9f5;
+  --paper-2: #f2f0e9;
+  --stone: #eae8e1;
+  --card: #ffffff;
+  --line: #dcd9d0;
+  --line-strong: #b9b5aa;
+  --ink: #111110;
+  --ink-2: #5c5a54;
+  --ink-3: #8a877e;
+
+  --saffron: #ffc300;
+  --saffron-soft: #fff3c4;
+  --saffron-deep: #3d2e00;
+  --night: #0b1b28;
+
+  /* Task-time signals. */
+  --human: #0e7a4b;
+  --assist: #b07400;
+  --auto: #ce2c2c;
+}
+
+@layer base {
+  * {
+    border-color: var(--line);
+  }
+  html {
+    font-family: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    scroll-behavior: smooth;
+  }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+  }
+  /* Selected text: red highlight, white text */
+  ::selection {
+    background: #e34948;
+    color: #fff;
+  }
+  button {
+    cursor: pointer;
+  }
+  button:disabled {
+    cursor: not-allowed;
+  }
+}
+
+/* Uppercase micro-labels: eyebrows, chips, buttons. */
+.nx-micro {
+  font-family: var(--font-narrow), ui-sans-serif, system-ui, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.9px;
+  text-transform: uppercase;
+}
+
+.nx-focus:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 2px;
+}
+
+.nx-dotgrid {
+  background-image: radial-gradient(rgb(0 0 0 / 7%) 1px, transparent 1px);
+  background-size: 22px 22px;
+}
+
+/* Entrances: a short rise, staggered by --i. */
+@keyframes nx-rise {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 10px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.nx-rise {
+  animation: nx-rise 420ms cubic-bezier(0.22, 1, 0.36, 1) both;
+  animation-delay: calc(var(--i, 0) * 45ms);
+}
+
+@keyframes nx-flow {
+  to {
+    stroke-dashoffset: -18;
+  }
+}
+.nx-flow {
+  stroke-dasharray: 3 15;
+  animation: nx-flow 1.1s linear infinite;
+}
+
+@keyframes nx-ticker {
+  to {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+.nx-ticker {
+  animation: nx-ticker 40s linear infinite;
+}
+.nx-ticker-wrap:hover .nx-ticker {
+  animation-play-state: paused;
+}
+
+@keyframes nx-grow {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+.nx-grow {
+  transform-origin: left center;
+  animation: nx-grow 700ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+@keyframes nx-pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.35;
+  }
+}
+.nx-live {
+  animation: nx-pulse 1.4s ease-in-out infinite;
+}
+
+@keyframes nx-sweep {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.nx-sweep {
+  transform-origin: 50% 50%;
+  animation: nx-sweep 6s linear infinite;
+}
+
+/* Landing scene. */
+@keyframes nx-drift {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(-1200px, 0, 0);
+  }
+}
+@keyframes nx-dash {
+  to {
+    stroke-dashoffset: -64;
+  }
+}
+@keyframes nx-walk {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+  50% {
+    transform: translate3d(0, -3px, 0);
+  }
+}
+@keyframes nx-blink {
+  0%,
+  100% {
+    opacity: 0.25;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+.nx-drift-slow {
+  animation: nx-drift 110s linear infinite;
+}
+.nx-drift-mid {
+  animation: nx-drift 70s linear infinite;
+}
+.nx-road {
+  animation: nx-dash 1.6s linear infinite;
+}
+.nx-walk {
+  animation: nx-walk 0.9s ease-in-out infinite;
+}
+.nx-blink {
+  animation: nx-blink 2.4s ease-in-out infinite;
+}
+@keyframes nx-float {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+  50% {
+    transform: translate3d(0, -5px, 0);
+  }
+}
+.nx-float {
+  animation: nx-float 3.2s ease-in-out infinite;
+}
+@keyframes nx-flap {
+  0%,
+  100% {
+    transform: scaleY(1);
+  }
+  50% {
+    transform: scaleY(-0.4);
+  }
+}
+.nx-flap {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: nx-flap 0.7s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .nx-rise,
+  .nx-ticker,
+  .nx-flow,
+  .nx-grow,
+  .nx-live,
+  .nx-sweep,
+  .nx-drift-slow,
+  .nx-drift-mid,
+  .nx-road,
+  .nx-walk,
+  .nx-blink,
+  .nx-float,
+  .nx-flap {
+    animation: none;
+  }
+}
+
+/* Footer ground: paper dissolving into night. */
+.nx-footer-ground {
+  background:
+    linear-gradient(180deg, var(--paper) 0%, rgb(250 249 245 / 62%) 26%, rgb(250 249 245 / 0%) 100%),
+    linear-gradient(180deg, #0b1b28 0%, #04122b 46%, #020c1c 100%);
+  background-size:
+    100% 110px,
+    auto;
+  background-repeat: no-repeat;
+}
+.nx-hr-dark {
+  height: 1px;
+  width: 100%;
+  background-image: repeating-linear-gradient(to right, rgb(243 243 243 / 18%) 0 4px, transparent 4px 9px);
+}
+
+/* Org tree connectors. */
+.nx-tree-children {
+  position: relative;
+  padding-top: 22px;
+}
+.nx-tree-children::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  height: 22px;
+  border-left: 1px solid var(--line-strong);
+}
+.nx-tree-branch {
+  position: relative;
+  padding-top: 22px;
+}
+.nx-tree-branch::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  height: 22px;
+  border-left: 1px solid var(--line-strong);
+}
+.nx-tree-branch::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-top: 1px solid var(--line-strong);
+}
+.nx-tree-branch:first-child::after {
+  left: 50%;
+}
+.nx-tree-branch:last-child::after {
+  right: 50%;
+}
+.nx-tree-branch:only-child::after {
+  display: none;
+}
+
+@media print {
+  .nx-no-print {
+    display: none !important;
+  }
+  body {
+    background: white;
+  }
+}
+
+/* Time scrubber on "What changed" */
+.nx-scrub {
+  appearance: none;
+  height: 8px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #2a78d6, #6250d6 var(--p, 100%), var(--stone) var(--p, 100%));
+  cursor: pointer;
+}
+.nx-scrub::-webkit-slider-thumb {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 999px;
+  background: var(--card);
+  border: 3px solid #6250d6;
+  box-shadow: 0 4px 12px -4px rgba(98, 80, 214, 0.6);
+}
+.nx-scrub::-moz-range-thumb {
+  width: 16px;
+  height: 16px;
+  border-radius: 999px;
+  background: var(--card);
+  border: 3px solid #6250d6;
+}
