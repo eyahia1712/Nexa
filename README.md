@@ -322,7 +322,7 @@ curl -X POST https://api.runpod.ai/v2/$RUNPOD_ENDPOINT_ID/runsync \
 | Name | Role | GitHub |
 |---|---|---|
 | **Eya Hia** | Team Leader & Lead Developer | [@eyahia1712](https://github.com/eyahia1712) |
-| **Ng Wei Meng** | Lead Researcher & Data | |
+| **Ng Wei Meng** | Lead Researcher & Data | [@DrNWM](https://github.com/DrNWM) |
 | **Alya Maisarah binti Jaafad Sadiq** | Presenter & Pitch Lead | |
 | **Mohamad Khairul Haiqal bin Mohamad Razali** | QA & Submission Lead | [@redberrysss](https://github.com/redberrysss) |
 
