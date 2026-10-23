@@ -1,0 +1,759 @@
+{
+ "_about": "Verified learning resources. Nexa only ever recommends courses from this file. 'hours' is the provider's own estimate where published, otherwise an approximate effort (marked approx). 'cost': free = free to complete; audit = free to audit, certificate paid; paid = low-cost paid certificate (financial aid usually available). Run `npm run check:links` to re-verify every URL; the result is written to data/link-check.json. HRD Corp: employers can fund training through HRD Corp-registered providers; Nexa links learners to HRD Corp's own catalogue rather than claiming a course is claimable.",
+ "hrdcorp": {
+  "name": "HRD Corp — training programmes for employers (search by skill)",
+  "url": "https://hrdcorp.gov.my/",
+  "elatih": "https://e-latih.hrdcorp.gov.my/"
+ },
+ "courses": [
+  {
+   "id": "elements_of_ai",
+   "title": "Elements of AI",
+   "provider": "University of Helsinki & MinnaLearn",
+   "url": "https://www.elementsofai.com/",
+   "skills": [
+    "genai",
+    "ai_ethics"
+   ],
+   "hours": 30,
+   "cost": "free",
+   "level": 1
+  },
+  {
+   "id": "ethics_of_ai",
+   "title": "Ethics of AI",
+   "provider": "University of Helsinki",
+   "url": "https://ethics-of-ai.mooc.fi/",
+   "skills": [
+    "ai_ethics"
+   ],
+   "hours": 20,
+   "approx": true,
+   "cost": "free",
+   "level": 2
+  },
+  {
+   "id": "ai_for_everyone",
+   "title": "AI For Everyone",
+   "provider": "DeepLearning.AI (Coursera)",
+   "url": "https://www.coursera.org/learn/ai-for-everyone",
+   "skills": [
+    "genai"
+   ],
+   "hours": 6,
+   "cost": "audit",
+   "level": 1
+  },
+  {
+   "id": "genai_for_everyone",
+   "title": "Generative AI for Everyone",
+   "provider": "DeepLearning.AI (Coursera)",
+   "url": "https://www.coursera.org/learn/generative-ai-for-everyone",
+   "skills": [
+    "genai"
+   ],
+   "hours": 5,
+   "cost": "audit",
+   "level": 1
+  },
+  {
+   "id": "google_ai_essentials",
+   "title": "Google AI Essentials",
+   "provider": "Google (Coursera)",
+   "url": "https://www.coursera.org/learn/google-ai-essentials",
+   "skills": [
+    "genai"
+   ],
+   "hours": 10,
+   "cost": "paid",
+   "level": 1
+  },
+  {
+   "id": "prompt_eng_devs",
+   "title": "ChatGPT Prompt Engineering for Developers",
+   "provider": "DeepLearning.AI",
+   "url": "https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/",
+   "skills": [
+    "genai"
+   ],
+   "hours": 1.5,
+   "cost": "free",
+   "level": 2
+  },
+  {
+   "id": "ai_agents_langgraph",
+   "title": "AI Agents in LangGraph",
+   "provider": "DeepLearning.AI",
+   "url": "https://www.deeplearning.ai/short-courses/ai-agents-in-langgraph/",
+   "skills": [
+    "ai_agents"
+   ],
+   "hours": 2,
+   "approx": true,
+   "cost": "free",
+   "level": 2
+  },
+  {
+   "id": "hf_agents",
+   "title": "Hugging Face AI Agents Course",
+   "provider": "Hugging Face",
+   "url": "https://huggingface.co/learn/agents-course",
+   "skills": [
+    "ai_agents",
+    "genai"
+   ],
+   "hours": 20,
+   "approx": true,
+   "cost": "free",
+   "level": 2
+  },
+  {
+   "id": "hf_llm",
+   "title": "Hugging Face LLM Course",
+   "provider": "Hugging Face",
+   "url": "https://huggingface.co/learn/llm-course",
+   "skills": [
+    "machine_learning",
+    "genai"
+   ],
+   "hours": 30,
+   "approx": true,
+   "cost": "free",
+   "level": 3
+  },
+  {
+   "id": "ms_ai900",
+   "title": "Azure AI Fundamentals (AI-900) learning path",
+   "provider": "Microsoft Learn",
+   "url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/",
+   "skills": [
+    "genai",
+    "ai_ethics",
+    "cloud"
+   ],
+   "hours": 10,
+   "approx": true,
+   "cost": "free",
+   "level": 1
+  },
+  {
+   "id": "ml_specialization",
+   "title": "Machine Learning Specialization",
+   "provider": "Stanford & DeepLearning.AI (Coursera)",
+   "url": "https://www.coursera.org/specializations/machine-learning-introduction",
+   "skills": [
+    "machine_learning"
+   ],
+   "hours": 90,
+   "approx": true,
+   "cost": "audit",
+   "level": 3
+  },
+  {
+   "id": "fastai",
+   "title": "Practical Deep Learning for Coders",
+   "provider": "fast.ai",
+   "url": "https://course.fast.ai/",
+   "skills": [
+    "machine_learning"
+   ],
+   "hours": 70,
+   "approx": true,
+   "cost": "free",
+   "level": 3
+  },
+  {
+   "id": "kaggle_intro_ml",
+   "title": "Intro to Machine Learning",
+   "provider": "Kaggle Learn",
+   "url": "https://www.kaggle.com/learn/intro-to-machine-learning",
+   "skills": [
+    "machine_learning"
+   ],
+   "hours": 3,
+   "cost": "free",
+   "level": 2
+  },
+  {
+   "id": "cs50_ai",
+   "title": "CS50's Introduction to Artificial Intelligence with Python",
+   "provider": "Harvard University",
+   "url": "https://cs50.harvard.edu/ai/",
+   "skills": [
+    "machine_learning",
+    "python"
+   ],
+   "hours": 70,
+   "approx": true,
+   "cost": "free",
+   "level": 3
+  },
+  {
+   "id": "kaggle_python",
+   "title": "Python",
+   "provider": "Kaggle Learn",
+   "url": "https://www.kaggle.com/learn/python",
+   "skills": [
+    "python"
+   ],
+   "hours": 5,
+   "cost": "free",
+   "level": 1
+  },
+  {
+   "id": "cs50x",
+   "title": "CS50x: Introduction to Computer Science",
+   "provider": "Harvard University",
+   "url": "https://cs50.harvard.edu/x/",
+   "skills": [
+    "software_dev",
+    "python"
+   ],
+   "hours": 100,
+   "approx": true,
+   "cost": "free",
+   "level": 2
+  },
+  {
+   "id": "kaggle_sql",
+   "title": "Intro to SQL",
+   "provider": "Kaggle Learn",
+   "url": "https://www.kaggle.com/learn/intro-to-sql",
+   "skills": [
+    "sql"
+   ],
+   "hours": 3,
+   "cost": "free",
+   "level": 1
+  },
+  {
+   "id": "kaggle_pandas",
+   "title": "Pandas",
+   "provider": "Kaggle Learn",
+   "url": "https://www.kaggle.com/learn/pandas",
+   "skills": [
+    "data_analysis",
+    "python"
+   ],
+   "hours": 4,
+   "cost": "free",
+   "level": 2
+  },
+  {
+   "id": "kaggle_dataviz",
+   "title": "Data Visualization",
+   "provider": "Kaggle Learn",
+   "url": "https://www.kaggle.com/learn/data-visualization",
+   "skills": [
+    "data_viz"
+   ],
+   "hours": 4,
+   "cost": "free",
+   "level": 2
+  },
+  {
+   "id": "google_data_analytics",
+   "title": "Google Data Analytics Professional Certificate",
+   "provider": "Google (Coursera)",
+   "url": "https://www.coursera.org/professional-certificates/google-data-analytics",
+   "skills": [
+    "data_analysis",
+    "spreadsheets",
+    "sql",
+    "data_viz"
+   ],
+   "hours": 180,
+   "approx": true,
+   "cost": "paid",
+   "level": 2
+  },
+  {
+   "id": "ms_pl300",
+   "title": "Power BI Data Analyst (PL-300) learning path",
+   "provider": "Microsoft Learn",
+   "url": "https://learn.microsoft.com/en-us/credentials/certifications/data-analyst-associate/",
+   "skills": [
+    "data_viz",
+    "data_analysis"
+   ],
+   "hours": 25,
+   "approx": true,
+   "cost": "free",
+   "level": 2
+  },
+  {
+   "id": "khan_stats",
+   "title": "Statistics and Probability",
+   "provider": "Khan Academy",
+   "url": "https://www.khanacademy.org/math/statistics-probability",
+   "skills": [
+    "statistics"
+   ],
+   "hours": 40,
+   "approx": true,
+   "cost": "free",
+   "level": 2
+  },
+  {
+   "id": "ibm_data_eng",
+   "title": "IBM Data Engineering Professional Certificate",
+   "provider": "IBM (Coursera)",
+   "url": "https://www.coursera.org/professional-certificates/ibm-data-engineer",
+   "skills": [
+    "big_data",
+    "sql",
+    "python"
+   ],
+   "hours": 150,
+   "approx": true,
+   "cost": "paid",
+   "level": 3
+  },
+  {
+   "id": "excel_skills",
+   "title": "Excel Skills for Business: Essentials",
+   "provider": "Macquarie University (Coursera)",
+   "url": "https://www.coursera.org/learn/excel-essentials",
+   "skills": [
+    "spreadsheets"
+   ],
+   "hours": 25,
+   "approx": true,
+   "cost": "audit",
+   "level": 1
+  },
+  {
+   "id": "cisco_intro_cyber",
+   "title": "Introduction to Cybersecurity",
+   "provider": "Cisco Networking Academy",
+   "url": "https://www.netacad.com/courses/introduction-to-cybersecurity",
+   "skills": [
+    "cybersecurity"
+   ],
+   "hours": 6,
+   "cost": "free",
+   "level": 1
+  },
+  {
+   "id": "google_cyber",
+   "title": "Google Cybersecurity Professional Certificate",
+   "provider": "Google (Coursera)",
+   "url": "https://www.coursera.org/professional-certificates/google-cybersecurity",
+   "skills": [
+    "cybersecurity",
+    "networking"
+   ],
+   "hours": 170,
+   "approx": true,
+   "cost": "paid",
+   "level": 2
+  },
+  {
+   "id": "cisco_networking_basics",
+   "title": "Networking Basics",
+   "provider": "Cisco Networking Academy",
+   "url": "https://www.netacad.com/courses/networking-basics",
+   "skills": [
+    "networking"
+   ],
+   "hours": 22,
+   "cost": "free",
+   "level": 1
+  },
+  {
+   "id": "google_it_support",
+   "title": "Google IT Support Professional Certificate",
+   "provider": "Google (Coursera)",
+   "url": "https://www.coursera.org/professional-certificates/google-it-support",
+   "skills": [
+    "it_support",
+    "networking"
+   ],
+   "hours": 150,
+   "approx": true,
+   "cost": "paid",
+   "level": 1
+  },
+  {
+   "id": "aws_cloud_practitioner",
+   "title": "AWS Cloud Practitioner Essentials",
+   "provider": "AWS Skill Builder",
+   "url": "https://skillbuilder.aws/",
+   "skills": [
+    "cloud"
+   ],
+   "hours": 6,
+   "approx": true,
+   "cost": "free",
+   "level": 1
+  },
+  {
+   "id": "lf_devops",
+   "title": "Introduction to DevOps and Site Reliability Engineering (LFS162)",
+   "provider": "The Linux Foundation (edX)",
+   "url": "https://www.edx.org/learn/devops/the-linux-foundation-introduction-to-devops-and-site-reliability-engineering",
+   "skills": [
+    "cloud"
+   ],
+   "hours": 20,
+   "approx": true,
+   "cost": "audit",
+   "level": 2
+  },
+  {
+   "id": "fcc_web",
+   "title": "Responsive Web Design",
+   "provider": "freeCodeCamp",
+   "url": "https://www.freecodecamp.org/learn/",
+   "skills": [
+    "web_dev"
+   ],
+   "hours": 300,
+   "cost": "free",
+   "level": 1
+  },
+  {
+   "id": "uci_iot",
+   "title": "Introduction to the Internet of Things and Embedded Systems",
+   "provider": "UC Irvine (Coursera)",
+   "url": "https://www.coursera.org/learn/iot",
+   "skills": [
+    "iot"
+   ],
+   "hours": 15,
+   "approx": true,
+   "cost": "audit",
+   "level": 2
+  },
+  {
+   "id": "google_ux",
+   "title": "Google UX Design Professional Certificate",
+   "provider": "Google (Coursera)",
+   "url": "https://www.coursera.org/professional-certificates/google-ux-design",
+   "skills": [
+    "ux_design"
+   ],
+   "hours": 200,
+   "approx": true,
+   "cost": "paid",
+   "level": 2
+  },
+  {
+   "id": "hku_fintech",
+   "title": "FinTech courses (incl. HKU Introduction to FinTech)",
+   "provider": "edX",
+   "url": "https://www.edx.org/learn/fintech",
+   "skills": [
+    "fintech"
+   ],
+   "hours": 24,
+   "approx": true,
+   "cost": "audit",
+   "level": 2
+  },
+  {
+   "id": "yale_fin_markets",
+   "title": "Financial Markets",
+   "provider": "Yale University (Coursera)",
+   "url": "https://www.coursera.org/learn/financial-markets-global",
+   "skills": [
+    "financial_analysis"
+   ],
+   "hours": 33,
+   "approx": true,
+   "cost": "audit",
+   "level": 2
+  },
+  {
+   "id": "google_pm",
+   "title": "Google Project Management Professional Certificate",
+   "provider": "Google (Coursera)",
+   "url": "https://www.coursera.org/professional-certificates/google-project-management",
+   "skills": [
+    "project_mgmt",
+    "leadership"
+   ],
+   "hours": 180,
+   "approx": true,
+   "cost": "paid",
+   "level": 2
+  },
+  {
+   "id": "atlassian_agile",
+   "title": "Agile with Atlassian Jira",
+   "provider": "Atlassian (Coursera)",
+   "url": "https://www.coursera.org/learn/agile-atlassian-jira",
+   "skills": [
+    "project_mgmt"
+   ],
+   "hours": 12,
+   "approx": true,
+   "cost": "audit",
+   "level": 1
+  },
+  {
+   "id": "hubspot_service",
+   "title": "Customer Service courses",
+   "provider": "HubSpot Academy",
+   "url": "https://academy.hubspot.com/",
+   "skills": [
+    "customer_care",
+    "crm"
+   ],
+   "hours": 4,
+   "approx": true,
+   "cost": "free",
+   "level": 1
+  },
+  {
+   "id": "trailhead",
+   "title": "Trailhead — CRM and Service Cloud trails",
+   "provider": "Salesforce",
+   "url": "https://trailhead.salesforce.com/",
+   "skills": [
+    "crm"
+   ],
+   "hours": 10,
+   "approx": true,
+   "cost": "free",
+   "level": 1
+  },
+  {
+   "id": "hubspot_marketing",
+   "title": "Inbound & Digital Marketing courses",
+   "provider": "HubSpot Academy",
+   "url": "https://academy.hubspot.com/courses/inbound-marketing",
+   "skills": [
+    "digital_marketing"
+   ],
+   "hours": 5,
+   "approx": true,
+   "cost": "free",
+   "level": 1
+  },
+  {
+   "id": "learning_how_to_learn",
+   "title": "Learning How to Learn",
+   "provider": "Deep Teaching Solutions (Coursera)",
+   "url": "https://www.coursera.org/learn/learning-how-to-learn",
+   "skills": [
+    "lifelong_learning",
+    "resilience"
+   ],
+   "hours": 15,
+   "approx": true,
+   "cost": "audit",
+   "level": 1
+  },
+  {
+   "id": "inspiring_leading",
+   "title": "Inspiring and Motivating Individuals",
+   "provider": "University of Michigan (Coursera)",
+   "url": "https://www.coursera.org/learn/motivate-people-teams",
+   "skills": [
+    "leadership",
+    "people_mgmt"
+   ],
+   "hours": 10,
+   "approx": true,
+   "cost": "audit",
+   "level": 2
+  },
+  {
+   "id": "improving_communication",
+   "title": "Improving Communication Skills",
+   "provider": "University of Pennsylvania (Coursera)",
+   "url": "https://www.coursera.org/learn/wharton-communication-skills",
+   "skills": [
+    "communication",
+    "empathy"
+   ],
+   "hours": 9,
+   "approx": true,
+   "cost": "audit",
+   "level": 1
+  },
+  {
+   "id": "teach_online",
+   "title": "Learning to Teach Online",
+   "provider": "UNSW Sydney (Coursera)",
+   "url": "https://www.coursera.org/learn/teach-online",
+   "skills": [
+    "teaching"
+   ],
+   "hours": 20,
+   "approx": true,
+   "cost": "audit",
+   "level": 2
+  },
+  {
+   "id": "intro_sustainability",
+   "title": "Introduction to Sustainability",
+   "provider": "University of Illinois (Coursera)",
+   "url": "https://www.coursera.org/learn/sustainability",
+   "skills": [
+    "sustainability_esg"
+   ],
+   "hours": 25,
+   "approx": true,
+   "cost": "audit",
+   "level": 1
+  },
+  {
+   "id": "sdg_academy",
+   "title": "SDG Academy courses (climate, energy, health, education)",
+   "provider": "UN Sustainable Development Solutions Network",
+   "url": "https://sdgacademy.org/",
+   "skills": [
+    "sustainability_esg",
+    "energy_data",
+    "lifelong_learning"
+   ],
+   "hours": 20,
+   "approx": true,
+   "cost": "free",
+   "level": 1
+  },
+  {
+   "id": "un_cc_learn",
+   "title": "Introduction to Climate Change and other UN CC:e-Learn courses",
+   "provider": "UN CC:Learn",
+   "url": "https://unccelearn.org/",
+   "skills": [
+    "sustainability_esg"
+   ],
+   "hours": 8,
+   "approx": true,
+   "cost": "free",
+   "level": 1
+  },
+  {
+   "id": "delft_solar",
+   "title": "Solar energy courses (incl. TU Delft Solar Energy)",
+   "provider": "edX",
+   "url": "https://www.edx.org/learn/solar-energy",
+   "skills": [
+    "renewable_energy"
+   ],
+   "hours": 64,
+   "approx": true,
+   "cost": "audit",
+   "level": 2
+  },
+  {
+   "id": "duke_energy",
+   "title": "Renewable Energy and Green Building Entrepreneurship",
+   "provider": "Duke University (Coursera)",
+   "url": "https://www.coursera.org/learn/renewable-energy-entrepreneurship",
+   "skills": [
+    "energy_data",
+    "renewable_energy"
+   ],
+   "hours": 10,
+   "approx": true,
+   "cost": "audit",
+   "level": 2
+  },
+  {
+   "id": "openwho",
+   "title": "OpenWHO courses for health workers",
+   "provider": "World Health Organization",
+   "url": "https://openwho.org/",
+   "skills": [
+    "patient_care",
+    "health_data"
+   ],
+   "hours": 6,
+   "approx": true,
+   "cost": "free",
+   "level": 1
+  },
+  {
+   "id": "career_planning",
+   "title": "Career Planning: A Pathway to Employment",
+   "provider": "Coursera",
+   "url": "https://www.coursera.org/learn/career-planning",
+   "skills": [
+    "counselling",
+    "empathy"
+   ],
+   "hours": 8,
+   "approx": true,
+   "cost": "free",
+   "level": 1
+  },
+  {
+   "id": "coaching_managers",
+   "title": "Coaching Skills for Managers",
+   "provider": "UC Davis (Coursera)",
+   "url": "https://www.coursera.org/specializations/coaching-skills-manager",
+   "skills": [
+    "counselling",
+    "leadership",
+    "people_mgmt",
+    "teaching"
+   ],
+   "hours": 20,
+   "approx": true,
+   "cost": "audit",
+   "level": 2
+  },
+  {
+   "id": "hrdcorp_catalogue",
+   "title": "Employer-funded training via HRD Corp-registered providers",
+   "provider": "HRD Corp",
+   "url": "https://hrdcorp.gov.my/",
+   "skills": [
+    "data_entry",
+    "admin",
+    "customer_care",
+    "spreadsheets",
+    "communication"
+   ],
+   "hours": 16,
+   "approx": true,
+   "cost": "employer",
+   "level": 1
+  },
+  {
+   "id": "pku_chinese",
+   "title": "Chinese for Beginners",
+   "provider": "Peking University (Coursera)",
+   "url": "https://www.coursera.org/learn/learn-chinese",
+   "skills": [
+    "multilingual"
+   ],
+   "hours": 13,
+   "approx": true,
+   "cost": "audit",
+   "level": 1
+  },
+  {
+   "id": "nju_translation",
+   "title": "Translation in Practice",
+   "provider": "Nanjing University (Coursera)",
+   "url": "https://www.coursera.org/learn/translation-in-practice",
+   "skills": [
+    "multilingual"
+   ],
+   "hours": 16,
+   "approx": true,
+   "cost": "audit",
+   "level": 2
+  },
+  {
+   "id": "cvs_customer_service",
+   "title": "Customer Service Fundamentals",
+   "provider": "CVS Health (Coursera)",
+   "url": "https://www.coursera.org/learn/customer-service-fundamentals",
+   "skills": [
+    "customer_care",
+    "empathy"
+   ],
+   "hours": 12,
+   "approx": true,
+   "cost": "audit",
+   "level": 1
+  }
+ ]
+}

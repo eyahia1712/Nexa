@@ -1,0 +1,1239 @@
+{
+ "_about": "Illustrative demo data for the hackathon. The organisation is labelled 'Maybank, Kuala Lumpur' for the demo, but every person, name, career history and skill is invented and does not come from Maybank. 'consent' marks people who chose to share their individual profile with HR. Gender and age band are used only to audit fairness, never as matching inputs.",
+ "organisation": {
+  "name": "Maybank",
+  "location": "Kuala Lumpur",
+  "sector": "Banking & financial services",
+  "note": "Demo data — not real Maybank staff"
+ },
+ "departments": [
+  "Leadership",
+  "Customer Service",
+  "Branch Operations",
+  "Finance",
+  "Technology",
+  "Marketing",
+  "People & HR"
+ ],
+ "employees": [
+  {
+   "id": "m01",
+   "name": "Azlan Hashim",
+   "title": "Chief Executive Officer",
+   "soc": "11-1011.00",
+   "dept": "Leadership",
+   "managerId": null,
+   "gender": "M",
+   "ageBand": "50+",
+   "years": 21,
+   "consent": true,
+   "skills": {
+    "communication": 3,
+    "leadership": 3,
+    "problem_solving": 3,
+    "accounting": 2,
+    "data_analysis": 2,
+    "financial_analysis": 2,
+    "people_mgmt": 2,
+    "process_improvement": 2,
+    "project_mgmt": 2,
+    "spreadsheets": 2
+   },
+   "joined": 2008,
+   "entry": "experienced",
+   "history": [
+    {
+     "year": 2008,
+     "title": "Finance Manager",
+     "soc": "11-3031.00"
+    },
+    {
+     "year": 2015,
+     "title": "Chief Operating Officer",
+     "soc": "11-1021.00"
+    },
+    {
+     "year": 2020,
+     "title": "Chief Executive Officer",
+     "soc": "11-1011.00"
+    }
+   ]
+  },
+  {
+   "id": "m02",
+   "name": "Lee Mei Fong",
+   "title": "Chief Operating Officer",
+   "soc": "11-1021.00",
+   "dept": "Leadership",
+   "managerId": "m01",
+   "gender": "F",
+   "ageBand": "40-49",
+   "years": 17,
+   "consent": true,
+   "skills": {
+    "leadership": 3,
+    "process_improvement": 3,
+    "project_mgmt": 3,
+    "communication": 2,
+    "financial_analysis": 2,
+    "people_mgmt": 2
+   },
+   "joined": 2012,
+   "entry": "experienced",
+   "history": [
+    {
+     "year": 2012,
+     "title": "Branch Operations Manager",
+     "soc": "11-1021.00"
+    },
+    {
+     "year": 2021,
+     "title": "Chief Operating Officer",
+     "soc": "11-1021.00"
+    }
+   ]
+  },
+  {
+   "id": "m03",
+   "name": "Nurul Huda Kamal",
+   "title": "Customer Service Supervisor",
+   "soc": "43-1011.00",
+   "dept": "Customer Service",
+   "managerId": "m02",
+   "gender": "F",
+   "ageBand": "30-39",
+   "years": 12,
+   "consent": true,
+   "skills": {
+    "communication": 3,
+    "customer_care": 3,
+    "crm": 2,
+    "data_entry": 2,
+    "empathy": 2,
+    "leadership": 2,
+    "multilingual": 2,
+    "people_mgmt": 2,
+    "problem_solving": 2,
+    "product_knowledge": 2,
+    "process_improvement": 1
+   },
+   "joined": 2014,
+   "entry": "fresh",
+   "history": [
+    {
+     "year": 2014,
+     "title": "Customer Service Executive",
+     "soc": "43-4051.00"
+    },
+    {
+     "year": 2018,
+     "title": "Senior Customer Service Executive",
+     "soc": "43-4051.00"
+    },
+    {
+     "year": 2022,
+     "title": "Customer Service Supervisor",
+     "soc": "43-1011.00"
+    }
+   ]
+  },
+  {
+   "id": "m04",
+   "name": "Siti Aisyah Rahim",
+   "title": "Senior Customer Service Executive",
+   "soc": "43-4051.00",
+   "dept": "Customer Service",
+   "managerId": "m03",
+   "gender": "F",
+   "ageBand": "30-39",
+   "years": 10,
+   "consent": true,
+   "skills": {
+    "communication": 3,
+    "customer_care": 3,
+    "empathy": 3,
+    "multilingual": 3,
+    "product_knowledge": 3,
+    "crm": 2,
+    "data_entry": 2,
+    "problem_solving": 2,
+    "sales": 2
+   },
+   "joined": 2016,
+   "entry": "fresh",
+   "history": [
+    {
+     "year": 2016,
+     "title": "Bank Teller",
+     "soc": "43-3071.00"
+    },
+    {
+     "year": 2020,
+     "title": "Customer Service Executive",
+     "soc": "43-4051.00"
+    },
+    {
+     "year": 2024,
+     "title": "Senior Customer Service Executive",
+     "soc": "43-4051.00"
+    }
+   ]
+  },
+  {
+   "id": "m05",
+   "name": "Ravi Chandran",
+   "title": "Customer Service Executive",
+   "soc": "43-4051.00",
+   "dept": "Customer Service",
+   "managerId": "m03",
+   "gender": "M",
+   "ageBand": "30-39",
+   "years": 10,
+   "consent": true,
+   "skills": {
+    "communication": 3,
+    "customer_care": 3,
+    "empathy": 3,
+    "multilingual": 3,
+    "product_knowledge": 3,
+    "crm": 2,
+    "data_entry": 2,
+    "problem_solving": 2
+   },
+   "joined": 2019,
+   "entry": "experienced",
+   "history": [
+    {
+     "year": 2019,
+     "title": "Customer Service Executive",
+     "soc": "43-4051.00"
+    }
+   ]
+  },
+  {
+   "id": "m06",
+   "name": "Tan Jia Hui",
+   "title": "Customer Service Executive",
+   "soc": "43-4051.00",
+   "dept": "Customer Service",
+   "managerId": "m03",
+   "gender": "F",
+   "ageBand": "20-29",
+   "years": 4,
+   "consent": true,
+   "skills": {
+    "communication": 3,
+    "customer_care": 3,
+    "empathy": 3,
+    "multilingual": 3,
+    "product_knowledge": 3,
+    "crm": 2,
+    "data_entry": 2,
+    "problem_solving": 2
+   },
+   "joined": 2022,
+   "entry": "fresh",
+   "history": [
+    {
+     "year": 2022,
+     "title": "Customer Service Intern",
+     "soc": "43-4051.00"
+    },
+    {
+     "year": 2023,
+     "title": "Customer Service Executive",
+     "soc": "43-4051.00"
+    }
+   ]
+  },
+  {
+   "id": "m07",
+   "name": "Muhammad Irfan Zaki",
+   "title": "Customer Service Executive",
+   "soc": "43-4051.00",
+   "dept": "Customer Service",
+   "managerId": "m03",
+   "gender": "M",
+   "ageBand": "20-29",
+   "years": 3,
+   "consent": true,
+   "skills": {
+    "communication": 3,
+    "customer_care": 3,
+    "empathy": 3,
+    "multilingual": 3,
+    "product_knowledge": 3,
+    "crm": 2,
+    "data_entry": 2,
+    "problem_solving": 2
+   },
+   "joined": 2023,
+   "entry": "fresh",
+   "history": [
+    {
+     "year": 2023,
+     "title": "Customer Service Executive",
+     "soc": "43-4051.00"
+    }
+   ]
+  },
+  {
+   "id": "m08",
+   "name": "Kavitha Raman",
+   "title": "Customer Service Executive",
+   "soc": "43-4051.00",
+   "dept": "Customer Service",
+   "managerId": "m03",
+   "gender": "F",
+   "ageBand": "20-29",
+   "years": 2,
+   "consent": true,
+   "skills": {
+    "communication": 3,
+    "customer_care": 3,
+    "empathy": 3,
+    "multilingual": 3,
+    "product_knowledge": 3,
+    "crm": 2,
+    "data_entry": 2,
+    "problem_solving": 2
+   },
+   "joined": 2024,
+   "entry": "fresh",
+   "history": [
+    {
+     "year": 2024,
+     "title": "Customer Service Executive",
+     "soc": "43-4051.00"
+    }
+   ]
+  },
+  {
+   "id": "m09",
+   "name": "Wong Kah Wai",
+   "title": "Customer Service Executive",
+   "soc": "43-4051.00",
+   "dept": "Customer Service",
+   "managerId": "m03",
+   "gender": "M",
+   "ageBand": "20-29",
+   "years": 1,
+   "consent": true,
+   "skills": {
+    "communication": 2,
+    "customer_care": 2,
+    "empathy": 2,
+    "multilingual": 2,
+    "product_knowledge": 2,
+    "crm": 1,
+    "data_entry": 1,
+    "problem_solving": 1
+   },
+   "joined": 2025,
+   "entry": "fresh",
+   "history": [
+    {
+     "year": 2025,
+     "title": "Customer Service Intern",
+     "soc": "43-4051.00"
+    },
+    {
+     "year": 2026,
+     "title": "Customer Service Executive",
+     "soc": "43-4051.00"
+    }
+   ]
+  },
+  {
+   "id": "m10",
+   "name": "Ahmad Faizal Osman",
+   "title": "Operations Supervisor",
+   "soc": "43-1011.00",
+   "dept": "Branch Operations",
+   "managerId": "m02",
+   "gender": "M",
+   "ageBand": "40-49",
+   "years": 19,
+   "consent": true,
+   "skills": {
+    "communication": 3,
+    "customer_care": 3,
+    "crm": 2,
+    "empathy": 2,
+    "leadership": 2,
+    "multilingual": 2,
+    "people_mgmt": 2,
+    "product_knowledge": 2,
+    "sales": 2,
+    "process_improvement": 1
+   },
+   "joined": 2010,
+   "entry": "experienced",
+   "history": [
+    {
+     "year": 2010,
+     "title": "Bank Teller",
+     "soc": "43-3071.00"
+    },
+    {
+     "year": 2015,
+     "title": "Operations Supervisor",
+     "soc": "43-1011.00"
+    }
+   ]
+  },
+  {
+   "id": "m11",
+   "name": "Chong Wei Lun",
+   "title": "Bank Teller",
+   "soc": "43-3071.00",
+   "dept": "Branch Operations",
+   "managerId": "m10",
+   "gender": "M",
+   "ageBand": "30-39",
+   "years": 9,
+   "consent": true,
+   "skills": {
+    "product_knowledge": 3,
+    "communication": 2,
+    "customer_care": 2,
+    "multilingual": 2,
+    "sales": 2
+   },
+   "joined": 2017,
+   "entry": "fresh",
+   "history": [
+    {
+     "year": 2017,
+     "title": "Bank Teller",
+     "soc": "43-3071.00"
+    }
+   ]
+  },
+  {
+   "id": "m12",
+   "name": "Nur Syafiqah Azmi",
+   "title": "Bank Teller",
+   "soc": "43-3071.00",
+   "dept": "Branch Operations",
+   "managerId": "m10",
+   "gender": "F",
+   "ageBand": "20-29",
+   "years": 4,
+   "consent": true,
+   "skills": {
+    "product_knowledge": 3,
+    "communication": 2,
+    "customer_care": 2,
+    "multilingual": 2,
+    "sales": 2
+   },
+   "joined": 2022,
+   "entry": "fresh",
+   "history": [
+    {
+     "year": 2022,
+     "title": "Bank Teller",
+     "soc": "43-3071.00"
+    }
+   ]
+  },
+  {
+   "id": "m13",
+   "name": "Priya Devi Subramaniam",
+   "title": "Bank Teller",
+   "soc": "43-3071.00",
+   "dept": "Branch Operations",
+   "managerId": "m10",
+   "gender": "F",
+   "ageBand": "20-29",
+   "years": 1,
+   "consent": true,
+   "skills": {
+    "product_knowledge": 2,
+    "communication": 1,
+    "customer_care": 1,
+    "multilingual": 1,
+    "sales": 1
+   },
+   "joined": 2025,
+   "entry": "fresh",
+   "history": [
+    {
+     "year": 2025,
+     "title": "Bank Teller",
+     "soc": "43-3071.00"
+    }
+   ]
+  },
+  {
+   "id": "m14",
+   "name": "Lim Soo Ching",
+   "title": "Data Entry Officer",
+   "soc": "43-9021.00",
+   "dept": "Branch Operations",
+   "managerId": "m10",
+   "gender": "F",
+   "ageBand": "40-49",
+   "years": 18,
+   "consent": true,
+   "skills": {
+    "data_entry": 3,
+    "admin": 2,
+    "spreadsheets": 2,
+    "accounting": 1
+   },
+   "joined": 2011,
+   "entry": "experienced",
+   "history": [
+    {
+     "year": 2011,
+     "title": "Data Entry Officer",
+     "soc": "43-9021.00"
+    }
+   ]
+  },
+  {
+   "id": "m15",
+   "name": "Hafiz Hamdan",
+   "title": "Data Entry Officer",
+   "soc": "43-9021.00",
+   "dept": "Branch Operations",
+   "managerId": "m10",
+   "gender": "M",
+   "ageBand": "20-29",
+   "years": 3,
+   "consent": true,
+   "skills": {
+    "data_entry": 3,
+    "admin": 2,
+    "spreadsheets": 2,
+    "accounting": 1
+   },
+   "joined": 2023,
+   "entry": "fresh",
+   "history": [
+    {
+     "year": 2023,
+     "title": "Data Entry Officer",
+     "soc": "43-9021.00"
+    }
+   ]
+  },
+  {
+   "id": "m16",
+   "name": "Rosnah Ismail",
+   "title": "Administrative Executive",
+   "soc": "43-6014.00",
+   "dept": "Branch Operations",
+   "managerId": "m10",
+   "gender": "F",
+   "ageBand": "50+",
+   "years": 20,
+   "consent": true,
+   "skills": {
+    "admin": 3,
+    "teamwork": 3,
+    "communication": 2,
+    "customer_care": 2,
+    "data_entry": 2,
+    "multilingual": 2,
+    "spreadsheets": 2,
+    "project_mgmt": 1
+   },
+   "joined": 2009,
+   "entry": "experienced",
+   "history": [
+    {
+     "year": 2009,
+     "title": "Receptionist",
+     "soc": "43-4171.00"
+    },
+    {
+     "year": 2016,
+     "title": "Administrative Executive",
+     "soc": "43-6014.00"
+    }
+   ]
+  },
+  {
+   "id": "m17",
+   "name": "Daniel Ong",
+   "title": "Administrative Assistant",
+   "soc": "43-6014.00",
+   "dept": "Branch Operations",
+   "managerId": "m10",
+   "gender": "M",
+   "ageBand": "20-29",
+   "years": 0,
+   "consent": true,
+   "skills": {
+    "admin": 2,
+    "teamwork": 2,
+    "communication": 1,
+    "data_entry": 1,
+    "project_mgmt": 1,
+    "spreadsheets": 1
+   },
+   "joined": 2026,
+   "entry": "fresh",
+   "history": [
+    {
+     "year": 2026,
+     "title": "Administrative Assistant",
+     "soc": "43-6014.00"
+    }
+   ]
+  },
+  {
+   "id": "m18",
+   "name": "Goh Siew Peng",
+   "title": "Finance Manager",
+   "soc": "11-3031.00",
+   "dept": "Finance",
+   "managerId": "m01",
+   "gender": "F",
+   "ageBand": "40-49",
+   "years": 16,
+   "consent": true,
+   "skills": {
+    "accounting": 3,
+    "financial_analysis": 3,
+    "spreadsheets": 3,
+    "communication": 2,
+    "data_analysis": 2,
+    "leadership": 2,
+    "sustainability_esg": 1
+   },
+   "joined": 2013,
+   "entry": "experienced",
+   "history": [
+    {
+     "year": 2013,
+     "title": "Accountant",
+     "soc": "13-2011.00"
+    },
+    {
+     "year": 2019,
+     "title": "Finance Manager",
+     "soc": "11-3031.00"
+    }
+   ]
+  },
+  {
+   "id": "m19",
+   "name": "Mohd Khairul Anuar",
+   "title": "Accountant",
+   "soc": "13-2011.00",
+   "dept": "Finance",
+   "managerId": "m18",
+   "gender": "M",
+   "ageBand": "30-39",
+   "years": 8,
+   "consent": true,
+   "skills": {
+    "accounting": 3,
+    "spreadsheets": 3,
+    "data_analysis": 2,
+    "data_entry": 2,
+    "financial_analysis": 2,
+    "admin": 1,
+    "sustainability_esg": 1
+   },
+   "joined": 2018,
+   "entry": "fresh",
+   "history": [
+    {
+     "year": 2018,
+     "title": "Accounts Clerk",
+     "soc": "43-3031.00"
+    },
+    {
+     "year": 2022,
+     "title": "Accountant",
+     "soc": "13-2011.00"
+    }
+   ]
+  },
+  {
+   "id": "m20",
+   "name": "Jessica Teoh",
+   "title": "Accountant",
+   "soc": "13-2011.00",
+   "dept": "Finance",
+   "managerId": "m18",
+   "gender": "F",
+   "ageBand": "20-29",
+   "years": 5,
+   "consent": true,
+   "skills": {
+    "accounting": 3,
+    "spreadsheets": 3,
+    "data_analysis": 2,
+    "financial_analysis": 2,
+    "sustainability_esg": 1
+   },
+   "joined": 2024,
+   "entry": "experienced",
+   "history": [
+    {
+     "year": 2024,
+     "title": "Accountant",
+     "soc": "13-2011.00"
+    }
+   ]
+  },
+  {
+   "id": "m21",
+   "name": "Zainab Yusof",
+   "title": "Accounts Clerk",
+   "soc": "43-3031.00",
+   "dept": "Finance",
+   "managerId": "m18",
+   "gender": "F",
+   "ageBand": "40-49",
+   "years": 17,
+   "consent": true,
+   "skills": {
+    "accounting": 3,
+    "data_entry": 3,
+    "spreadsheets": 2,
+    "admin": 1
+   },
+   "joined": 2012,
+   "entry": "experienced",
+   "history": [
+    {
+     "year": 2012,
+     "title": "Accounts Clerk",
+     "soc": "43-3031.00"
+    }
+   ]
+  },
+  {
+   "id": "m22",
+   "name": "Arjun Pillai",
+   "title": "Accounts Clerk",
+   "soc": "43-3031.00",
+   "dept": "Finance",
+   "managerId": "m18",
+   "gender": "M",
+   "ageBand": "20-29",
+   "years": 1,
+   "consent": true,
+   "skills": {
+    "accounting": 2,
+    "data_entry": 2,
+    "admin": 1,
+    "spreadsheets": 1
+   },
+   "joined": 2025,
+   "entry": "fresh",
+   "history": [
+    {
+     "year": 2025,
+     "title": "Accounts Clerk",
+     "soc": "43-3031.00"
+    }
+   ]
+  },
+  {
+   "id": "m23",
+   "name": "Farah Nadia Rosli",
+   "title": "Financial Analyst",
+   "soc": "13-2051.00",
+   "dept": "Finance",
+   "managerId": "m18",
+   "gender": "F",
+   "ageBand": "30-39",
+   "years": 9,
+   "consent": true,
+   "skills": {
+    "data_analysis": 3,
+    "financial_analysis": 3,
+    "spreadsheets": 3,
+    "accounting": 2,
+    "analytical_thinking": 2,
+    "fintech": 2,
+    "sql": 1,
+    "sustainability_esg": 1
+   },
+   "joined": 2020,
+   "entry": "experienced",
+   "history": [
+    {
+     "year": 2020,
+     "title": "Accountant",
+     "soc": "13-2011.00"
+    },
+    {
+     "year": 2025,
+     "title": "Financial Analyst",
+     "soc": "13-2051.00"
+    }
+   ]
+  },
+  {
+   "id": "m24",
+   "name": "Kumar Selvam",
+   "title": "IT Manager",
+   "soc": "11-3021.00",
+   "dept": "Technology",
+   "managerId": "m01",
+   "gender": "M",
+   "ageBand": "40-49",
+   "years": 14,
+   "consent": true,
+   "skills": {
+    "leadership": 3,
+    "cloud": 2,
+    "cybersecurity": 2,
+    "genai": 2,
+    "networking": 2,
+    "project_mgmt": 2,
+    "python": 2,
+    "software_dev": 2,
+    "sql": 2,
+    "web_dev": 2
+   },
+   "joined": 2015,
+   "entry": "experienced",
+   "history": [
+    {
+     "year": 2015,
+     "title": "Software Developer",
+     "soc": "15-1252.00"
+    },
+    {
+     "year": 2021,
+     "title": "IT Manager",
+     "soc": "11-3021.00"
+    }
+   ]
+  },
+  {
+   "id": "m25",
+   "name": "Aiman Hakimi",
+   "title": "Senior Software Developer",
+   "soc": "15-1252.00",
+   "dept": "Technology",
+   "managerId": "m24",
+   "gender": "M",
+   "ageBand": "20-29",
+   "years": 5,
+   "consent": true,
+   "skills": {
+    "python": 3,
+    "software_dev": 3,
+    "cloud": 2,
+    "genai": 2,
+    "sql": 2,
+    "web_dev": 2
+   },
+   "joined": 2021,
+   "entry": "fresh",
+   "history": [
+    {
+     "year": 2021,
+     "title": "Software Developer Intern",
+     "soc": "15-1252.00"
+    },
+    {
+     "year": 2022,
+     "title": "Junior Software Developer",
+     "soc": "15-1252.00"
+    },
+    {
+     "year": 2025,
+     "title": "Senior Software Developer",
+     "soc": "15-1252.00"
+    }
+   ]
+  },
+  {
+   "id": "m26",
+   "name": "Chen Xin Yi",
+   "title": "Junior Software Developer",
+   "soc": "15-1252.00",
+   "dept": "Technology",
+   "managerId": "m24",
+   "gender": "F",
+   "ageBand": "20-29",
+   "years": 3,
+   "consent": true,
+   "skills": {
+    "python": 3,
+    "software_dev": 3,
+    "cloud": 2,
+    "genai": 2,
+    "sql": 2,
+    "web_dev": 2
+   },
+   "joined": 2023,
+   "entry": "fresh",
+   "history": [
+    {
+     "year": 2023,
+     "title": "Software Developer Intern",
+     "soc": "15-1252.00"
+    },
+    {
+     "year": 2024,
+     "title": "Junior Software Developer",
+     "soc": "15-1252.00"
+    }
+   ]
+  },
+  {
+   "id": "m27",
+   "name": "Haziq Firdaus",
+   "title": "Software Developer Intern",
+   "soc": "15-1252.00",
+   "dept": "Technology",
+   "managerId": "m24",
+   "gender": "M",
+   "ageBand": "20-29",
+   "years": 0,
+   "consent": true,
+   "skills": {
+    "python": 2,
+    "software_dev": 2,
+    "cloud": 1,
+    "genai": 1,
+    "sql": 1,
+    "web_dev": 1
+   },
+   "joined": 2026,
+   "entry": "fresh",
+   "history": [
+    {
+     "year": 2026,
+     "title": "Software Developer Intern",
+     "soc": "15-1252.00"
+    }
+   ]
+  },
+  {
+   "id": "m28",
+   "name": "Lau Kok Meng",
+   "title": "Information Security Analyst",
+   "soc": "15-1212.00",
+   "dept": "Technology",
+   "managerId": "m24",
+   "gender": "M",
+   "ageBand": "30-39",
+   "years": 13,
+   "consent": true,
+   "skills": {
+    "cybersecurity": 3,
+    "networking": 3,
+    "cloud": 2,
+    "customer_care": 2,
+    "it_support": 2,
+    "problem_solving": 2,
+    "ai_ethics": 1
+   },
+   "joined": 2016,
+   "entry": "experienced",
+   "history": [
+    {
+     "year": 2016,
+     "title": "IT Support Engineer",
+     "soc": "15-1232.00"
+    },
+    {
+     "year": 2023,
+     "title": "Information Security Analyst",
+     "soc": "15-1212.00"
+    }
+   ]
+  },
+  {
+   "id": "m29",
+   "name": "Nadia Izzati",
+   "title": "IT Support Engineer",
+   "soc": "15-1232.00",
+   "dept": "Technology",
+   "managerId": "m24",
+   "gender": "F",
+   "ageBand": "20-29",
+   "years": 4,
+   "consent": true,
+   "skills": {
+    "it_support": 3,
+    "customer_care": 2,
+    "networking": 2,
+    "problem_solving": 2,
+    "cybersecurity": 1
+   },
+   "joined": 2022,
+   "entry": "fresh",
+   "history": [
+    {
+     "year": 2022,
+     "title": "IT Support Engineer",
+     "soc": "15-1232.00"
+    }
+   ]
+  },
+  {
+   "id": "m30",
+   "name": "Ryan Tan",
+   "title": "Data / BI Analyst",
+   "soc": "15-2051.01",
+   "dept": "Technology",
+   "managerId": "m24",
+   "gender": "M",
+   "ageBand": "30-39",
+   "years": 7,
+   "consent": true,
+   "skills": {
+    "data_analysis": 3,
+    "data_viz": 3,
+    "spreadsheets": 3,
+    "sql": 3,
+    "admin": 2,
+    "data_entry": 2,
+    "python": 2,
+    "statistics": 2,
+    "accounting": 1
+   },
+   "joined": 2019,
+   "entry": "fresh",
+   "history": [
+    {
+     "year": 2019,
+     "title": "Data Entry Officer",
+     "soc": "43-9021.00"
+    },
+    {
+     "year": 2022,
+     "title": "Data / BI Analyst",
+     "soc": "15-2051.01"
+    }
+   ]
+  },
+  {
+   "id": "m31",
+   "name": "Sarah Lim",
+   "title": "Head of Marketing",
+   "soc": "11-2021.00",
+   "dept": "Marketing",
+   "managerId": "m01",
+   "gender": "F",
+   "ageBand": "40-49",
+   "years": 15,
+   "consent": true,
+   "skills": {
+    "communication": 3,
+    "digital_marketing": 3,
+    "creative_thinking": 2,
+    "data_analysis": 2,
+    "genai": 2,
+    "leadership": 2,
+    "sustainability_esg": 1
+   },
+   "joined": 2014,
+   "entry": "experienced",
+   "history": [
+    {
+     "year": 2014,
+     "title": "Marketing Executive",
+     "soc": "13-1161.00"
+    },
+    {
+     "year": 2020,
+     "title": "Head of Marketing",
+     "soc": "11-2021.00"
+    }
+   ]
+  },
+  {
+   "id": "m32",
+   "name": "Alya Natasha",
+   "title": "Marketing Executive",
+   "soc": "13-1161.00",
+   "dept": "Marketing",
+   "managerId": "m31",
+   "gender": "F",
+   "ageBand": "20-29",
+   "years": 4,
+   "consent": true,
+   "skills": {
+    "communication": 2,
+    "creative_thinking": 2,
+    "digital_marketing": 2,
+    "genai": 2,
+    "data_analysis": 1,
+    "sustainability_esg": 1
+   },
+   "joined": 2022,
+   "entry": "fresh",
+   "history": [
+    {
+     "year": 2022,
+     "title": "Marketing Executive",
+     "soc": "13-1161.00"
+    }
+   ]
+  },
+  {
+   "id": "m33",
+   "name": "Benjamin Yeoh",
+   "title": "Graphic Designer",
+   "soc": "27-1024.00",
+   "dept": "Marketing",
+   "managerId": "m31",
+   "gender": "M",
+   "ageBand": "20-29",
+   "years": 5,
+   "consent": true,
+   "skills": {
+    "creative_thinking": 3,
+    "communication": 1,
+    "genai": 1,
+    "ux_design": 1,
+    "web_dev": 1
+   },
+   "joined": 2024,
+   "entry": "experienced",
+   "history": [
+    {
+     "year": 2024,
+     "title": "Graphic Designer",
+     "soc": "27-1024.00"
+    }
+   ]
+  },
+  {
+   "id": "m34",
+   "name": "Amirul Hakim",
+   "title": "Digital Marketing Intern",
+   "soc": "13-1161.00",
+   "dept": "Marketing",
+   "managerId": "m31",
+   "gender": "M",
+   "ageBand": "20-29",
+   "years": 0,
+   "consent": true,
+   "skills": {
+    "communication": 1,
+    "creative_thinking": 1,
+    "data_analysis": 1,
+    "digital_marketing": 1,
+    "genai": 1,
+    "sustainability_esg": 1
+   },
+   "joined": 2026,
+   "entry": "fresh",
+   "history": [
+    {
+     "year": 2026,
+     "title": "Digital Marketing Intern",
+     "soc": "13-1161.00"
+    }
+   ]
+  },
+  {
+   "id": "m35",
+   "name": "Norhayati Abdullah",
+   "title": "Head of People",
+   "soc": "11-3121.00",
+   "dept": "People & HR",
+   "managerId": "m01",
+   "gender": "F",
+   "ageBand": "50+",
+   "years": 19,
+   "consent": true,
+   "skills": {
+    "communication": 3,
+    "leadership": 3,
+    "people_mgmt": 3,
+    "admin": 2,
+    "counselling": 2,
+    "empathy": 2,
+    "teaching": 2,
+    "data_analysis": 1
+   },
+   "joined": 2010,
+   "entry": "experienced",
+   "history": [
+    {
+     "year": 2010,
+     "title": "HR Executive",
+     "soc": "13-1071.00"
+    },
+    {
+     "year": 2018,
+     "title": "Head of People",
+     "soc": "11-3121.00"
+    }
+   ]
+  },
+  {
+   "id": "m36",
+   "name": "Grace Chua",
+   "title": "HR Executive",
+   "soc": "13-1071.00",
+   "dept": "People & HR",
+   "managerId": "m35",
+   "gender": "F",
+   "ageBand": "30-39",
+   "years": 12,
+   "consent": true,
+   "skills": {
+    "communication": 3,
+    "admin": 2,
+    "empathy": 2,
+    "people_mgmt": 2,
+    "teaching": 2,
+    "data_analysis": 1
+   },
+   "joined": 2017,
+   "entry": "experienced",
+   "history": [
+    {
+     "year": 2017,
+     "title": "HR Executive",
+     "soc": "13-1071.00"
+    }
+   ]
+  },
+  {
+   "id": "m37",
+   "name": "Imran Shah",
+   "title": "Training & Development Specialist",
+   "soc": "13-1151.00",
+   "dept": "People & HR",
+   "managerId": "m35",
+   "gender": "M",
+   "ageBand": "30-39",
+   "years": 10,
+   "consent": true,
+   "skills": {
+    "communication": 3,
+    "lifelong_learning": 3,
+    "teaching": 3,
+    "admin": 2,
+    "empathy": 2,
+    "people_mgmt": 2,
+    "data_analysis": 1,
+    "genai": 1
+   },
+   "joined": 2019,
+   "entry": "experienced",
+   "history": [
+    {
+     "year": 2019,
+     "title": "HR Executive",
+     "soc": "13-1071.00"
+    },
+    {
+     "year": 2024,
+     "title": "Training & Development Specialist",
+     "soc": "13-1151.00"
+    }
+   ]
+  }
+ ]
+}

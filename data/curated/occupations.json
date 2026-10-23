@@ -1,0 +1,262 @@
+{
+ "_about": "Occupations Nexa covers. 'soc' is the O*NET-SOC 31.0 code. 'kind' says whether a person can pick it as their current job (current), whether it is only a target role's evidence anchor (anchor), or both. Display names are plain-English labels; the official O*NET title is kept by the build script.",
+ "occupations": [
+  {
+   "soc": "43-4051.00",
+   "label": "Customer Service Representative",
+   "kind": "current",
+   "family": "Customer & sales"
+  },
+  {
+   "soc": "43-9021.00",
+   "label": "Data Entry Clerk",
+   "kind": "current",
+   "family": "Office & admin",
+   "declineNote": "WEF Future of Jobs 2025 lists data entry clerks among the fastest-declining jobs to 2030."
+  },
+  {
+   "soc": "43-3031.00",
+   "label": "Bookkeeping / Accounts Clerk",
+   "kind": "current",
+   "family": "Finance",
+   "declineNote": "WEF Future of Jobs 2025 lists accounting, bookkeeping and payroll clerks among the fastest-declining jobs to 2030."
+  },
+  {
+   "soc": "13-2011.00",
+   "label": "Accountant / Auditor",
+   "kind": "current",
+   "family": "Finance"
+  },
+  {
+   "soc": "43-3071.00",
+   "label": "Bank Teller",
+   "kind": "current",
+   "family": "Finance",
+   "declineNote": "WEF Future of Jobs 2025 lists bank tellers among the fastest-declining jobs to 2030 — driven mostly by digital banking, not by AI chatbots."
+  },
+  {
+   "soc": "43-6014.00",
+   "label": "Administrative Assistant",
+   "kind": "current",
+   "family": "Office & admin",
+   "declineNote": "WEF Future of Jobs 2025 lists administrative assistants and executive secretaries among the jobs declining most to 2030."
+  },
+  {
+   "soc": "43-4171.00",
+   "label": "Receptionist",
+   "kind": "current",
+   "family": "Office & admin"
+  },
+  {
+   "soc": "43-1011.00",
+   "label": "Office / Team Supervisor",
+   "kind": "current",
+   "family": "Office & admin"
+  },
+  {
+   "soc": "13-1161.00",
+   "label": "Marketing Specialist",
+   "kind": "current",
+   "family": "Marketing & media"
+  },
+  {
+   "soc": "27-1024.00",
+   "label": "Graphic Designer",
+   "kind": "current",
+   "family": "Marketing & media"
+  },
+  {
+   "soc": "27-3091.00",
+   "label": "Interpreter / Translator",
+   "kind": "current",
+   "family": "Marketing & media"
+  },
+  {
+   "soc": "41-4012.00",
+   "label": "Sales Representative",
+   "kind": "current",
+   "family": "Customer & sales"
+  },
+  {
+   "soc": "41-2011.00",
+   "label": "Cashier",
+   "kind": "current",
+   "family": "Customer & sales",
+   "declineNote": "WEF Future of Jobs 2025 lists cashiers and ticket clerks among the jobs declining most to 2030 — driven by self-service and digital payments."
+  },
+  {
+   "soc": "13-1071.00",
+   "label": "HR Specialist",
+   "kind": "current",
+   "family": "People & HR"
+  },
+  {
+   "soc": "15-1232.00",
+   "label": "IT Support Technician",
+   "kind": "current",
+   "family": "Technology"
+  },
+  {
+   "soc": "15-1252.00",
+   "label": "Software Developer",
+   "kind": "both",
+   "family": "Technology"
+  },
+  {
+   "soc": "15-1244.00",
+   "label": "Network & Systems Administrator",
+   "kind": "current",
+   "family": "Technology"
+  },
+  {
+   "soc": "51-9061.00",
+   "label": "Quality Inspector (Manufacturing)",
+   "kind": "current",
+   "family": "Manufacturing"
+  },
+  {
+   "soc": "11-1021.00",
+   "label": "General / Operations Manager",
+   "kind": "both",
+   "family": "Management"
+  },
+  {
+   "soc": "25-2031.00",
+   "label": "Secondary School Teacher",
+   "kind": "both",
+   "family": "Education"
+  },
+  {
+   "soc": "29-1141.00",
+   "label": "Registered Nurse",
+   "kind": "both",
+   "family": "Health"
+  },
+  {
+   "soc": "11-1011.00",
+   "label": "Chief Executive",
+   "kind": "anchor",
+   "family": "Management"
+  },
+  {
+   "soc": "11-3031.00",
+   "label": "Finance Manager",
+   "kind": "anchor",
+   "family": "Management"
+  },
+  {
+   "soc": "11-3021.00",
+   "label": "IT Manager",
+   "kind": "anchor",
+   "family": "Management"
+  },
+  {
+   "soc": "11-3121.00",
+   "label": "HR Manager",
+   "kind": "anchor",
+   "family": "Management"
+  },
+  {
+   "soc": "11-2021.00",
+   "label": "Marketing Manager",
+   "kind": "anchor",
+   "family": "Management"
+  },
+  {
+   "soc": "15-1221.00",
+   "label": "AI & Machine Learning Specialist",
+   "kind": "anchor",
+   "family": "Technology"
+  },
+  {
+   "soc": "15-1243.00",
+   "label": "Big Data Specialist",
+   "kind": "anchor",
+   "family": "Technology"
+  },
+  {
+   "soc": "15-2051.00",
+   "label": "Data Scientist",
+   "kind": "anchor",
+   "family": "Technology"
+  },
+  {
+   "soc": "15-2051.01",
+   "label": "Data / BI Analyst",
+   "kind": "anchor",
+   "family": "Technology"
+  },
+  {
+   "soc": "15-1212.00",
+   "label": "Information Security Analyst",
+   "kind": "anchor",
+   "family": "Technology"
+  },
+  {
+   "soc": "15-1299.08",
+   "label": "Cloud / DevOps Engineer",
+   "kind": "anchor",
+   "family": "Technology"
+  },
+  {
+   "soc": "15-1241.00",
+   "label": "IoT & Network Architect",
+   "kind": "anchor",
+   "family": "Technology"
+  },
+  {
+   "soc": "15-1255.00",
+   "label": "UI / UX Designer",
+   "kind": "anchor",
+   "family": "Technology"
+  },
+  {
+   "soc": "13-1082.00",
+   "label": "Project Manager",
+   "kind": "anchor",
+   "family": "Management"
+  },
+  {
+   "soc": "13-1199.05",
+   "label": "Sustainability Specialist",
+   "kind": "anchor",
+   "family": "Green economy"
+  },
+  {
+   "soc": "17-2199.11",
+   "label": "Solar Energy Systems Engineer",
+   "kind": "anchor",
+   "family": "Green economy"
+  },
+  {
+   "soc": "17-2081.00",
+   "label": "Environmental Engineer",
+   "kind": "anchor",
+   "family": "Green economy"
+  },
+  {
+   "soc": "13-1151.00",
+   "label": "Training & Development Specialist",
+   "kind": "anchor",
+   "family": "People & HR"
+  },
+  {
+   "soc": "21-1012.00",
+   "label": "Career Counsellor",
+   "kind": "anchor",
+   "family": "Education"
+  },
+  {
+   "soc": "13-2051.00",
+   "label": "Financial / Fintech Analyst",
+   "kind": "anchor",
+   "family": "Finance"
+  },
+  {
+   "soc": "29-9021.00",
+   "label": "Health Information Specialist",
+   "kind": "anchor",
+   "family": "Health"
+  }
+ ]
+}

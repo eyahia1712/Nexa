@@ -1,0 +1,237 @@
+{
+ "checkedOn": "2026-10-23",
+ "results": {
+  "elements_of_ai": {
+   "url": "https://www.elementsofai.com/",
+   "status": 200
+  },
+  "ethics_of_ai": {
+   "url": "https://ethics-of-ai.mooc.fi/",
+   "status": 200
+  },
+  "ai_for_everyone": {
+   "url": "https://www.coursera.org/learn/ai-for-everyone",
+   "status": 200
+  },
+  "genai_for_everyone": {
+   "url": "https://www.coursera.org/learn/generative-ai-for-everyone",
+   "status": 200
+  },
+  "google_ai_essentials": {
+   "url": "https://www.coursera.org/learn/google-ai-essentials",
+   "status": 200
+  },
+  "prompt_eng_devs": {
+   "url": "https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/",
+   "status": 308
+  },
+  "ai_agents_langgraph": {
+   "url": "https://www.deeplearning.ai/short-courses/ai-agents-in-langgraph/",
+   "status": 308
+  },
+  "hf_agents": {
+   "url": "https://huggingface.co/learn/agents-course",
+   "status": 200
+  },
+  "hf_llm": {
+   "url": "https://huggingface.co/learn/llm-course",
+   "status": 200
+  },
+  "ms_ai900": {
+   "url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/",
+   "status": 200
+  },
+  "ml_specialization": {
+   "url": "https://www.coursera.org/specializations/machine-learning-introduction",
+   "status": 200
+  },
+  "fastai": {
+   "url": "https://course.fast.ai/",
+   "status": 200
+  },
+  "kaggle_intro_ml": {
+   "url": "https://www.kaggle.com/learn/intro-to-machine-learning",
+   "status": 200
+  },
+  "cs50_ai": {
+   "url": "https://cs50.harvard.edu/ai/",
+   "status": 200
+  },
+  "kaggle_python": {
+   "url": "https://www.kaggle.com/learn/python",
+   "status": 200
+  },
+  "cs50x": {
+   "url": "https://cs50.harvard.edu/x/",
+   "status": 200
+  },
+  "kaggle_sql": {
+   "url": "https://www.kaggle.com/learn/intro-to-sql",
+   "status": 200
+  },
+  "kaggle_pandas": {
+   "url": "https://www.kaggle.com/learn/pandas",
+   "status": 200
+  },
+  "kaggle_dataviz": {
+   "url": "https://www.kaggle.com/learn/data-visualization",
+   "status": 200
+  },
+  "google_data_analytics": {
+   "url": "https://www.coursera.org/professional-certificates/google-data-analytics",
+   "status": 200
+  },
+  "ms_pl300": {
+   "url": "https://learn.microsoft.com/en-us/credentials/certifications/data-analyst-associate/",
+   "status": 200
+  },
+  "khan_stats": {
+   "url": "https://www.khanacademy.org/math/statistics-probability",
+   "status": 200
+  },
+  "ibm_data_eng": {
+   "url": "https://www.coursera.org/professional-certificates/ibm-data-engineer",
+   "status": 200
+  },
+  "excel_skills": {
+   "url": "https://www.coursera.org/learn/excel-essentials",
+   "status": 200
+  },
+  "cisco_intro_cyber": {
+   "url": "https://www.netacad.com/courses/introduction-to-cybersecurity",
+   "status": 200
+  },
+  "google_cyber": {
+   "url": "https://www.coursera.org/professional-certificates/google-cybersecurity",
+   "status": 200
+  },
+  "cisco_networking_basics": {
+   "url": "https://www.netacad.com/courses/networking-basics",
+   "status": 200
+  },
+  "google_it_support": {
+   "url": "https://www.coursera.org/professional-certificates/google-it-support",
+   "status": 200
+  },
+  "aws_cloud_practitioner": {
+   "url": "https://skillbuilder.aws/",
+   "status": 200
+  },
+  "lf_devops": {
+   "url": "https://www.edx.org/learn/devops/the-linux-foundation-introduction-to-devops-and-site-reliability-engineering",
+   "status": 200
+  },
+  "fcc_web": {
+   "url": "https://www.freecodecamp.org/learn/",
+   "status": 200
+  },
+  "uci_iot": {
+   "url": "https://www.coursera.org/learn/iot",
+   "status": 200
+  },
+  "google_ux": {
+   "url": "https://www.coursera.org/professional-certificates/google-ux-design",
+   "status": 200
+  },
+  "hku_fintech": {
+   "url": "https://www.edx.org/learn/fintech",
+   "status": 200
+  },
+  "yale_fin_markets": {
+   "url": "https://www.coursera.org/learn/financial-markets-global",
+   "status": 200
+  },
+  "google_pm": {
+   "url": "https://www.coursera.org/professional-certificates/google-project-management",
+   "status": 200
+  },
+  "atlassian_agile": {
+   "url": "https://www.coursera.org/learn/agile-atlassian-jira",
+   "status": 200
+  },
+  "hubspot_service": {
+   "url": "https://academy.hubspot.com/",
+   "status": 200
+  },
+  "trailhead": {
+   "url": "https://trailhead.salesforce.com/",
+   "status": 200
+  },
+  "hubspot_marketing": {
+   "url": "https://academy.hubspot.com/courses/inbound-marketing",
+   "status": 200
+  },
+  "learning_how_to_learn": {
+   "url": "https://www.coursera.org/learn/learning-how-to-learn",
+   "status": 200
+  },
+  "inspiring_leading": {
+   "url": "https://www.coursera.org/learn/motivate-people-teams",
+   "status": 200
+  },
+  "improving_communication": {
+   "url": "https://www.coursera.org/learn/wharton-communication-skills",
+   "status": 200
+  },
+  "teach_online": {
+   "url": "https://www.coursera.org/learn/teach-online",
+   "status": 200
+  },
+  "intro_sustainability": {
+   "url": "https://www.coursera.org/learn/sustainability",
+   "status": 200
+  },
+  "sdg_academy": {
+   "url": "https://sdgacademy.org/",
+   "status": 200
+  },
+  "un_cc_learn": {
+   "url": "https://unccelearn.org/",
+   "status": 200
+  },
+  "delft_solar": {
+   "url": "https://www.edx.org/learn/solar-energy",
+   "status": 200
+  },
+  "duke_energy": {
+   "url": "https://www.coursera.org/learn/renewable-energy-entrepreneurship",
+   "status": 200
+  },
+  "openwho": {
+   "url": "https://openwho.org/",
+   "status": 200
+  },
+  "career_planning": {
+   "url": "https://www.coursera.org/learn/career-planning",
+   "status": 200
+  },
+  "coaching_managers": {
+   "url": "https://www.coursera.org/specializations/coaching-skills-manager",
+   "status": 200
+  },
+  "hrdcorp_catalogue": {
+   "url": "https://hrdcorp.gov.my/",
+   "status": 200
+  },
+  "pku_chinese": {
+   "url": "https://www.coursera.org/learn/learn-chinese",
+   "status": 200
+  },
+  "nju_translation": {
+   "url": "https://www.coursera.org/learn/translation-in-practice",
+   "status": 200
+  },
+  "cvs_customer_service": {
+   "url": "https://www.coursera.org/learn/customer-service-fundamentals",
+   "status": 200
+  },
+  "source:wef2025": {
+   "url": "https://www.weforum.org/publications/the-future-of-jobs-report-2025/",
+   "status": 403
+  },
+  "source:talentcorp2024": {
+   "url": "https://twentytwo13.my/talentcorps-latest-study-on-impact-of-ai-digital-and-green-economy-lists-emerging-jobs-across-key-sectors-in-malaysia/",
+   "status": 200
+  }
+ }
+}

@@ -1,0 +1,187 @@
+{
+  "source": "arXiv export API, papers submitted 1 Jul–30 Sep each year",
+  "fetchedAt": "2026-10-23",
+  "queries": {
+    "genai": "abs:\"large language model\"",
+    "ai_agents": "abs:\"AI agent\"",
+    "machine_learning": "cat:cs.LG",
+    "ai_ethics": "abs:\"AI governance\" OR abs:\"responsible AI\"",
+    "big_data": "abs:\"big data\"",
+    "cybersecurity": "cat:cs.CR",
+    "cloud": "abs:\"cloud computing\"",
+    "software_dev": "cat:cs.SE",
+    "iot": "abs:\"internet of things\"",
+    "ux_design": "cat:cs.HC",
+    "renewable_energy": "abs:\"renewable energy\""
+  },
+  "years": [
+    {
+      "year": 2019,
+      "window": {
+        "from": "2019-07-01",
+        "to": "2019-09-30"
+      },
+      "total": 38998,
+      "skills": {
+        "genai": 2,
+        "ai_agents": 6,
+        "machine_learning": 4629,
+        "ai_ethics": 1,
+        "big_data": 122,
+        "cybersecurity": 742,
+        "cloud": 55,
+        "software_dev": 313,
+        "iot": 172,
+        "ux_design": 483,
+        "renewable_energy": 50
+      }
+    },
+    {
+      "year": 2020,
+      "window": {
+        "from": "2020-07-01",
+        "to": "2020-09-30"
+      },
+      "total": 44832,
+      "skills": {
+        "genai": 6,
+        "ai_agents": 13,
+        "machine_learning": 6000,
+        "ai_ethics": 7,
+        "big_data": 142,
+        "cybersecurity": 917,
+        "cloud": 60,
+        "software_dev": 421,
+        "iot": 215,
+        "ux_design": 578,
+        "renewable_energy": 59
+      }
+    },
+    {
+      "year": 2021,
+      "window": {
+        "from": "2021-07-01",
+        "to": "2021-09-30"
+      },
+      "total": 44092,
+      "skills": {
+        "genai": 19,
+        "ai_agents": 17,
+        "machine_learning": 5862,
+        "ai_ethics": 6,
+        "big_data": 99,
+        "cybersecurity": 931,
+        "cloud": 52,
+        "software_dev": 528,
+        "iot": 213,
+        "ux_design": 572,
+        "renewable_energy": 67
+      }
+    },
+    {
+      "year": 2022,
+      "window": {
+        "from": "2022-07-01",
+        "to": "2022-09-30"
+      },
+      "total": 45466,
+      "skills": {
+        "genai": 100,
+        "ai_agents": 11,
+        "machine_learning": 6258,
+        "ai_ethics": 6,
+        "big_data": 115,
+        "cybersecurity": 1128,
+        "cloud": 48,
+        "software_dev": 523,
+        "iot": 174,
+        "ux_design": 687,
+        "renewable_energy": 69
+      }
+    },
+    {
+      "year": 2023,
+      "window": {
+        "from": "2023-07-01",
+        "to": "2023-09-30"
+      },
+      "total": 51878,
+      "skills": {
+        "genai": 1644,
+        "ai_agents": 29,
+        "machine_learning": 7428,
+        "ai_ethics": 22,
+        "big_data": 91,
+        "cybersecurity": 1333,
+        "cloud": 66,
+        "software_dev": 783,
+        "iot": 174,
+        "ux_design": 1006,
+        "renewable_energy": 69
+      }
+    },
+    {
+      "year": 2024,
+      "window": {
+        "from": "2024-07-01",
+        "to": "2024-09-30"
+      },
+      "total": 58903,
+      "skills": {
+        "genai": 3997,
+        "ai_agents": 94,
+        "machine_learning": 8429,
+        "ai_ethics": 58,
+        "big_data": 77,
+        "cybersecurity": 1583,
+        "cloud": 77,
+        "software_dev": 945,
+        "iot": 208,
+        "ux_design": 1381,
+        "renewable_energy": 90
+      }
+    },
+    {
+      "year": 2025,
+      "window": {
+        "from": "2025-07-01",
+        "to": "2025-09-30"
+      },
+      "total": 72404,
+      "skills": {
+        "genai": 7117,
+        "ai_agents": 294,
+        "machine_learning": 10960,
+        "ai_ethics": 102,
+        "big_data": 67,
+        "cybersecurity": 1978,
+        "cloud": 55,
+        "software_dev": 1300,
+        "iot": 185,
+        "ux_design": 1792,
+        "renewable_energy": 123
+      }
+    },
+    {
+      "year": 2026,
+      "window": {
+        "from": "2026-07-01",
+        "to": "2026-09-30"
+      },
+      "total": 100927,
+      "skills": {
+        "genai": 6814,
+        "ai_agents": 565,
+        "machine_learning": 14074,
+        "ai_ethics": 97,
+        "big_data": 30,
+        "cybersecurity": 3045,
+        "cloud": 37,
+        "software_dev": 2229,
+        "iot": 168,
+        "ux_design": 1923,
+        "renewable_energy": 91
+      }
+    }
+  ]
+}

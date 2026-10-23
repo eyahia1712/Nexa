@@ -1,0 +1,1481 @@
+{
+ "_about": "Nexa's skills taxonomy. 'wef' is the direction of the matching skill cluster in the WEF Future of Jobs Report 2025 (rising = among the fastest-growing skills to 2030; declining = net decline; stable = neither). 'arxiv' is an arXiv search query whose year-on-year paper growth is used as a live AI-advancement signal (null where research volume is not a meaningful signal). 'routineSoc' points to an occupation whose observed AI exposure (Anthropic Economic Index) is the evidence of AI pressure on a routine skill. 'level' orders pathways: 1 foundation, 2 core, 3 advanced. 'keywords' are matched in CVs (lower case).",
+ "skills": [
+  {
+   "id": "genai",
+   "label": "Generative AI tools & prompting",
+   "category": "AI & data",
+   "wef": "rising",
+   "wefCluster": "AI and big data",
+   "arxiv": "abs:\"large language model\"",
+   "routineSoc": null,
+   "sdg": [
+    "4.4",
+    "8.2"
+   ],
+   "level": 1,
+   "prereqs": [],
+   "related": [
+    "ai_agents",
+    "ai_ethics"
+   ],
+   "keywords": [
+    "chatgpt",
+    "gemini",
+    "copilot",
+    "prompt",
+    "generative ai",
+    "genai",
+    "llm",
+    "claude",
+    "gpt"
+   ]
+  },
+  {
+   "id": "ai_agents",
+   "label": "AI agents & workflow automation",
+   "category": "AI & data",
+   "wef": "rising",
+   "wefCluster": "AI and big data",
+   "arxiv": "abs:\"AI agent\"",
+   "routineSoc": null,
+   "sdg": [
+    "8.2",
+    "9.5"
+   ],
+   "level": 2,
+   "prereqs": [
+    "genai"
+   ],
+   "related": [
+    "genai",
+    "python",
+    "process_improvement"
+   ],
+   "keywords": [
+    "ai agent",
+    "automation",
+    "n8n",
+    "zapier",
+    "power automate",
+    "rpa",
+    "workflow automation",
+    "langchain"
+   ]
+  },
+  {
+   "id": "machine_learning",
+   "label": "Machine learning",
+   "category": "AI & data",
+   "wef": "rising",
+   "wefCluster": "AI and big data",
+   "arxiv": "cat:cs.LG",
+   "routineSoc": null,
+   "sdg": [
+    "9.5",
+    "8.2"
+   ],
+   "level": 3,
+   "prereqs": [
+    "python",
+    "statistics"
+   ],
+   "related": [
+    "data_analysis",
+    "python",
+    "statistics"
+   ],
+   "keywords": [
+    "machine learning",
+    "scikit-learn",
+    "sklearn",
+    "tensorflow",
+    "pytorch",
+    "regression",
+    "classification",
+    "isolation forest",
+    "deep learning"
+   ]
+  },
+  {
+   "id": "ai_ethics",
+   "label": "Responsible AI & governance",
+   "category": "AI & data",
+   "wef": "rising",
+   "wefCluster": "AI and big data",
+   "arxiv": "abs:\"AI governance\" OR abs:\"responsible AI\"",
+   "routineSoc": null,
+   "sdg": [
+    "16.6",
+    "10.2"
+   ],
+   "level": 2,
+   "prereqs": [
+    "genai"
+   ],
+   "related": [
+    "genai",
+    "sustainability_esg"
+   ],
+   "keywords": [
+    "responsible ai",
+    "ai ethics",
+    "ai governance",
+    "fairness",
+    "pdpa",
+    "data privacy"
+   ]
+  },
+  {
+   "id": "python",
+   "label": "Python programming",
+   "category": "AI & data",
+   "wef": "rising",
+   "wefCluster": "Programming",
+   "arxiv": null,
+   "routineSoc": null,
+   "sdg": [
+    "4.4",
+    "9.5"
+   ],
+   "level": 1,
+   "prereqs": [],
+   "related": [
+    "software_dev",
+    "data_analysis"
+   ],
+   "keywords": [
+    "python",
+    "pandas",
+    "numpy",
+    "fastapi",
+    "django",
+    "flask"
+   ]
+  },
+  {
+   "id": "sql",
+   "label": "SQL & databases",
+   "category": "AI & data",
+   "wef": "rising",
+   "wefCluster": "AI and big data",
+   "arxiv": null,
+   "routineSoc": null,
+   "sdg": [
+    "9.c"
+   ],
+   "level": 1,
+   "prereqs": [],
+   "related": [
+    "data_analysis",
+    "big_data"
+   ],
+   "keywords": [
+    "sql",
+    "postgresql",
+    "mysql",
+    "ms sql",
+    "sql server",
+    "database",
+    "oracle",
+    "mongodb"
+   ]
+  },
+  {
+   "id": "data_analysis",
+   "label": "Data analysis",
+   "category": "AI & data",
+   "wef": "rising",
+   "wefCluster": "AI and big data",
+   "arxiv": null,
+   "routineSoc": null,
+   "sdg": [
+    "8.2",
+    "16.10"
+   ],
+   "level": 2,
+   "prereqs": [
+    "spreadsheets"
+   ],
+   "related": [
+    "data_viz",
+    "statistics",
+    "sql"
+   ],
+   "keywords": [
+    "data analysis",
+    "data analytics",
+    "analytics",
+    "excel analysis",
+    "pivot",
+    "insights",
+    "reporting"
+   ]
+  },
+  {
+   "id": "data_viz",
+   "label": "Dashboards & data visualisation",
+   "category": "AI & data",
+   "wef": "rising",
+   "wefCluster": "AI and big data",
+   "arxiv": null,
+   "routineSoc": null,
+   "sdg": [
+    "16.10",
+    "12.6"
+   ],
+   "level": 2,
+   "prereqs": [
+    "spreadsheets"
+   ],
+   "related": [
+    "data_analysis",
+    "ux_design"
+   ],
+   "keywords": [
+    "power bi",
+    "tableau",
+    "dashboard",
+    "looker",
+    "data visualisation",
+    "data visualization",
+    "charts"
+   ]
+  },
+  {
+   "id": "statistics",
+   "label": "Statistics",
+   "category": "AI & data",
+   "wef": "rising",
+   "wefCluster": "Analytical thinking",
+   "arxiv": null,
+   "routineSoc": null,
+   "sdg": [
+    "9.5"
+   ],
+   "level": 2,
+   "prereqs": [],
+   "related": [
+    "data_analysis",
+    "machine_learning"
+   ],
+   "keywords": [
+    "statistics",
+    "statistical",
+    "probability",
+    "spss",
+    "hypothesis",
+    "forecasting"
+   ]
+  },
+  {
+   "id": "big_data",
+   "label": "Big data & data engineering",
+   "category": "AI & data",
+   "wef": "rising",
+   "wefCluster": "AI and big data",
+   "arxiv": "abs:\"big data\"",
+   "routineSoc": null,
+   "sdg": [
+    "9.5",
+    "9.c"
+   ],
+   "level": 3,
+   "prereqs": [
+    "sql",
+    "python"
+   ],
+   "related": [
+    "sql",
+    "cloud"
+   ],
+   "keywords": [
+    "big data",
+    "spark",
+    "hadoop",
+    "etl",
+    "data pipeline",
+    "data warehouse",
+    "data engineering",
+    "airflow"
+   ]
+  },
+  {
+   "id": "spreadsheets",
+   "label": "Spreadsheets (Excel / Sheets)",
+   "category": "AI & data",
+   "wef": "stable",
+   "wefCluster": "Technological literacy",
+   "arxiv": null,
+   "routineSoc": null,
+   "sdg": [
+    "4.4"
+   ],
+   "level": 1,
+   "prereqs": [],
+   "related": [
+    "data_analysis",
+    "accounting"
+   ],
+   "keywords": [
+    "excel",
+    "spreadsheet",
+    "google sheets",
+    "vlookup",
+    "microsoft office",
+    "ms office"
+   ]
+  },
+  {
+   "id": "cybersecurity",
+   "label": "Cybersecurity",
+   "category": "Technology",
+   "wef": "rising",
+   "wefCluster": "Networks and cybersecurity",
+   "arxiv": "cat:cs.CR",
+   "routineSoc": null,
+   "sdg": [
+    "16.6",
+    "9.c"
+   ],
+   "level": 2,
+   "prereqs": [
+    "networking"
+   ],
+   "related": [
+    "networking",
+    "cloud",
+    "ai_ethics"
+   ],
+   "keywords": [
+    "cybersecurity",
+    "cyber security",
+    "network security",
+    "security",
+    "penetration testing",
+    "siem",
+    "firewall",
+    "soc analyst",
+    "vulnerability"
+   ]
+  },
+  {
+   "id": "networking",
+   "label": "Networking & IT infrastructure",
+   "category": "Technology",
+   "wef": "rising",
+   "wefCluster": "Networks and cybersecurity",
+   "arxiv": null,
+   "routineSoc": null,
+   "sdg": [
+    "9.c"
+   ],
+   "level": 1,
+   "prereqs": [],
+   "related": [
+    "cybersecurity",
+    "cloud",
+    "it_support"
+   ],
+   "keywords": [
+    "networking",
+    "computer networks",
+    "tcp/ip",
+    "cisco",
+    "ccna",
+    "lan",
+    "wan",
+    "network technology"
+   ]
+  },
+  {
+   "id": "cloud",
+   "label": "Cloud platforms & DevOps",
+   "category": "Technology",
+   "wef": "rising",
+   "wefCluster": "Networks and cybersecurity",
+   "arxiv": "abs:\"cloud computing\"",
+   "routineSoc": null,
+   "sdg": [
+    "9.4",
+    "9.c"
+   ],
+   "level": 2,
+   "prereqs": [
+    "networking"
+   ],
+   "related": [
+    "networking",
+    "software_dev",
+    "cybersecurity"
+   ],
+   "keywords": [
+    "aws",
+    "azure",
+    "google cloud",
+    "gcp",
+    "docker",
+    "kubernetes",
+    "devops",
+    "ci/cd",
+    "vercel",
+    "render",
+    "cloud"
+   ]
+  },
+  {
+   "id": "software_dev",
+   "label": "Software development",
+   "category": "Technology",
+   "wef": "rising",
+   "wefCluster": "Programming",
+   "arxiv": "cat:cs.SE",
+   "routineSoc": null,
+   "sdg": [
+    "9.5",
+    "8.2"
+   ],
+   "level": 2,
+   "prereqs": [
+    "python"
+   ],
+   "related": [
+    "web_dev",
+    "cloud",
+    "python"
+   ],
+   "keywords": [
+    "software development",
+    "c++",
+    "c#",
+    "java",
+    "dart",
+    "flutter",
+    "object oriented",
+    "oop",
+    "git",
+    "data structures",
+    "algorithms",
+    "typescript"
+   ]
+  },
+  {
+   "id": "web_dev",
+   "label": "Web development",
+   "category": "Technology",
+   "wef": "rising",
+   "wefCluster": "Programming",
+   "arxiv": null,
+   "routineSoc": null,
+   "sdg": [
+    "9.c"
+   ],
+   "level": 1,
+   "prereqs": [],
+   "related": [
+    "software_dev",
+    "ux_design"
+   ],
+   "keywords": [
+    "html",
+    "css",
+    "javascript",
+    "react",
+    "react.js",
+    "next.js",
+    "node.js",
+    "frontend",
+    "web development",
+    "vite"
+   ]
+  },
+  {
+   "id": "iot",
+   "label": "IoT & embedded systems",
+   "category": "Technology",
+   "wef": "rising",
+   "wefCluster": "Technological literacy",
+   "arxiv": "abs:\"internet of things\"",
+   "routineSoc": null,
+   "sdg": [
+    "9.4",
+    "11.6"
+   ],
+   "level": 3,
+   "prereqs": [
+    "networking"
+   ],
+   "related": [
+    "networking",
+    "renewable_energy"
+   ],
+   "keywords": [
+    "iot",
+    "internet of things",
+    "arduino",
+    "raspberry pi",
+    "embedded",
+    "sensors",
+    "mqtt"
+   ]
+  },
+  {
+   "id": "ux_design",
+   "label": "UX research & design",
+   "category": "Technology",
+   "wef": "rising",
+   "wefCluster": "Design and user experience",
+   "arxiv": "cat:cs.HC",
+   "routineSoc": null,
+   "sdg": [
+    "10.2",
+    "9.c"
+   ],
+   "level": 2,
+   "prereqs": [],
+   "related": [
+    "empathy",
+    "web_dev",
+    "creative_thinking"
+   ],
+   "keywords": [
+    "ux",
+    "ui",
+    "user experience",
+    "figma",
+    "user research",
+    "wireframe",
+    "prototyping",
+    "usability"
+   ]
+  },
+  {
+   "id": "it_support",
+   "label": "IT support & troubleshooting",
+   "category": "Technology",
+   "wef": "stable",
+   "wefCluster": "Technological literacy",
+   "arxiv": null,
+   "routineSoc": "15-1232.00",
+   "sdg": [
+    "9.c"
+   ],
+   "level": 1,
+   "prereqs": [],
+   "related": [
+    "networking",
+    "customer_care"
+   ],
+   "keywords": [
+    "it support",
+    "helpdesk",
+    "help desk",
+    "troubleshooting",
+    "technical support",
+    "service desk"
+   ]
+  },
+  {
+   "id": "fintech",
+   "label": "Fintech & digital payments",
+   "category": "Technology",
+   "wef": "rising",
+   "wefCluster": "Technological literacy",
+   "arxiv": null,
+   "routineSoc": null,
+   "sdg": [
+    "8.10",
+    "9.c"
+   ],
+   "level": 2,
+   "prereqs": [
+    "financial_analysis"
+   ],
+   "related": [
+    "financial_analysis",
+    "software_dev",
+    "product_knowledge"
+   ],
+   "keywords": [
+    "fintech",
+    "digital payments",
+    "e-wallet",
+    "blockchain",
+    "open banking",
+    "payment gateway"
+   ]
+  },
+  {
+   "id": "project_mgmt",
+   "label": "Project management (Agile)",
+   "category": "Business",
+   "wef": "rising",
+   "wefCluster": "Leadership and social influence",
+   "arxiv": null,
+   "routineSoc": null,
+   "sdg": [
+    "8.2",
+    "9.4"
+   ],
+   "level": 2,
+   "prereqs": [],
+   "related": [
+    "leadership",
+    "process_improvement",
+    "teamwork"
+   ],
+   "keywords": [
+    "project management",
+    "project manager",
+    "agile",
+    "scrum",
+    "sprint",
+    "jira",
+    "pmp",
+    "kanban",
+    "sprint planning"
+   ]
+  },
+  {
+   "id": "process_improvement",
+   "label": "Process improvement (Lean)",
+   "category": "Business",
+   "wef": "stable",
+   "wefCluster": "Systems thinking",
+   "arxiv": null,
+   "routineSoc": null,
+   "sdg": [
+    "8.2",
+    "12.5"
+   ],
+   "level": 2,
+   "prereqs": [],
+   "related": [
+    "project_mgmt",
+    "ai_agents",
+    "quality_control"
+   ],
+   "keywords": [
+    "process improvement",
+    "lean",
+    "six sigma",
+    "kaizen",
+    "continuous improvement",
+    "sop"
+   ]
+  },
+  {
+   "id": "digital_marketing",
+   "label": "Digital marketing & analytics",
+   "category": "Business",
+   "wef": "stable",
+   "wefCluster": "Marketing and media",
+   "arxiv": null,
+   "routineSoc": "13-1161.00",
+   "sdg": [
+    "8.3"
+   ],
+   "level": 2,
+   "prereqs": [],
+   "related": [
+    "data_analysis",
+    "creative_thinking",
+    "sales"
+   ],
+   "keywords": [
+    "digital marketing",
+    "seo",
+    "social media",
+    "google ads",
+    "content marketing",
+    "marketing",
+    "campaign"
+   ]
+  },
+  {
+   "id": "financial_analysis",
+   "label": "Financial analysis",
+   "category": "Business",
+   "wef": "stable",
+   "wefCluster": "Analytical thinking",
+   "arxiv": null,
+   "routineSoc": "13-2051.00",
+   "sdg": [
+    "8.10",
+    "12.6"
+   ],
+   "level": 2,
+   "prereqs": [
+    "accounting"
+   ],
+   "related": [
+    "accounting",
+    "data_analysis",
+    "fintech"
+   ],
+   "keywords": [
+    "financial analysis",
+    "budgeting",
+    "forecast",
+    "valuation",
+    "financial modelling",
+    "financial modeling",
+    "financial reporting"
+   ]
+  },
+  {
+   "id": "accounting",
+   "label": "Accounting & bookkeeping",
+   "category": "Business",
+   "wef": "declining",
+   "wefCluster": "Related role among fastest-declining (accounting, bookkeeping and payroll clerks)",
+   "arxiv": null,
+   "routineSoc": "43-3031.00",
+   "sdg": [
+    "8.10"
+   ],
+   "level": 1,
+   "prereqs": [],
+   "related": [
+    "financial_analysis",
+    "spreadsheets"
+   ],
+   "keywords": [
+    "accounting",
+    "bookkeeping",
+    "accounts payable",
+    "accounts receivable",
+    "ledger",
+    "reconciliation",
+    "audit",
+    "payroll",
+    "sql accounting",
+    "autocount"
+   ]
+  },
+  {
+   "id": "data_entry",
+   "label": "Data entry & record keeping",
+   "category": "Business",
+   "wef": "declining",
+   "wefCluster": "Related role among fastest-declining (data entry clerks)",
+   "arxiv": null,
+   "routineSoc": "43-9021.00",
+   "sdg": [
+    "8.5"
+   ],
+   "level": 1,
+   "prereqs": [],
+   "related": [
+    "spreadsheets",
+    "admin"
+   ],
+   "keywords": [
+    "data entry",
+    "record keeping",
+    "records",
+    "typing",
+    "filing",
+    "documentation"
+   ]
+  },
+  {
+   "id": "admin",
+   "label": "Office administration & scheduling",
+   "category": "Business",
+   "wef": "declining",
+   "wefCluster": "Related role among fastest-declining (administrative assistants and executive secretaries)",
+   "arxiv": null,
+   "routineSoc": "43-6014.00",
+   "sdg": [
+    "8.5"
+   ],
+   "level": 1,
+   "prereqs": [],
+   "related": [
+    "data_entry",
+    "project_mgmt"
+   ],
+   "keywords": [
+    "administration",
+    "admin",
+    "scheduling",
+    "calendar",
+    "office management",
+    "secretarial",
+    "clerical"
+   ]
+  },
+  {
+   "id": "crm",
+   "label": "CRM systems",
+   "category": "Business",
+   "wef": "stable",
+   "wefCluster": "Service orientation and customer service",
+   "arxiv": null,
+   "routineSoc": "43-4051.00",
+   "sdg": [
+    "8.2"
+   ],
+   "level": 1,
+   "prereqs": [],
+   "related": [
+    "customer_care",
+    "data_entry",
+    "sales"
+   ],
+   "keywords": [
+    "crm",
+    "salesforce",
+    "hubspot",
+    "zendesk",
+    "freshdesk",
+    "ticketing"
+   ]
+  },
+  {
+   "id": "sales",
+   "label": "Sales & negotiation",
+   "category": "Business",
+   "wef": "stable",
+   "wefCluster": "Marketing and media",
+   "arxiv": null,
+   "routineSoc": "41-4012.00",
+   "sdg": [
+    "8.3"
+   ],
+   "level": 1,
+   "prereqs": [],
+   "related": [
+    "communication",
+    "product_knowledge"
+   ],
+   "keywords": [
+    "sales",
+    "negotiation",
+    "business development",
+    "cross-selling",
+    "upselling",
+    "telemarketing"
+   ]
+  },
+  {
+   "id": "product_knowledge",
+   "label": "Banking & financial product knowledge",
+   "category": "Business",
+   "wef": "stable",
+   "wefCluster": "Service orientation and customer service",
+   "arxiv": null,
+   "routineSoc": null,
+   "sdg": [
+    "8.10"
+   ],
+   "level": 1,
+   "prereqs": [],
+   "related": [
+    "financial_analysis",
+    "fintech",
+    "customer_care"
+   ],
+   "keywords": [
+    "banking",
+    "financial products",
+    "loans",
+    "credit card",
+    "insurance",
+    "takaful",
+    "islamic banking"
+   ]
+  },
+  {
+   "id": "quality_control",
+   "label": "Quality control & inspection",
+   "category": "Business",
+   "wef": "stable",
+   "wefCluster": "Quality control",
+   "arxiv": null,
+   "routineSoc": "51-9061.00",
+   "sdg": [
+    "9.4",
+    "12.5"
+   ],
+   "level": 1,
+   "prereqs": [],
+   "related": [
+    "process_improvement",
+    "iot"
+   ],
+   "keywords": [
+    "quality control",
+    "qc",
+    "qa",
+    "inspection",
+    "iso 9001",
+    "quality assurance"
+   ]
+  },
+  {
+   "id": "people_mgmt",
+   "label": "Talent & people management",
+   "category": "Business",
+   "wef": "rising",
+   "wefCluster": "Talent management",
+   "arxiv": null,
+   "routineSoc": null,
+   "sdg": [
+    "8.5",
+    "5.5"
+   ],
+   "level": 2,
+   "prereqs": [],
+   "related": [
+    "leadership",
+    "teaching",
+    "empathy"
+   ],
+   "keywords": [
+    "human resources",
+    "hr",
+    "recruitment",
+    "talent",
+    "onboarding",
+    "performance management",
+    "people management"
+   ]
+  },
+  {
+   "id": "communication",
+   "label": "Communication",
+   "category": "Human",
+   "wef": "stable",
+   "wefCluster": "Empathy and active listening",
+   "arxiv": null,
+   "routineSoc": null,
+   "sdg": [
+    "10.2"
+   ],
+   "level": 1,
+   "prereqs": [],
+   "related": [
+    "teaching",
+    "sales",
+    "leadership"
+   ],
+   "keywords": [
+    "communication",
+    "presentation",
+    "public speaking",
+    "speaker",
+    "speech",
+    "writing",
+    "client communication"
+   ]
+  },
+  {
+   "id": "empathy",
+   "label": "Empathy & active listening",
+   "category": "Human",
+   "wef": "stable",
+   "wefCluster": "Empathy and active listening",
+   "arxiv": null,
+   "routineSoc": null,
+   "sdg": [
+    "3.4",
+    "10.2"
+   ],
+   "level": 1,
+   "prereqs": [],
+   "related": [
+    "customer_care",
+    "ux_design",
+    "counselling"
+   ],
+   "keywords": [
+    "empathy",
+    "active listening",
+    "listening",
+    "patient",
+    "caring"
+   ]
+  },
+  {
+   "id": "customer_care",
+   "label": "Customer care & complaint resolution",
+   "category": "Human",
+   "wef": "stable",
+   "wefCluster": "Service orientation and customer service",
+   "arxiv": null,
+   "routineSoc": "43-4051.00",
+   "sdg": [
+    "8.5",
+    "10.2"
+   ],
+   "level": 1,
+   "prereqs": [],
+   "related": [
+    "empathy",
+    "crm",
+    "communication"
+   ],
+   "keywords": [
+    "customer service",
+    "customer care",
+    "complaint",
+    "call centre",
+    "call center",
+    "customer support",
+    "client service",
+    "escalation"
+   ]
+  },
+  {
+   "id": "problem_solving",
+   "label": "Complex problem-solving",
+   "category": "Human",
+   "wef": "rising",
+   "wefCluster": "Analytical thinking",
+   "arxiv": null,
+   "routineSoc": null,
+   "sdg": [
+    "9.5"
+   ],
+   "level": 2,
+   "prereqs": [],
+   "related": [
+    "analytical_thinking",
+    "process_improvement"
+   ],
+   "keywords": [
+    "problem solving",
+    "problem-solving",
+    "troubleshoot",
+    "root cause",
+    "logic analysis",
+    "critical thinking"
+   ]
+  },
+  {
+   "id": "analytical_thinking",
+   "label": "Analytical thinking",
+   "category": "Human",
+   "wef": "rising",
+   "wefCluster": "Analytical thinking",
+   "arxiv": null,
+   "routineSoc": null,
+   "sdg": [
+    "9.5"
+   ],
+   "level": 1,
+   "prereqs": [],
+   "related": [
+    "data_analysis",
+    "problem_solving",
+    "statistics"
+   ],
+   "keywords": [
+    "analytical",
+    "analysis",
+    "analyse",
+    "analyze",
+    "research"
+   ]
+  },
+  {
+   "id": "creative_thinking",
+   "label": "Creative thinking",
+   "category": "Human",
+   "wef": "rising",
+   "wefCluster": "Creative thinking",
+   "arxiv": null,
+   "routineSoc": null,
+   "sdg": [
+    "9.5",
+    "8.3"
+   ],
+   "level": 1,
+   "prereqs": [],
+   "related": [
+    "ux_design",
+    "digital_marketing"
+   ],
+   "keywords": [
+    "creative",
+    "design",
+    "innovation",
+    "ideation",
+    "content creation",
+    "canva",
+    "photoshop",
+    "illustrator"
+   ]
+  },
+  {
+   "id": "leadership",
+   "label": "Leadership & social influence",
+   "category": "Human",
+   "wef": "rising",
+   "wefCluster": "Leadership and social influence",
+   "arxiv": null,
+   "routineSoc": null,
+   "sdg": [
+    "5.5",
+    "8.5"
+   ],
+   "level": 2,
+   "prereqs": [],
+   "related": [
+    "project_mgmt",
+    "people_mgmt",
+    "teamwork"
+   ],
+   "keywords": [
+    "leadership",
+    "led",
+    "team leader",
+    "managed a team",
+    "supervisor",
+    "mentor",
+    "lead"
+   ]
+  },
+  {
+   "id": "teamwork",
+   "label": "Collaboration & teamwork",
+   "category": "Human",
+   "wef": "stable",
+   "wefCluster": "Leadership and social influence",
+   "arxiv": null,
+   "routineSoc": null,
+   "sdg": [
+    "17.17"
+   ],
+   "level": 1,
+   "prereqs": [],
+   "related": [
+    "leadership",
+    "communication"
+   ],
+   "keywords": [
+    "teamwork",
+    "collaboration",
+    "team player",
+    "cross-functional",
+    "volunteer"
+   ]
+  },
+  {
+   "id": "resilience",
+   "label": "Resilience & adaptability",
+   "category": "Human",
+   "wef": "rising",
+   "wefCluster": "Resilience, flexibility and agility",
+   "arxiv": null,
+   "routineSoc": null,
+   "sdg": [
+    "8.5"
+   ],
+   "level": 1,
+   "prereqs": [],
+   "related": [
+    "lifelong_learning"
+   ],
+   "keywords": [
+    "adaptable",
+    "adaptability",
+    "resilience",
+    "flexible",
+    "fast learner",
+    "under pressure",
+    "hackathon"
+   ]
+  },
+  {
+   "id": "lifelong_learning",
+   "label": "Curiosity & lifelong learning",
+   "category": "Human",
+   "wef": "rising",
+   "wefCluster": "Curiosity and lifelong learning",
+   "arxiv": null,
+   "routineSoc": null,
+   "sdg": [
+    "4.3",
+    "4.4"
+   ],
+   "level": 1,
+   "prereqs": [],
+   "related": [
+    "resilience",
+    "teaching"
+   ],
+   "keywords": [
+    "certification",
+    "certificate",
+    "course",
+    "self-taught",
+    "workshop",
+    "lifelong learning",
+    "bootcamp"
+   ]
+  },
+  {
+   "id": "teaching",
+   "label": "Teaching & coaching",
+   "category": "Human",
+   "wef": "stable",
+   "wefCluster": "Teaching and mentoring",
+   "arxiv": null,
+   "routineSoc": null,
+   "sdg": [
+    "4.4",
+    "4.c"
+   ],
+   "level": 2,
+   "prereqs": [],
+   "related": [
+    "communication",
+    "counselling",
+    "people_mgmt"
+   ],
+   "keywords": [
+    "teaching",
+    "training",
+    "trainer",
+    "coaching",
+    "tutor",
+    "lecturer",
+    "instructor",
+    "facilitator"
+   ]
+  },
+  {
+   "id": "counselling",
+   "label": "Counselling & guidance",
+   "category": "Human",
+   "wef": "stable",
+   "wefCluster": "Empathy and active listening",
+   "arxiv": null,
+   "routineSoc": null,
+   "sdg": [
+    "4.4",
+    "3.4"
+   ],
+   "level": 2,
+   "prereqs": [
+    "empathy"
+   ],
+   "related": [
+    "empathy",
+    "teaching"
+   ],
+   "keywords": [
+    "counselling",
+    "counseling",
+    "guidance",
+    "career advice",
+    "advising",
+    "wellbeing"
+   ]
+  },
+  {
+   "id": "multilingual",
+   "label": "Multilingual (BM / English / 中文 / Tamil)",
+   "category": "Human",
+   "wef": "stable",
+   "wefCluster": "Multi-lingualism",
+   "arxiv": null,
+   "routineSoc": "27-3091.00",
+   "sdg": [
+    "10.2",
+    "16.10"
+   ],
+   "level": 1,
+   "prereqs": [],
+   "related": [
+    "communication",
+    "customer_care",
+    "genai"
+   ],
+   "keywords": [
+    "bahasa",
+    "malay",
+    "mandarin",
+    "chinese",
+    "tamil",
+    "english",
+    "bilingual",
+    "multilingual",
+    "translation"
+   ]
+  },
+  {
+   "id": "sustainability_esg",
+   "label": "Sustainability & ESG reporting",
+   "category": "Green & health",
+   "wef": "rising",
+   "wefCluster": "Environmental stewardship",
+   "arxiv": null,
+   "routineSoc": null,
+   "sdg": [
+    "12.6",
+    "13.3"
+   ],
+   "level": 2,
+   "prereqs": [],
+   "related": [
+    "data_analysis",
+    "renewable_energy",
+    "process_improvement"
+   ],
+   "keywords": [
+    "sustainability",
+    "esg",
+    "carbon",
+    "co2",
+    "emissions",
+    "gri",
+    "climate",
+    "net zero",
+    "bursa sustainability"
+   ]
+  },
+  {
+   "id": "renewable_energy",
+   "label": "Renewable energy systems",
+   "category": "Green & health",
+   "wef": "rising",
+   "wefCluster": "Environmental stewardship",
+   "arxiv": "abs:\"renewable energy\"",
+   "routineSoc": null,
+   "sdg": [
+    "7.2",
+    "13.3"
+   ],
+   "level": 2,
+   "prereqs": [],
+   "related": [
+    "sustainability_esg",
+    "iot",
+    "energy_data"
+   ],
+   "keywords": [
+    "renewable",
+    "solar",
+    "photovoltaic",
+    "pv",
+    "wind energy",
+    "energy systems",
+    "grid"
+   ]
+  },
+  {
+   "id": "energy_data",
+   "label": "Energy & carbon data analysis",
+   "category": "Green & health",
+   "wef": "rising",
+   "wefCluster": "Environmental stewardship",
+   "arxiv": null,
+   "routineSoc": null,
+   "sdg": [
+    "7.3",
+    "13.3"
+   ],
+   "level": 2,
+   "prereqs": [
+    "data_analysis"
+   ],
+   "related": [
+    "sustainability_esg",
+    "data_analysis",
+    "renewable_energy"
+   ],
+   "keywords": [
+    "energy efficiency",
+    "energy data",
+    "carbon accounting",
+    "kwh",
+    "energy audit",
+    "carbon calculator"
+   ]
+  },
+  {
+   "id": "patient_care",
+   "label": "Patient care",
+   "category": "Green & health",
+   "wef": "stable",
+   "wefCluster": "Empathy and active listening",
+   "arxiv": null,
+   "routineSoc": "29-1141.00",
+   "sdg": [
+    "3.8",
+    "3.c"
+   ],
+   "level": 2,
+   "prereqs": [],
+   "related": [
+    "empathy",
+    "health_data"
+   ],
+   "keywords": [
+    "patient care",
+    "nursing",
+    "clinical",
+    "healthcare",
+    "hospital"
+   ]
+  },
+  {
+   "id": "health_data",
+   "label": "Health information & records",
+   "category": "Green & health",
+   "wef": "stable",
+   "wefCluster": "Technological literacy",
+   "arxiv": null,
+   "routineSoc": "29-9021.00",
+   "sdg": [
+    "3.8",
+    "16.10"
+   ],
+   "level": 2,
+   "prereqs": [],
+   "related": [
+    "patient_care",
+    "data_analysis",
+    "data_entry"
+   ],
+   "keywords": [
+    "medical records",
+    "health information",
+    "his",
+    "emr",
+    "ehr",
+    "medical coding",
+    "icd-10"
+   ]
+  },
+  {
+   "id": "manual_precision",
+   "label": "Manual dexterity & precision",
+   "category": "Green & health",
+   "wef": "declining",
+   "wefCluster": "Manual dexterity, endurance and precision",
+   "arxiv": null,
+   "routineSoc": null,
+   "sdg": [
+    "8.5"
+   ],
+   "level": 1,
+   "prereqs": [],
+   "related": [
+    "quality_control"
+   ],
+   "keywords": [
+    "assembly",
+    "machine operation",
+    "manual",
+    "forklift",
+    "operator",
+    "technician"
+   ]
+  }
+ ]
+}

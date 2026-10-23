@@ -1,0 +1,1250 @@
+{
+ "_about": "Future roles Nexa can recommend. Nexa never recommends a role outside this list. 'soc' anchors the role to an O*NET occupation for its task list and AI exposure. 'outlook.direction' comes only from the cited evidence; a role with no growth signal in our sources is 'steady'. 'skills' weight: 3 essential, 2 important, 1 helpful; 'core' skills are required for the role to be shown as a match.",
+ "sources": {
+  "wef2025": {
+   "name": "World Economic Forum — Future of Jobs Report 2025",
+   "url": "https://www.weforum.org/publications/the-future-of-jobs-report-2025/",
+   "published": "2025-01-07"
+  },
+  "talentcorp2024": {
+   "name": "TalentCorp Impact Study on AI, Digital and Green Economy (60 emerging roles, 10 sectors)",
+   "url": "https://twentytwo13.my/talentcorps-latest-study-on-impact-of-ai-digital-and-green-economy-lists-emerging-jobs-across-key-sectors-in-malaysia/",
+   "published": "2024-10-01"
+  }
+ },
+ "roles": [
+  {
+   "id": "ai_ml_specialist",
+   "label": "AI & Machine Learning Specialist",
+   "soc": "15-1221.00",
+   "family": "Technology",
+   "summary": "Builds, evaluates and deploys machine-learning and generative-AI systems.",
+   "outlook": {
+    "direction": "growing",
+    "strength": 3,
+    "evidence": [
+     {
+      "source": "wef2025",
+      "note": "AI and machine learning specialists are among the fastest-growing jobs to 2030."
+     },
+     {
+      "source": "talentcorp2024",
+      "note": "AI engineers are named among Malaysia's emerging roles."
+     }
+    ]
+   },
+   "aiAffinity": 1.0,
+   "skills": [
+    {
+     "id": "python",
+     "w": 3,
+     "core": true
+    },
+    {
+     "id": "machine_learning",
+     "w": 3,
+     "core": true
+    },
+    {
+     "id": "statistics",
+     "w": 2,
+     "core": true
+    },
+    {
+     "id": "genai",
+     "w": 2
+    },
+    {
+     "id": "ai_agents",
+     "w": 2
+    },
+    {
+     "id": "ai_ethics",
+     "w": 1
+    },
+    {
+     "id": "cloud",
+     "w": 1
+    },
+    {
+     "id": "problem_solving",
+     "w": 1
+    }
+   ],
+   "sdg": [
+    {
+     "target": "9.5",
+     "why": "Expands Malaysia's own research and technological capability instead of importing it."
+    },
+    {
+     "target": "8.2",
+     "why": "AI systems raise productivity across whole sectors."
+    }
+   ],
+   "entry": {
+    "barrier": "degree",
+    "note": "Usually a computing, engineering or maths degree, or a strong portfolio of shipped ML projects."
+   },
+   "orgMobility": true
+  },
+  {
+   "id": "big_data_specialist",
+   "label": "Big Data Specialist",
+   "soc": "15-1243.00",
+   "family": "Technology",
+   "summary": "Designs the pipelines and warehouses that collect, clean and serve large datasets.",
+   "outlook": {
+    "direction": "growing",
+    "strength": 3,
+    "evidence": [
+     {
+      "source": "wef2025",
+      "note": "Big data specialists top the fastest-growing jobs list; data warehousing specialists also grow fast."
+     }
+    ]
+   },
+   "aiAffinity": 0.8,
+   "skills": [
+    {
+     "id": "sql",
+     "w": 3,
+     "core": true
+    },
+    {
+     "id": "big_data",
+     "w": 3,
+     "core": true
+    },
+    {
+     "id": "python",
+     "w": 2,
+     "core": true
+    },
+    {
+     "id": "cloud",
+     "w": 2
+    },
+    {
+     "id": "data_analysis",
+     "w": 1
+    },
+    {
+     "id": "problem_solving",
+     "w": 1
+    }
+   ],
+   "sdg": [
+    {
+     "target": "9.c",
+     "why": "Reliable data infrastructure is what digital public and private services run on."
+    },
+    {
+     "target": "9.5",
+     "why": "Data engineering capacity underpins research and innovation."
+    }
+   ],
+   "entry": {
+    "barrier": "open",
+    "note": "Open to career-changers with SQL and Python skills and a portfolio."
+   },
+   "orgMobility": true
+  },
+  {
+   "id": "data_analyst",
+   "label": "Data / BI Analyst",
+   "soc": "15-2051.01",
+   "family": "Technology",
+   "summary": "Turns business and public data into dashboards, insights and decisions.",
+   "outlook": {
+    "direction": "growing",
+    "strength": 2,
+    "evidence": [
+     {
+      "source": "wef2025",
+      "note": "Data analysts and scientists are among the fastest-growing jobs."
+     }
+    ]
+   },
+   "aiAffinity": 0.7,
+   "skills": [
+    {
+     "id": "data_analysis",
+     "w": 3,
+     "core": true
+    },
+    {
+     "id": "spreadsheets",
+     "w": 2,
+     "core": true
+    },
+    {
+     "id": "sql",
+     "w": 2,
+     "core": true
+    },
+    {
+     "id": "data_viz",
+     "w": 2
+    },
+    {
+     "id": "statistics",
+     "w": 2
+    },
+    {
+     "id": "genai",
+     "w": 1
+    },
+    {
+     "id": "communication",
+     "w": 1
+    },
+    {
+     "id": "analytical_thinking",
+     "w": 1
+    }
+   ],
+   "sdg": [
+    {
+     "target": "16.10",
+     "why": "Makes information usable and transparent for decision-makers."
+    },
+    {
+     "target": "8.2",
+     "why": "Evidence-based decisions lift productivity."
+    }
+   ],
+   "entry": {
+    "barrier": "open",
+    "note": "Open to career-changers; a portfolio of real analyses matters more than a degree."
+   },
+   "orgMobility": true
+  },
+  {
+   "id": "data_scientist",
+   "label": "Data Scientist",
+   "soc": "15-2051.00",
+   "family": "Technology",
+   "summary": "Builds statistical and predictive models to answer business and policy questions.",
+   "outlook": {
+    "direction": "growing",
+    "strength": 2,
+    "evidence": [
+     {
+      "source": "wef2025",
+      "note": "Data analysts and scientists are among the fastest-growing jobs."
+     }
+    ]
+   },
+   "aiAffinity": 0.9,
+   "skills": [
+    {
+     "id": "python",
+     "w": 3,
+     "core": true
+    },
+    {
+     "id": "statistics",
+     "w": 3,
+     "core": true
+    },
+    {
+     "id": "machine_learning",
+     "w": 2,
+     "core": true
+    },
+    {
+     "id": "sql",
+     "w": 2
+    },
+    {
+     "id": "data_viz",
+     "w": 1
+    },
+    {
+     "id": "communication",
+     "w": 1
+    }
+   ],
+   "sdg": [
+    {
+     "target": "9.5",
+     "why": "Applies research methods to real problems."
+    },
+    {
+     "target": "3.8",
+     "why": "Health, finance and public-service models improve access when built responsibly."
+    }
+   ],
+   "entry": {
+    "barrier": "degree",
+    "note": "Usually a degree in a quantitative field."
+   },
+   "orgMobility": true
+  },
+  {
+   "id": "infosec_analyst",
+   "label": "Information Security Analyst",
+   "soc": "15-1212.00",
+   "family": "Technology",
+   "summary": "Protects systems and data, monitors threats and responds to incidents.",
+   "outlook": {
+    "direction": "growing",
+    "strength": 3,
+    "evidence": [
+     {
+      "source": "wef2025",
+      "note": "Information security analysts and security management specialists are among the fastest-growing jobs; networks and cybersecurity is the second fastest-growing skill."
+     }
+    ]
+   },
+   "aiAffinity": 0.7,
+   "skills": [
+    {
+     "id": "cybersecurity",
+     "w": 3,
+     "core": true
+    },
+    {
+     "id": "networking",
+     "w": 2,
+     "core": true
+    },
+    {
+     "id": "cloud",
+     "w": 2
+    },
+    {
+     "id": "problem_solving",
+     "w": 1
+    },
+    {
+     "id": "ai_ethics",
+     "w": 1
+    },
+    {
+     "id": "communication",
+     "w": 1
+    }
+   ],
+   "sdg": [
+    {
+     "target": "16.6",
+     "why": "Secure systems are a condition for trustworthy, accountable institutions."
+    },
+    {
+     "target": "9.c",
+     "why": "Safe ICT access for businesses and citizens."
+    }
+   ],
+   "entry": {
+    "barrier": "open",
+    "note": "Open with recognised security certifications and hands-on practice."
+   },
+   "orgMobility": true
+  },
+  {
+   "id": "software_developer",
+   "label": "Software & Applications Developer",
+   "soc": "15-1252.00",
+   "family": "Technology",
+   "summary": "Designs, builds and maintains applications, increasingly with AI coding assistants.",
+   "outlook": {
+    "direction": "growing",
+    "strength": 3,
+    "evidence": [
+     {
+      "source": "wef2025",
+      "note": "Software and applications developers grow both in percentage and in absolute numbers to 2030."
+     }
+    ]
+   },
+   "aiAffinity": 0.8,
+   "skills": [
+    {
+     "id": "software_dev",
+     "w": 3,
+     "core": true
+    },
+    {
+     "id": "python",
+     "w": 2,
+     "core": true
+    },
+    {
+     "id": "web_dev",
+     "w": 2
+    },
+    {
+     "id": "cloud",
+     "w": 1
+    },
+    {
+     "id": "genai",
+     "w": 1
+    },
+    {
+     "id": "problem_solving",
+     "w": 1
+    }
+   ],
+   "sdg": [
+    {
+     "target": "9.5",
+     "why": "Local software capability is a core part of technological upgrading."
+    },
+    {
+     "target": "8.2",
+     "why": "Digital tools drive productivity for SMEs."
+    }
+   ],
+   "entry": {
+    "barrier": "open",
+    "note": "Open with a portfolio of working software."
+   },
+   "orgMobility": true
+  },
+  {
+   "id": "fintech_engineer",
+   "label": "FinTech Engineer",
+   "soc": "15-1252.00",
+   "family": "Technology",
+   "summary": "Builds digital banking, payments and financial-inclusion products.",
+   "outlook": {
+    "direction": "growing",
+    "strength": 3,
+    "evidence": [
+     {
+      "source": "wef2025",
+      "note": "FinTech engineers are among the fastest-growing jobs."
+     }
+    ]
+   },
+   "aiAffinity": 0.7,
+   "skills": [
+    {
+     "id": "software_dev",
+     "w": 3,
+     "core": true
+    },
+    {
+     "id": "fintech",
+     "w": 2,
+     "core": true
+    },
+    {
+     "id": "cybersecurity",
+     "w": 1
+    },
+    {
+     "id": "product_knowledge",
+     "w": 1
+    },
+    {
+     "id": "cloud",
+     "w": 1
+    },
+    {
+     "id": "sql",
+     "w": 1
+    }
+   ],
+   "sdg": [
+    {
+     "target": "8.10",
+     "why": "Expands access to banking and financial services."
+    },
+    {
+     "target": "10.2",
+     "why": "Digital finance can include the unbanked and underbanked."
+    }
+   ],
+   "entry": {
+    "barrier": "open",
+    "note": "Open with software skills plus payments and finance knowledge."
+   },
+   "orgMobility": true
+  },
+  {
+   "id": "devops_engineer",
+   "label": "Cloud / DevOps Engineer",
+   "soc": "15-1299.08",
+   "family": "Technology",
+   "summary": "Automates how software is built, deployed and run on cloud infrastructure.",
+   "outlook": {
+    "direction": "growing",
+    "strength": 2,
+    "evidence": [
+     {
+      "source": "wef2025",
+      "note": "DevOps engineers are among the fastest-growing jobs."
+     }
+    ]
+   },
+   "aiAffinity": 0.7,
+   "skills": [
+    {
+     "id": "cloud",
+     "w": 3,
+     "core": true
+    },
+    {
+     "id": "networking",
+     "w": 2,
+     "core": true
+    },
+    {
+     "id": "software_dev",
+     "w": 2
+    },
+    {
+     "id": "cybersecurity",
+     "w": 1
+    },
+    {
+     "id": "ai_agents",
+     "w": 1
+    }
+   ],
+   "sdg": [
+    {
+     "target": "9.4",
+     "why": "Efficient cloud infrastructure uses less energy per service delivered."
+    },
+    {
+     "target": "9.c",
+     "why": "Keeps digital services available."
+    }
+   ],
+   "entry": {
+    "barrier": "open",
+    "note": "Open with cloud certifications and hands-on practice."
+   },
+   "orgMobility": true
+  },
+  {
+   "id": "iot_specialist",
+   "label": "IoT Specialist",
+   "soc": "15-1241.00",
+   "family": "Technology",
+   "summary": "Connects sensors and devices for smart factories, buildings, farms and cities.",
+   "outlook": {
+    "direction": "growing",
+    "strength": 2,
+    "evidence": [
+     {
+      "source": "wef2025",
+      "note": "Internet of Things specialists are among the fastest-growing jobs."
+     }
+    ]
+   },
+   "aiAffinity": 0.6,
+   "skills": [
+    {
+     "id": "iot",
+     "w": 3,
+     "core": true
+    },
+    {
+     "id": "networking",
+     "w": 2,
+     "core": true
+    },
+    {
+     "id": "python",
+     "w": 1
+    },
+    {
+     "id": "cloud",
+     "w": 1
+    },
+    {
+     "id": "energy_data",
+     "w": 1
+    }
+   ],
+   "sdg": [
+    {
+     "target": "9.4",
+     "why": "Upgrades industry to cleaner, more resource-efficient processes."
+    },
+    {
+     "target": "11.6",
+     "why": "Smart-city sensing reduces waste and pollution."
+    }
+   ],
+   "entry": {
+    "barrier": "open",
+    "note": "Open with networking and embedded-systems practice."
+   },
+   "orgMobility": false
+  },
+  {
+   "id": "ux_designer",
+   "label": "UI / UX Designer",
+   "soc": "15-1255.00",
+   "family": "Technology",
+   "summary": "Researches users and designs digital products that are easy and fair to use.",
+   "outlook": {
+    "direction": "growing",
+    "strength": 2,
+    "evidence": [
+     {
+      "source": "wef2025",
+      "note": "UI and UX designers are among the fastest-growing jobs."
+     }
+    ]
+   },
+   "aiAffinity": 0.6,
+   "skills": [
+    {
+     "id": "ux_design",
+     "w": 3,
+     "core": true
+    },
+    {
+     "id": "empathy",
+     "w": 2,
+     "core": true
+    },
+    {
+     "id": "creative_thinking",
+     "w": 2
+    },
+    {
+     "id": "web_dev",
+     "w": 1
+    },
+    {
+     "id": "communication",
+     "w": 1
+    },
+    {
+     "id": "genai",
+     "w": 1
+    }
+   ],
+   "sdg": [
+    {
+     "target": "10.2",
+     "why": "Accessible design includes older, disabled and low-literacy users."
+    },
+    {
+     "target": "9.c",
+     "why": "Makes digital services usable for everyone."
+    }
+   ],
+   "entry": {
+    "barrier": "open",
+    "note": "Open with a design portfolio of real projects."
+   },
+   "orgMobility": true
+  },
+  {
+   "id": "project_manager",
+   "label": "Project Manager",
+   "soc": "13-1082.00",
+   "family": "Management",
+   "summary": "Plans and delivers projects, coordinating people, budgets and AI-enabled tools.",
+   "outlook": {
+    "direction": "growing",
+    "strength": 2,
+    "evidence": [
+     {
+      "source": "wef2025",
+      "note": "Project managers are among the jobs adding the most positions in absolute terms."
+     }
+    ]
+   },
+   "aiAffinity": 0.5,
+   "skills": [
+    {
+     "id": "project_mgmt",
+     "w": 3,
+     "core": true
+    },
+    {
+     "id": "leadership",
+     "w": 2,
+     "core": true
+    },
+    {
+     "id": "communication",
+     "w": 2
+    },
+    {
+     "id": "teamwork",
+     "w": 1
+    },
+    {
+     "id": "data_analysis",
+     "w": 1
+    },
+    {
+     "id": "genai",
+     "w": 1
+    }
+   ],
+   "sdg": [
+    {
+     "target": "8.2",
+     "why": "Delivering change projects well is how organisations actually become more productive."
+    },
+    {
+     "target": "9.4",
+     "why": "Leads the upgrade projects that modernise industry."
+    }
+   ],
+   "entry": {
+    "barrier": "open",
+    "note": "Open; experience leading work counts, certification helps."
+   },
+   "orgMobility": true
+  },
+  {
+   "id": "sustainability_specialist",
+   "label": "Sustainability / ESG Specialist",
+   "soc": "13-1199.05",
+   "family": "Green economy",
+   "summary": "Measures and reduces an organisation's environmental footprint and prepares ESG reports.",
+   "outlook": {
+    "direction": "growing",
+    "strength": 2,
+    "evidence": [
+     {
+      "source": "talentcorp2024",
+      "note": "Sustainability specialists are named among Malaysia's emerging roles."
+     },
+     {
+      "source": "wef2025",
+      "note": "Environmental stewardship is among the fastest-growing skills."
+     }
+    ]
+   },
+   "aiAffinity": 0.5,
+   "skills": [
+    {
+     "id": "sustainability_esg",
+     "w": 3,
+     "core": true
+    },
+    {
+     "id": "data_analysis",
+     "w": 2,
+     "core": true
+    },
+    {
+     "id": "energy_data",
+     "w": 2
+    },
+    {
+     "id": "communication",
+     "w": 1
+    },
+    {
+     "id": "project_mgmt",
+     "w": 1
+    }
+   ],
+   "sdg": [
+    {
+     "target": "12.6",
+     "why": "Directly delivers company sustainability reporting."
+    },
+    {
+     "target": "13.3",
+     "why": "Builds climate capacity inside organisations."
+    }
+   ],
+   "entry": {
+    "barrier": "open",
+    "note": "Open; ESG reporting and data skills are the core."
+   },
+   "orgMobility": true
+  },
+  {
+   "id": "solar_engineer",
+   "label": "Renewable / Solar Energy Engineer",
+   "soc": "17-2199.11",
+   "family": "Green economy",
+   "summary": "Designs and evaluates solar and other renewable energy systems.",
+   "outlook": {
+    "direction": "growing",
+    "strength": 2,
+    "evidence": [
+     {
+      "source": "wef2025",
+      "note": "Renewable energy engineers are among the fastest-growing jobs."
+     }
+    ]
+   },
+   "aiAffinity": 0.4,
+   "skills": [
+    {
+     "id": "renewable_energy",
+     "w": 3,
+     "core": true
+    },
+    {
+     "id": "energy_data",
+     "w": 2,
+     "core": true
+    },
+    {
+     "id": "iot",
+     "w": 1
+    },
+    {
+     "id": "project_mgmt",
+     "w": 1
+    },
+    {
+     "id": "problem_solving",
+     "w": 1
+    }
+   ],
+   "sdg": [
+    {
+     "target": "7.2",
+     "why": "Increases the share of renewable energy in Malaysia's mix."
+    },
+    {
+     "target": "13.3",
+     "why": "Climate mitigation in practice."
+    }
+   ],
+   "entry": {
+    "barrier": "licence",
+    "note": "Needs an engineering degree; professional practice requires Board of Engineers Malaysia (BEM) registration."
+   },
+   "orgMobility": false
+  },
+  {
+   "id": "environmental_engineer",
+   "label": "Environmental Engineer",
+   "soc": "17-2081.00",
+   "family": "Green economy",
+   "summary": "Solves pollution, waste and water problems with engineering and data.",
+   "outlook": {
+    "direction": "growing",
+    "strength": 2,
+    "evidence": [
+     {
+      "source": "wef2025",
+      "note": "Environmental engineers are among the fastest-growing jobs."
+     }
+    ]
+   },
+   "aiAffinity": 0.4,
+   "skills": [
+    {
+     "id": "sustainability_esg",
+     "w": 2,
+     "core": true
+    },
+    {
+     "id": "energy_data",
+     "w": 2
+    },
+    {
+     "id": "data_analysis",
+     "w": 2,
+     "core": true
+    },
+    {
+     "id": "problem_solving",
+     "w": 1
+    },
+    {
+     "id": "project_mgmt",
+     "w": 1
+    }
+   ],
+   "sdg": [
+    {
+     "target": "11.6",
+     "why": "Reduces the environmental impact of cities."
+    },
+    {
+     "target": "12.5",
+     "why": "Cuts waste generation."
+    }
+   ],
+   "entry": {
+    "barrier": "licence",
+    "note": "Needs an engineering degree; professional practice requires Board of Engineers Malaysia (BEM) registration."
+   },
+   "orgMobility": false
+  },
+  {
+   "id": "training_specialist",
+   "label": "Training & Development Specialist",
+   "soc": "13-1151.00",
+   "family": "People & HR",
+   "summary": "Designs and runs training, including AI upskilling for colleagues.",
+   "outlook": {
+    "direction": "steady",
+    "strength": 1,
+    "evidence": []
+   },
+   "aiAffinity": 0.6,
+   "skills": [
+    {
+     "id": "teaching",
+     "w": 3,
+     "core": true
+    },
+    {
+     "id": "communication",
+     "w": 2,
+     "core": true
+    },
+    {
+     "id": "genai",
+     "w": 2
+    },
+    {
+     "id": "empathy",
+     "w": 1
+    },
+    {
+     "id": "project_mgmt",
+     "w": 1
+    }
+   ],
+   "sdg": [
+    {
+     "target": "4.4",
+     "why": "Raises the number of adults with skills for decent work."
+    },
+    {
+     "target": "4.3",
+     "why": "Brings lifelong technical learning into the workplace."
+    }
+   ],
+   "entry": {
+    "barrier": "open",
+    "note": "Open; experience training others counts."
+   },
+   "orgMobility": true
+  },
+  {
+   "id": "career_counsellor",
+   "label": "Career Counsellor",
+   "soc": "21-1012.00",
+   "family": "Education",
+   "summary": "Guides students and workers through career and reskilling decisions.",
+   "outlook": {
+    "direction": "growing",
+    "strength": 1,
+    "evidence": [
+     {
+      "source": "wef2025",
+      "note": "Social work and counselling professionals are among the jobs adding the most positions."
+     }
+    ]
+   },
+   "aiAffinity": 0.4,
+   "skills": [
+    {
+     "id": "counselling",
+     "w": 3,
+     "core": true
+    },
+    {
+     "id": "empathy",
+     "w": 2,
+     "core": true
+    },
+    {
+     "id": "communication",
+     "w": 2
+    },
+    {
+     "id": "data_analysis",
+     "w": 1
+    },
+    {
+     "id": "genai",
+     "w": 1
+    }
+   ],
+   "sdg": [
+    {
+     "target": "8.6",
+     "why": "Helps young people move from education into work."
+    },
+    {
+     "target": "4.4",
+     "why": "Steers people toward relevant skills."
+    }
+   ],
+   "entry": {
+    "barrier": "licence",
+    "note": "Practising as a counsellor in Malaysia requires registration with Lembaga Kaunselor under the Counsellors Act 1998."
+   },
+   "orgMobility": false
+  },
+  {
+   "id": "fintech_analyst",
+   "label": "Financial Analyst",
+   "soc": "13-2051.00",
+   "family": "Finance",
+   "summary": "Analyses financial data, risk and investments, increasingly with AI tools.",
+   "outlook": {
+    "direction": "steady",
+    "strength": 1,
+    "evidence": []
+   },
+   "aiAffinity": 0.6,
+   "skills": [
+    {
+     "id": "financial_analysis",
+     "w": 3,
+     "core": true
+    },
+    {
+     "id": "data_analysis",
+     "w": 2,
+     "core": true
+    },
+    {
+     "id": "spreadsheets",
+     "w": 2
+    },
+    {
+     "id": "fintech",
+     "w": 1
+    },
+    {
+     "id": "genai",
+     "w": 1
+    }
+   ],
+   "sdg": [
+    {
+     "target": "8.10",
+     "why": "Sound financial analysis supports access to finance."
+    },
+    {
+     "target": "12.6",
+     "why": "Sustainable-finance analysis feeds company reporting."
+    }
+   ],
+   "entry": {
+    "barrier": "open",
+    "note": "Open; finance or accounting background helps."
+   },
+   "orgMobility": true
+  },
+  {
+   "id": "nurse",
+   "label": "Nursing Professional",
+   "soc": "29-1141.00",
+   "family": "Health",
+   "summary": "Provides and coordinates patient care, using digital health tools.",
+   "outlook": {
+    "direction": "growing",
+    "strength": 2,
+    "evidence": [
+     {
+      "source": "wef2025",
+      "note": "Nursing professionals are among the jobs adding the most positions."
+     }
+    ]
+   },
+   "aiAffinity": 0.2,
+   "skills": [
+    {
+     "id": "patient_care",
+     "w": 3,
+     "core": true
+    },
+    {
+     "id": "empathy",
+     "w": 2,
+     "core": true
+    },
+    {
+     "id": "communication",
+     "w": 1
+    },
+    {
+     "id": "health_data",
+     "w": 1
+    }
+   ],
+   "sdg": [
+    {
+     "target": "3.c",
+     "why": "Grows the health workforce."
+    },
+    {
+     "target": "3.8",
+     "why": "Universal health coverage needs nurses."
+    }
+   ],
+   "entry": {
+    "barrier": "licence",
+    "note": "Requires a recognised nursing diploma or degree and registration with the Nursing Board Malaysia."
+   },
+   "orgMobility": false
+  },
+  {
+   "id": "health_info_specialist",
+   "label": "Health Information Specialist",
+   "soc": "29-9021.00",
+   "family": "Health",
+   "summary": "Manages medical records and health data systems.",
+   "outlook": {
+    "direction": "steady",
+    "strength": 1,
+    "evidence": []
+   },
+   "aiAffinity": 0.5,
+   "skills": [
+    {
+     "id": "health_data",
+     "w": 3,
+     "core": true
+    },
+    {
+     "id": "data_analysis",
+     "w": 2
+    },
+    {
+     "id": "data_entry",
+     "w": 1
+    },
+    {
+     "id": "ai_ethics",
+     "w": 1
+    }
+   ],
+   "sdg": [
+    {
+     "target": "3.8",
+     "why": "Accurate records make health coverage work."
+    },
+    {
+     "target": "16.10",
+     "why": "Protects access to, and privacy of, information."
+    }
+   ],
+   "entry": {
+    "barrier": "degree",
+    "note": "Usually a diploma or degree in health information management."
+   },
+   "orgMobility": false
+  },
+  {
+   "id": "ops_manager",
+   "label": "Operations Manager",
+   "soc": "11-1021.00",
+   "family": "Management",
+   "summary": "Runs day-to-day operations and leads teams through change.",
+   "outlook": {
+    "direction": "growing",
+    "strength": 1,
+    "evidence": [
+     {
+      "source": "wef2025",
+      "note": "General and operations managers are among the jobs adding the most positions."
+     }
+    ]
+   },
+   "aiAffinity": 0.5,
+   "skills": [
+    {
+     "id": "leadership",
+     "w": 3,
+     "core": true
+    },
+    {
+     "id": "project_mgmt",
+     "w": 2,
+     "core": true
+    },
+    {
+     "id": "process_improvement",
+     "w": 2
+    },
+    {
+     "id": "financial_analysis",
+     "w": 1
+    },
+    {
+     "id": "people_mgmt",
+     "w": 1
+    }
+   ],
+   "sdg": [
+    {
+     "target": "8.2",
+     "why": "Operational excellence is productivity."
+    },
+    {
+     "target": "8.5",
+     "why": "Good managers keep work decent and teams employed through change."
+    }
+   ],
+   "entry": {
+    "barrier": "open",
+    "note": "Usually reached through experience leading teams."
+   },
+   "orgMobility": true
+  },
+  {
+   "id": "teacher",
+   "label": "Secondary School Teacher",
+   "soc": "25-2031.00",
+   "family": "Education",
+   "summary": "Teaches and mentors young people, using AI to personalise learning.",
+   "outlook": {
+    "direction": "growing",
+    "strength": 1,
+    "evidence": [
+     {
+      "source": "wef2025",
+      "note": "Secondary education teachers are among the jobs adding the most positions."
+     }
+    ]
+   },
+   "aiAffinity": 0.4,
+   "skills": [
+    {
+     "id": "teaching",
+     "w": 3,
+     "core": true
+    },
+    {
+     "id": "communication",
+     "w": 2,
+     "core": true
+    },
+    {
+     "id": "genai",
+     "w": 1
+    },
+    {
+     "id": "empathy",
+     "w": 1
+    }
+   ],
+   "sdg": [
+    {
+     "target": "4.c",
+     "why": "Grows the supply of qualified teachers."
+    },
+    {
+     "target": "4.4",
+     "why": "Prepares youth with relevant skills."
+    }
+   ],
+   "entry": {
+    "barrier": "licence",
+    "note": "Teaching in government schools requires a recognised teaching qualification (e.g. a postgraduate diploma in education)."
+   },
+   "orgMobility": false
+  }
+ ]
+}

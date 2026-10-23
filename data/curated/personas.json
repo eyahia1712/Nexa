@@ -1,0 +1,113 @@
+{
+ "_about": "Synthetic sample profiles for the demo. These are invented people: no real personal data or real CVs are used, as the SDC Domain 1 rules require. Skill levels: 1 basic, 2 working, 3 strong.",
+ "personas": [
+  {
+   "id": "aisyah",
+   "name": "Aisyah",
+   "headline": "Customer service agent, 12 years at a bank call centre",
+   "story": "Her bank has just launched an AI chatbot for routine questions. Her team shrank this year and she wants to know what to learn next — with only evenings free.",
+   "age": 38,
+   "currentSoc": "43-4051.00",
+   "years": 12,
+   "hoursPerWeek": 6,
+   "sdgPriorities": [
+    8,
+    10,
+    5
+   ],
+   "skills": {
+    "customer_care": 3,
+    "communication": 3,
+    "empathy": 3,
+    "crm": 2,
+    "product_knowledge": 3,
+    "multilingual": 3,
+    "data_entry": 2,
+    "problem_solving": 2,
+    "teamwork": 2,
+    "spreadsheets": 1
+   },
+   "photo": "/personas/aisyah.jpg",
+   "photoFocus": "50% 26%"
+  },
+  {
+   "id": "daniel",
+   "name": "Daniel",
+   "headline": "Fresh accounting graduate, first job search",
+   "story": "He keeps reading that AI will replace accountants. He wants a path that uses his degree, is safe whether AI moves slowly or fast, and helps on climate.",
+   "age": 23,
+   "currentSoc": "13-2011.00",
+   "years": 0,
+   "hoursPerWeek": 15,
+   "sdgPriorities": [
+    13,
+    7,
+    8
+   ],
+   "skills": {
+    "accounting": 2,
+    "spreadsheets": 3,
+    "financial_analysis": 2,
+    "analytical_thinking": 2,
+    "communication": 2,
+    "statistics": 1,
+    "data_analysis": 1,
+    "genai": 1,
+    "lifelong_learning": 2
+   },
+   "photo": "/personas/daniel.jpg"
+  },
+  {
+   "id": "meiling",
+   "name": "Mei Ling",
+   "headline": "Administrative assistant, 18 years at a Penang manufacturer",
+   "story": "Her company is automating invoicing and scheduling. She is trusted, organised and speaks three languages, and wants to stay with the firm in a new role.",
+   "age": 44,
+   "currentSoc": "43-6014.00",
+   "years": 18,
+   "hoursPerWeek": 5,
+   "sdgPriorities": [
+    5,
+    8,
+    12
+   ],
+   "skills": {
+    "admin": 3,
+    "data_entry": 3,
+    "spreadsheets": 2,
+    "communication": 2,
+    "multilingual": 3,
+    "teamwork": 3,
+    "accounting": 1,
+    "process_improvement": 1
+   },
+   "photo": "/personas/meiling.jpg"
+  },
+  {
+   "id": "farid",
+   "name": "Farid",
+   "headline": "IT support technician, 5 years at an SME",
+   "story": "AI assistants now answer half the helpdesk tickets. He likes security work and wants to know which move is realistic in the next year.",
+   "age": 29,
+   "currentSoc": "15-1232.00",
+   "years": 5,
+   "hoursPerWeek": 10,
+   "sdgPriorities": [
+    9,
+    16
+   ],
+   "skills": {
+    "it_support": 3,
+    "networking": 2,
+    "cybersecurity": 1,
+    "problem_solving": 2,
+    "communication": 2,
+    "customer_care": 2,
+    "cloud": 1,
+    "python": 1
+   },
+   "photo": "/personas/farid.jpg"
+  }
+ ],
+ "sampleCv": "AISYAH (SYNTHETIC SAMPLE CV — not a real person)\nKuala Lumpur, Malaysia\n\nPROFILE\nCustomer service professional with 12 years in retail banking contact centres. Bilingual in Bahasa Malaysia and English, conversational Mandarin.\n\nEXPERIENCE\nSenior Customer Service Executive — Contact Centre, a Malaysian retail bank (2014 – present)\n- Handle 60+ customer calls and chats a day on accounts, credit cards and loans\n- Resolve complaints and escalations; trained new joiners on complaint handling\n- Record every interaction in Salesforce CRM; maintain call notes and records\n- Explain Islamic banking and takaful products to customers\n\nSKILLS\nCustomer care, complaint resolution, CRM (Salesforce), data entry, Microsoft Office / Excel, communication, problem solving, teamwork, Bahasa Malaysia, English, Mandarin\n\nEDUCATION\nDiploma in Business Studies\n"
+}

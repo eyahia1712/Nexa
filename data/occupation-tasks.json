@@ -1,0 +1,5703 @@
+{
+ "generatedOn": "2026-10-22",
+ "universe": {
+  "onetTasks": 18838,
+  "matchedToAiUse": 18680
+ },
+ "sources": {
+  "onet": {
+   "name": "O*NET 31.0 Database",
+   "publisher": "U.S. Department of Labor / National Center for O*NET Development",
+   "url": "https://www.onetcenter.org/database.html",
+   "licence": "CC BY 4.0"
+  },
+  "aeiLabor": {
+   "name": "Anthropic Economic Index — labor market impacts (job exposure, task coverage)",
+   "publisher": "Anthropic",
+   "url": "https://huggingface.co/datasets/Anthropic/EconomicIndex/tree/main/labor_market_impacts",
+   "published": "2026-03-05",
+   "licence": "CC BY"
+  },
+  "aeiModes": {
+   "name": "Anthropic Economic Index — automation vs augmentation by task (2025-03-27 release)",
+   "publisher": "Anthropic",
+   "url": "https://huggingface.co/datasets/Anthropic/EconomicIndex/tree/main/release_2025_03_27",
+   "published": "2025-03-27",
+   "licence": "CC BY"
+  }
+ },
+ "occupations": {
+  "43-4051.00": {
+   "soc": "43-4051.00",
+   "title": "Customer Service Representatives",
+   "label": "Customer Service Representative",
+   "family": "Customer & sales",
+   "kind": "current",
+   "declineNote": null,
+   "exposure": 0.7011,
+   "exposureSource": "aei_job_exposure",
+   "computedExposure": 0.4819,
+   "taskCount": 13,
+   "coveredTaskCount": 6,
+   "automateShare": 0.0,
+   "tasks": [
+    {
+     "id": "18565",
+     "text": "Confer with customers by telephone or in person to provide information about products or services, take or enter orders, cancel accounts, or obtain details of complaints.",
+     "type": "Core",
+     "importance": 4.67,
+     "coverage": 0.991,
+     "mode": "assist",
+     "automation": 0.364,
+     "augmentation": 0.636
+    },
+    {
+     "id": "2578",
+     "text": "Keep records of customer interactions or transactions, recording details of inquiries, complaints, or comments, as well as actions taken.",
+     "type": "Core",
+     "importance": 4.53,
+     "coverage": 0.9951,
+     "mode": "assist",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "2580",
+     "text": "Check to ensure that appropriate changes were made to resolve customers' problems.",
+     "type": "Core",
+     "importance": 4.39,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "2581",
+     "text": "Contact customers to respond to inquiries or to notify them of claim investigation results or any planned adjustments.",
+     "type": "Core",
+     "importance": 4.22,
+     "coverage": 0.9913,
+     "mode": "assist",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "2579",
+     "text": "Resolve customers' service or billing complaints by performing activities such as exchanging merchandise, refunding money, or adjusting bills.",
+     "type": "Supplemental",
+     "importance": 4.19,
+     "coverage": 0.9872,
+     "mode": "assist",
+     "automation": 0.391,
+     "augmentation": 0.609
+    },
+    {
+     "id": "2583",
+     "text": "Determine charges for services requested, collect deposits or payments, or arrange for billing.",
+     "type": "Core",
+     "importance": 4.18,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "2584",
+     "text": "Complete contract forms, prepare change of address records, or issue service discontinuance orders, using computers.",
+     "type": "Core",
+     "importance": 4.1,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "2582",
+     "text": "Refer unresolved customer grievances to designated departments for further investigation.",
+     "type": "Core",
+     "importance": 4.07,
+     "coverage": 1.0,
+     "mode": "assist",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "2587",
+     "text": "Review insurance policy terms to determine whether a particular loss is covered by insurance.",
+     "type": "Supplemental",
+     "importance": 4.05,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": 0.217,
+     "augmentation": 0.783
+    },
+    {
+     "id": "2586",
+     "text": "Solicit sales of new or additional services or products.",
+     "type": "Supplemental",
+     "importance": 3.87,
+     "coverage": 1.0,
+     "mode": "assist",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "2589",
+     "text": "Compare disputed merchandise with original requisitions and information from invoices and prepare invoices for returned goods.",
+     "type": "Supplemental",
+     "importance": 3.64,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "2585",
+     "text": "Obtain and examine all relevant information to assess validity of complaints and to determine possible causes, such as extreme weather conditions that could increase utility bills.",
+     "type": "Supplemental",
+     "importance": 3.63,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    }
+   ]
+  },
+  "43-9021.00": {
+   "soc": "43-9021.00",
+   "title": "Data Entry Keyers",
+   "label": "Data Entry Clerk",
+   "family": "Office & admin",
+   "kind": "current",
+   "declineNote": "WEF Future of Jobs 2025 lists data entry clerks among the fastest-declining jobs to 2030.",
+   "exposure": 0.6707,
+   "exposureSource": "aei_job_exposure",
+   "computedExposure": 0.1175,
+   "taskCount": 9,
+   "coveredTaskCount": 1,
+   "automateShare": 1.0,
+   "tasks": [
+    {
+     "id": "11405",
+     "text": "Locate and correct data entry errors, or report them to supervisors.",
+     "type": "Core",
+     "importance": 4.82,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "11402",
+     "text": "Compile, sort, and verify the accuracy of data before it is entered.",
+     "type": "Core",
+     "importance": 4.72,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "11403",
+     "text": "Compare data with source documents, or re-enter data in verification format to detect errors.",
+     "type": "Core",
+     "importance": 4.54,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "11401",
+     "text": "Read source documents such as canceled checks, sales reports, or bills, and enter data in specific data fields or onto tapes or disks for subsequent entry, using keyboards or scanners.",
+     "type": "Supplemental",
+     "importance": 4.52,
+     "coverage": 1.0,
+     "mode": "automate",
+     "automation": 1.0,
+     "augmentation": 0.0
+    },
+    {
+     "id": "11404",
+     "text": "Store completed documents in appropriate locations.",
+     "type": "Core",
+     "importance": 4.39,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "11407",
+     "text": "Select materials needed to complete work assignments.",
+     "type": "Core",
+     "importance": 4.38,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "11406",
+     "text": "Maintain logs of activities and completed work.",
+     "type": "Supplemental",
+     "importance": 4.21,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "11408",
+     "text": "Load machines with required input or output media, such as paper, cards, disks, tape, or Braille media.",
+     "type": "Supplemental",
+     "importance": 3.52,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "11409",
+     "text": "Resolve garbled or indecipherable messages, using cryptographic procedures and equipment.",
+     "type": "Supplemental",
+     "importance": 3.38,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": 1.0,
+     "augmentation": 0.0
+    }
+   ]
+  },
+  "43-3031.00": {
+   "soc": "43-3031.00",
+   "title": "Bookkeeping, Accounting, and Auditing Clerks",
+   "label": "Bookkeeping / Accounts Clerk",
+   "family": "Finance",
+   "kind": "current",
+   "declineNote": "WEF Future of Jobs 2025 lists accounting, bookkeeping and payroll clerks among the fastest-declining jobs to 2030.",
+   "exposure": 0.3104,
+   "exposureSource": "aei_job_exposure",
+   "computedExposure": 0.1629,
+   "taskCount": 28,
+   "coveredTaskCount": 5,
+   "automateShare": 0.806,
+   "tasks": [
+    {
+     "id": "2487",
+     "text": "Operate computers programmed with accounting software to record, store, and analyze information.",
+     "type": "Core",
+     "importance": 4.76,
+     "coverage": 1.0,
+     "mode": "automate",
+     "automation": 1.0,
+     "augmentation": 0.0
+    },
+    {
+     "id": "18561",
+     "text": "Prepare and process payroll information.",
+     "type": "Supplemental",
+     "importance": 4.71,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": 0.634,
+     "augmentation": 0.366
+    },
+    {
+     "id": "2486",
+     "text": "Check figures, postings, and documents for correct entry, mathematical accuracy, and proper codes.",
+     "type": "Core",
+     "importance": 4.68,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "2499",
+     "text": "Prepare bank deposits by compiling data from cashiers, verifying and balancing receipts, and sending cash, checks, or other forms of payment to banks.",
+     "type": "Supplemental",
+     "importance": 4.61,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "2488",
+     "text": "Comply with federal, state, and company policies, procedures, and regulations.",
+     "type": "Core",
+     "importance": 4.57,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "2495",
+     "text": "Operate 10-key calculators, typewriters, and copy machines to perform calculations and produce documents.",
+     "type": "Core",
+     "importance": 4.47,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "2500",
+     "text": "Receive, record, and bank cash, checks, and vouchers.",
+     "type": "Core",
+     "importance": 4.46,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "2501",
+     "text": "Calculate and prepare checks for utilities, taxes, and other payments.",
+     "type": "Supplemental",
+     "importance": 4.44,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "2505",
+     "text": "Monitor status of loans and accounts to ensure that payments are up to date.",
+     "type": "Supplemental",
+     "importance": 4.4,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "2503",
+     "text": "Reconcile records of bank transactions.",
+     "type": "Supplemental",
+     "importance": 4.38,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "2507",
+     "text": "Compile budget data and documents, based on estimated revenues and expenses and previous budgets.",
+     "type": "Supplemental",
+     "importance": 4.33,
+     "coverage": 0.7729,
+     "mode": "automate",
+     "automation": 0.545,
+     "augmentation": 0.455
+    },
+    {
+     "id": "2493",
+     "text": "Code documents according to company procedures.",
+     "type": "Core",
+     "importance": 4.32,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    }
+   ]
+  },
+  "13-2011.00": {
+   "soc": "13-2011.00",
+   "title": "Accountants and Auditors",
+   "label": "Accountant / Auditor",
+   "family": "Finance",
+   "kind": "current",
+   "declineNote": null,
+   "exposure": 0.3478,
+   "exposureSource": "aei_job_exposure",
+   "computedExposure": 0.2149,
+   "taskCount": 30,
+   "coveredTaskCount": 7,
+   "automateShare": 0.148,
+   "tasks": [
+    {
+     "id": "21514",
+     "text": "Prepare, examine, or analyze accounting records, financial statements, or other financial reports to assess accuracy, completeness, and conformance to reporting and procedural standards.",
+     "type": "Core",
+     "importance": 4.6,
+     "coverage": 0.8929,
+     "mode": "assist",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "21533",
+     "text": "Process invoices for payment.",
+     "type": "Core",
+     "importance": 4.54,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "21516",
+     "text": "Review accounts for discrepancies and reconcile differences.",
+     "type": "Core",
+     "importance": 4.47,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "21526",
+     "text": "Compute taxes owed and prepare tax returns, ensuring compliance with payment, reporting, or other tax requirements.",
+     "type": "Core",
+     "importance": 4.29,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "21515",
+     "text": "Prepare adjusting journal entries.",
+     "type": "Core",
+     "importance": 4.29,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "21508",
+     "text": "Inspect account books and accounting systems for efficiency, effectiveness, and use of accepted accounting procedures to record transactions.",
+     "type": "Core",
+     "importance": 4.18,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "21505",
+     "text": "Prepare detailed reports on audit findings.",
+     "type": "Core",
+     "importance": 4.07,
+     "coverage": 0.7793,
+     "mode": "automate",
+     "automation": 0.571,
+     "augmentation": 0.429
+    },
+    {
+     "id": "21532",
+     "text": "Prepare, analyze, or verify annual reports, financial statements, and other records, using accepted accounting and statistical procedures to assess financial condition and facilitate financial planning.",
+     "type": "Core",
+     "importance": 4.07,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "21507",
+     "text": "Collect and analyze data to detect deficient controls, duplicated effort, extravagance, fraud, or non-compliance with laws, regulations, and management policies.",
+     "type": "Core",
+     "importance": 4.0,
+     "coverage": 0.9099,
+     "mode": "assist",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "21534",
+     "text": "Review data about material assets, net worth, liabilities, capital stock, surplus, income, or expenditures.",
+     "type": "Core",
+     "importance": 3.94,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "21520",
+     "text": "Report to management regarding the finances of establishment.",
+     "type": "Core",
+     "importance": 3.93,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "21522",
+     "text": "Evaluate taxpayer finances to determine tax liability, using knowledge of interest and discount rates, annuities, valuation of stocks and bonds, and amortization valuation of depletable assets.",
+     "type": "Core",
+     "importance": 3.86,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    }
+   ]
+  },
+  "43-3071.00": {
+   "soc": "43-3071.00",
+   "title": "Tellers",
+   "label": "Bank Teller",
+   "family": "Finance",
+   "kind": "current",
+   "declineNote": "WEF Future of Jobs 2025 lists bank tellers among the fastest-declining jobs to 2030 — driven mostly by digital banking, not by AI chatbots.",
+   "exposure": 0.0231,
+   "exposureSource": "aei_job_exposure",
+   "computedExposure": 0.0239,
+   "taskCount": 28,
+   "coveredTaskCount": 1,
+   "automateShare": 0.0,
+   "tasks": [
+    {
+     "id": "2549",
+     "text": "Balance currency, coin, and checks in cash drawers at ends of shifts and calculate daily transactions, using computers, calculators, or adding machines.",
+     "type": "Core",
+     "importance": 4.81,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "2551",
+     "text": "Receive checks and cash for deposit, verify amounts, and check accuracy of deposit slips.",
+     "type": "Core",
+     "importance": 4.79,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "2563",
+     "text": "Monitor bank vaults to ensure cash balances are correct.",
+     "type": "Core",
+     "importance": 4.78,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "2550",
+     "text": "Cash checks and pay out money after verifying that signatures are correct, that written and numerical amounts agree, and that accounts have sufficient funds.",
+     "type": "Core",
+     "importance": 4.78,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "2554",
+     "text": "Count currency, coins, and checks received, by hand or using currency-counting machine, to prepare them for deposit or shipment to branch banks or the Federal Reserve Bank.",
+     "type": "Core",
+     "importance": 4.7,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "2553",
+     "text": "Enter customers' transactions into computers to record transactions and issue computer-generated receipts.",
+     "type": "Core",
+     "importance": 4.69,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "2552",
+     "text": "Examine checks for endorsements and to verify other information, such as dates, bank names, identification of the persons receiving payments, and the legality of the documents.",
+     "type": "Core",
+     "importance": 4.67,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "2560",
+     "text": "Resolve problems or discrepancies concerning customers' accounts.",
+     "type": "Core",
+     "importance": 4.61,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "2556",
+     "text": "Prepare and verify cashier's checks.",
+     "type": "Core",
+     "importance": 4.61,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "2558",
+     "text": "Process transactions, such as term deposits, retirement savings plan contributions, automated teller transactions, night deposits, and mail deposits.",
+     "type": "Core",
+     "importance": 4.58,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "21076",
+     "text": "Answer telephones and assist customers with their questions.",
+     "type": "Core",
+     "importance": 4.56,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "2568",
+     "text": "Count, verify, and post armored car deposits.",
+     "type": "Supplemental",
+     "importance": 4.55,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    }
+   ]
+  },
+  "43-6014.00": {
+   "soc": "43-6014.00",
+   "title": "Secretaries and Administrative Assistants, Except Legal, Medical, and Executive",
+   "label": "Administrative Assistant",
+   "family": "Office & admin",
+   "kind": "current",
+   "declineNote": "WEF Future of Jobs 2025 lists administrative assistants and executive secretaries among the jobs declining most to 2030.",
+   "exposure": 0.4528,
+   "exposureSource": "aei_job_exposure",
+   "computedExposure": 0.3203,
+   "taskCount": 31,
+   "coveredTaskCount": 10,
+   "automateShare": 0.187,
+   "tasks": [
+    {
+     "id": "2790",
+     "text": "Answer telephones and give information to callers, take messages, or transfer calls to appropriate individuals.",
+     "type": "Core",
+     "importance": 4.33,
+     "coverage": 1.0,
+     "mode": "assist",
+     "automation": 0.487,
+     "augmentation": 0.513
+    },
+    {
+     "id": "2791",
+     "text": "Greet visitors or callers and handle their inquiries or direct them to the appropriate persons according to their needs.",
+     "type": "Core",
+     "importance": 4.32,
+     "coverage": 1.0,
+     "mode": "assist",
+     "automation": 0.0,
+     "augmentation": 1.0
+    },
+    {
+     "id": "20281",
+     "text": "Create, maintain, and enter information into databases.",
+     "type": "Core",
+     "importance": 4.22,
+     "coverage": 0.9688,
+     "mode": "automate",
+     "automation": 0.528,
+     "augmentation": 0.472
+    },
+    {
+     "id": "20280",
+     "text": "Use computers for various applications, such as database management or word processing.",
+     "type": "Core",
+     "importance": 4.22,
+     "coverage": 0.9607,
+     "mode": "assist",
+     "automation": 0.454,
+     "augmentation": 0.546
+    },
+    {
+     "id": "20285",
+     "text": "Perform payroll functions, such as maintaining timekeeping information and processing and submitting payroll.",
+     "type": "Supplemental",
+     "importance": 4.22,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "20286",
+     "text": "Collect and deposit money into accounts, disburse funds from cash accounts to pay bills or invoices, keep records of collections and disbursements, and ensure accounts are balanced.",
+     "type": "Supplemental",
+     "importance": 4.15,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": 0.515,
+     "augmentation": 0.485
+    },
+    {
+     "id": "20283",
+     "text": "Operate office equipment, such as fax machines, copiers, or phone systems and arrange for repairs when equipment malfunctions.",
+     "type": "Core",
+     "importance": 4.06,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "20282",
+     "text": "Set up and manage paper or electronic filing systems, recording information, updating paperwork, or maintaining documents, such as attendance records, correspondence, or other material.",
+     "type": "Core",
+     "importance": 4.0,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "2813",
+     "text": "Operate electronic mail systems and coordinate the flow of information, internally or with other organizations.",
+     "type": "Core",
+     "importance": 3.95,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "2801",
+     "text": "Schedule and confirm appointments for clients, customers, or supervisors.",
+     "type": "Core",
+     "importance": 3.93,
+     "coverage": 0.9907,
+     "mode": "assist",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "2800",
+     "text": "Maintain scheduling and event calendars.",
+     "type": "Core",
+     "importance": 3.84,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "20284",
+     "text": "Compose, type, and distribute meeting notes, routine correspondence, or reports, such as presentations or expense, statistical, or monthly reports.",
+     "type": "Core",
+     "importance": 3.83,
+     "coverage": 0.7412,
+     "mode": "assist",
+     "automation": 0.418,
+     "augmentation": 0.582
+    }
+   ]
+  },
+  "43-4171.00": {
+   "soc": "43-4171.00",
+   "title": "Receptionists and Information Clerks",
+   "label": "Receptionist",
+   "family": "Office & admin",
+   "kind": "current",
+   "declineNote": null,
+   "exposure": 0.4338,
+   "exposureSource": "aei_job_exposure",
+   "computedExposure": 0.2803,
+   "taskCount": 18,
+   "coveredTaskCount": 5,
+   "automateShare": 0.211,
+   "tasks": [
+    {
+     "id": "744",
+     "text": "Operate telephone switchboard to answer, screen, or forward calls, providing information, taking messages, or scheduling appointments.",
+     "type": "Core",
+     "importance": 4.74,
+     "coverage": 1.0,
+     "mode": "assist",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "747",
+     "text": "Greet persons entering establishment, determine nature and purpose of visit, and direct or escort them to specific destinations.",
+     "type": "Core",
+     "importance": 4.69,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "745",
+     "text": "Receive payment and record receipts for services.",
+     "type": "Core",
+     "importance": 4.64,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "751",
+     "text": "Schedule appointments and maintain and update appointment calendars.",
+     "type": "Core",
+     "importance": 4.4,
+     "coverage": 1.0,
+     "mode": "automate",
+     "automation": 0.714,
+     "augmentation": 0.286
+    },
+    {
+     "id": "752",
+     "text": "Analyze data to determine answers to questions from customers or members of the public.",
+     "type": "Supplemental",
+     "importance": 4.22,
+     "coverage": 1.0,
+     "mode": "assist",
+     "automation": 0.408,
+     "augmentation": 0.592
+    },
+    {
+     "id": "756",
+     "text": "Calculate and quote rates for tours, stocks, insurance policies, or other products or services.",
+     "type": "Supplemental",
+     "importance": 4.21,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": 0.62,
+     "augmentation": 0.38
+    },
+    {
+     "id": "750",
+     "text": "Transmit information or documents to customers, using computer, mail, or facsimile machine.",
+     "type": "Core",
+     "importance": 4.12,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": 0.684,
+     "augmentation": 0.316
+    },
+    {
+     "id": "748",
+     "text": "Hear and resolve complaints from customers or the public.",
+     "type": "Core",
+     "importance": 4.11,
+     "coverage": 1.0,
+     "mode": "assist",
+     "automation": 0.0,
+     "augmentation": 1.0
+    },
+    {
+     "id": "749",
+     "text": "File and maintain records.",
+     "type": "Core",
+     "importance": 4.09,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "753",
+     "text": "Provide information about establishment, such as location of departments or offices, employees within the organization, or services provided.",
+     "type": "Core",
+     "importance": 4.02,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": 0.55,
+     "augmentation": 0.45
+    },
+    {
+     "id": "746",
+     "text": "Perform administrative support tasks, such as proofreading, transcribing handwritten information, or operating calculators or computers to work with pay records, invoices, balance sheets, or other documents.",
+     "type": "Core",
+     "importance": 3.97,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "755",
+     "text": "Collect, sort, distribute, or prepare mail, messages, or courier deliveries.",
+     "type": "Core",
+     "importance": 3.91,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    }
+   ]
+  },
+  "43-1011.00": {
+   "soc": "43-1011.00",
+   "title": "First-Line Supervisors of Office and Administrative Support Workers",
+   "label": "Office / Team Supervisor",
+   "family": "Office & admin",
+   "kind": "current",
+   "declineNote": null,
+   "exposure": 0.1856,
+   "exposureSource": "aei_job_exposure",
+   "computedExposure": 0.1542,
+   "taskCount": 28,
+   "coveredTaskCount": 5,
+   "automateShare": 0.0,
+   "tasks": [
+    {
+     "id": "9704",
+     "text": "Supervise the work of office, administrative, or customer service employees to ensure adherence to quality standards, deadlines, and proper procedures, correcting errors or problems.",
+     "type": "Core",
+     "importance": 4.4,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "9703",
+     "text": "Resolve customer complaints or answer customers' questions regarding policies and procedures.",
+     "type": "Core",
+     "importance": 4.36,
+     "coverage": 0.9838,
+     "mode": "assist",
+     "automation": 0.201,
+     "augmentation": 0.799
+    },
+    {
+     "id": "9705",
+     "text": "Provide employees with guidance in handling difficult or complex problems or in resolving escalated complaints or disputes.",
+     "type": "Core",
+     "importance": 4.34,
+     "coverage": 0.685,
+     "mode": "assist",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "9710",
+     "text": "Review records or reports pertaining to activities such as production, payroll, or shipping to verify details, monitor work activities, or evaluate performance.",
+     "type": "Core",
+     "importance": 4.15,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "9707",
+     "text": "Discuss job performance problems with employees to identify causes and issues and to work on resolving problems.",
+     "type": "Core",
+     "importance": 4.12,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "9713",
+     "text": "Prepare and issue work schedules, deadlines, and duty assignments for office or administrative staff.",
+     "type": "Core",
+     "importance": 4.06,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": 0.0,
+     "augmentation": 1.0
+    },
+    {
+     "id": "9711",
+     "text": "Recruit, interview, and select employees.",
+     "type": "Core",
+     "importance": 4.04,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "9712",
+     "text": "Interpret and communicate work procedures and company policies to staff.",
+     "type": "Core",
+     "importance": 4.03,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "9724",
+     "text": "Develop work schedules according to budgets and workloads.",
+     "type": "Supplemental",
+     "importance": 4.01,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "9709",
+     "text": "Evaluate employees' job performance and conformance to regulations and recommend appropriate personnel action.",
+     "type": "Core",
+     "importance": 4.0,
+     "coverage": 0.6937,
+     "mode": "assist",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "9708",
+     "text": "Train or instruct employees in job duties or company policies or arrange for training to be provided.",
+     "type": "Core",
+     "importance": 3.99,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "9716",
+     "text": "Research, compile, and prepare reports, manuals, correspondence, or other information required by management or governmental agencies.",
+     "type": "Core",
+     "importance": 3.98,
+     "coverage": 0.7822,
+     "mode": "assist",
+     "automation": 0.365,
+     "augmentation": 0.635
+    }
+   ]
+  },
+  "13-1161.00": {
+   "soc": "13-1161.00",
+   "title": "Market Research Analysts and Marketing Specialists",
+   "label": "Marketing Specialist",
+   "family": "Marketing & media",
+   "kind": "current",
+   "declineNote": null,
+   "exposure": 0.6483,
+   "exposureSource": "aei_job_exposure",
+   "computedExposure": 0.5979,
+   "taskCount": 13,
+   "coveredTaskCount": 8,
+   "automateShare": 0.233,
+   "tasks": [
+    {
+     "id": "5434",
+     "text": "Prepare reports of findings, illustrating data graphically and translating complex findings into written text.",
+     "type": "Core",
+     "importance": 4.06,
+     "coverage": 0.8788,
+     "mode": "assist",
+     "automation": 0.339,
+     "augmentation": 0.661
+    },
+    {
+     "id": "5437",
+     "text": "Seek and provide information to help companies determine their position in the marketplace.",
+     "type": "Core",
+     "importance": 4.06,
+     "coverage": 0.9792,
+     "mode": "assist",
+     "automation": 0.347,
+     "augmentation": 0.653
+    },
+    {
+     "id": "5439",
+     "text": "Conduct research on consumer opinions and marketing strategies, collaborating with marketing professionals, statisticians, pollsters, and other professionals.",
+     "type": "Core",
+     "importance": 3.94,
+     "coverage": 0.9697,
+     "mode": "assist",
+     "automation": 0.391,
+     "augmentation": 0.609
+    },
+    {
+     "id": "5433",
+     "text": "Collect and analyze data on customer demographics, preferences, needs, and buying habits to identify potential markets and factors affecting product demand.",
+     "type": "Core",
+     "importance": 3.88,
+     "coverage": 0.9548,
+     "mode": "assist",
+     "automation": 0.448,
+     "augmentation": 0.552
+    },
+    {
+     "id": "5443",
+     "text": "Devise and evaluate methods and procedures for collecting data, such as surveys, opinion polls, or questionnaires, or arrange to obtain existing data.",
+     "type": "Core",
+     "importance": 3.85,
+     "coverage": 0.9053,
+     "mode": "automate",
+     "automation": 0.7,
+     "augmentation": 0.3
+    },
+    {
+     "id": "5441",
+     "text": "Gather data on competitors and analyze their prices, sales, and method of marketing and distribution.",
+     "type": "Core",
+     "importance": 3.65,
+     "coverage": 0.9399,
+     "mode": "assist",
+     "automation": 0.405,
+     "augmentation": 0.595
+    },
+    {
+     "id": "5435",
+     "text": "Measure and assess customer and employee satisfaction.",
+     "type": "Core",
+     "importance": 3.62,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "5442",
+     "text": "Monitor industry statistics and follow trends in trade literature.",
+     "type": "Core",
+     "importance": 3.53,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "5440",
+     "text": "Attend staff conferences to provide management with information and proposals concerning the promotion, distribution, design, and pricing of company products or services.",
+     "type": "Supplemental",
+     "importance": 3.45,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "5445",
+     "text": "Direct trained survey interviewers.",
+     "type": "Core",
+     "importance": 3.36,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "5438",
+     "text": "Measure the effectiveness of marketing, advertising, and communications programs and strategies.",
+     "type": "Core",
+     "importance": 3.36,
+     "coverage": 0.9216,
+     "mode": "assist",
+     "automation": 0.313,
+     "augmentation": 0.687
+    },
+    {
+     "id": "5436",
+     "text": "Forecast and track marketing and sales trends, analyzing collected data.",
+     "type": "Core",
+     "importance": 3.12,
+     "coverage": 0.9181,
+     "mode": "automate",
+     "automation": 0.585,
+     "augmentation": 0.415
+    }
+   ]
+  },
+  "27-1024.00": {
+   "soc": "27-1024.00",
+   "title": "Graphic Designers",
+   "label": "Graphic Designer",
+   "family": "Marketing & media",
+   "kind": "current",
+   "declineNote": null,
+   "exposure": 0.3672,
+   "exposureSource": "aei_job_exposure",
+   "computedExposure": 0.1562,
+   "taskCount": 19,
+   "coveredTaskCount": 3,
+   "automateShare": 0.665,
+   "tasks": [
+    {
+     "id": "307",
+     "text": "Key information into computer equipment to create layouts for client or supervisor.",
+     "type": "Core",
+     "importance": 4.7,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "304",
+     "text": "Review final layouts and suggest improvements, as needed.",
+     "type": "Core",
+     "importance": 4.65,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "300",
+     "text": "Determine size and arrangement of illustrative material and copy, and select style and size of type.",
+     "type": "Core",
+     "importance": 4.6,
+     "coverage": 0.8319,
+     "mode": "automate",
+     "automation": 0.528,
+     "augmentation": 0.472
+    },
+    {
+     "id": "306",
+     "text": "Develop graphics and layouts for product illustrations, company logos, and Web sites.",
+     "type": "Core",
+     "importance": 4.56,
+     "coverage": 0.8504,
+     "mode": "assist",
+     "automation": 0.31,
+     "augmentation": 0.69
+    },
+    {
+     "id": "299",
+     "text": "Create designs, concepts, and sample layouts, based on knowledge of layout principles and esthetic design concepts.",
+     "type": "Core",
+     "importance": 4.5,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": 1.0,
+     "augmentation": 0.0
+    },
+    {
+     "id": "301",
+     "text": "Use computer software to generate new images.",
+     "type": "Core",
+     "importance": 4.47,
+     "coverage": 0.9707,
+     "mode": "automate",
+     "automation": 0.559,
+     "augmentation": 0.441
+    },
+    {
+     "id": "23970",
+     "text": "Prepare digital files for printing.",
+     "type": "Core",
+     "importance": 4.45,
+     "coverage": 0.0,
+     "mode": "unknown",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "305",
+     "text": "Confer with clients to discuss and determine layout design.",
+     "type": "Core",
+     "importance": 4.28,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "23971",
+     "text": "Research the target audience of projects.",
+     "type": "Core",
+     "importance": 4.25,
+     "coverage": 0.0,
+     "mode": "unknown",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "303",
+     "text": "Draw and print charts, graphs, illustrations, and other artwork, using computer.",
+     "type": "Core",
+     "importance": 4.15,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "302",
+     "text": "Mark up, paste, and assemble final layouts to prepare layouts for printer.",
+     "type": "Core",
+     "importance": 4.13,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": 0.539,
+     "augmentation": 0.461
+    },
+    {
+     "id": "309",
+     "text": "Study illustrations and photographs to plan presentation of materials, products, or services.",
+     "type": "Core",
+     "importance": 4.1,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    }
+   ]
+  },
+  "27-3091.00": {
+   "soc": "27-3091.00",
+   "title": "Interpreters and Translators",
+   "label": "Interpreter / Translator",
+   "family": "Marketing & media",
+   "kind": "current",
+   "declineNote": null,
+   "exposure": 0.4304,
+   "exposureSource": "aei_job_exposure",
+   "computedExposure": 0.2013,
+   "taskCount": 17,
+   "coveredTaskCount": 4,
+   "automateShare": 1.0,
+   "tasks": [
+    {
+     "id": "9326",
+     "text": "Follow ethical codes that protect the confidentiality of information.",
+     "type": "Core",
+     "importance": 4.86,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": 1.0,
+     "augmentation": 0.0
+    },
+    {
+     "id": "9328",
+     "text": "Translate messages simultaneously or consecutively into specified languages, orally or by using hand signs, maintaining message content, context, and style as much as possible.",
+     "type": "Core",
+     "importance": 4.73,
+     "coverage": 0.7814,
+     "mode": "automate",
+     "automation": 0.568,
+     "augmentation": 0.432
+    },
+    {
+     "id": "9335",
+     "text": "Listen to speakers' statements to determine meanings and to prepare translations, using electronic listening systems as necessary.",
+     "type": "Core",
+     "importance": 4.48,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "9333",
+     "text": "Compile terminology and information to be used in translations, including technical terms such as those for legal or medical material.",
+     "type": "Core",
+     "importance": 4.45,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": 0.0,
+     "augmentation": 1.0
+    },
+    {
+     "id": "9334",
+     "text": "Adapt translations to students' cognitive and grade levels, collaborating with educational team members as necessary.",
+     "type": "Supplemental",
+     "importance": 4.42,
+     "coverage": 0.9655,
+     "mode": "automate",
+     "automation": 0.64,
+     "augmentation": 0.36
+    },
+    {
+     "id": "9332",
+     "text": "Refer to reference materials, such as dictionaries, lexicons, encyclopedias, and computerized terminology banks, as needed to ensure translation accuracy.",
+     "type": "Core",
+     "importance": 4.41,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "9330",
+     "text": "Check translations of technical terms and terminology to ensure that they are accurate and remain consistent throughout translation revisions.",
+     "type": "Core",
+     "importance": 4.35,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": 0.242,
+     "augmentation": 0.758
+    },
+    {
+     "id": "9327",
+     "text": "Identify and resolve conflicts related to the meanings of words, concepts, practices, or behaviors.",
+     "type": "Core",
+     "importance": 4.3,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "9336",
+     "text": "Check original texts or confer with authors to ensure that translations retain the content, meaning, and feeling of the original material.",
+     "type": "Supplemental",
+     "importance": 4.3,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": 0.219,
+     "augmentation": 0.781
+    },
+    {
+     "id": "9337",
+     "text": "Compile information on content and context of information to be translated and on intended audience.",
+     "type": "Core",
+     "importance": 4.24,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "9339",
+     "text": "Adapt software and accompanying technical documents to another language and culture.",
+     "type": "Supplemental",
+     "importance": 4.23,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": 0.0,
+     "augmentation": 1.0
+    },
+    {
+     "id": "9340",
+     "text": "Educate students, parents, staff, and teachers about the roles and functions of educational interpreters.",
+     "type": "Supplemental",
+     "importance": 3.96,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    }
+   ]
+  },
+  "41-4012.00": {
+   "soc": "41-4012.00",
+   "title": "Sales Representatives, Wholesale and Manufacturing, Except Technical and Scientific Products",
+   "label": "Sales Representative",
+   "family": "Customer & sales",
+   "kind": "current",
+   "declineNote": null,
+   "exposure": 0.6279,
+   "exposureSource": "aei_job_exposure",
+   "computedExposure": 0.4811,
+   "taskCount": 18,
+   "coveredTaskCount": 9,
+   "automateShare": 0.0,
+   "tasks": [
+    {
+     "id": "8129",
+     "text": "Negotiate with retail merchants to improve product exposure, such as shelf positioning and advertising.",
+     "type": "Supplemental",
+     "importance": 4.41,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "8127",
+     "text": "Check stock levels and reorder merchandise as necessary.",
+     "type": "Supplemental",
+     "importance": 4.4,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "8128",
+     "text": "Plan, assemble, and stock product displays in retail stores, or make recommendations to retailers regarding product displays, promotional programs, and advertising.",
+     "type": "Supplemental",
+     "importance": 4.38,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": 1.0,
+     "augmentation": 0.0
+    },
+    {
+     "id": "8113",
+     "text": "Answer customers' questions about products, prices, availability, product uses, and credit terms.",
+     "type": "Core",
+     "importance": 4.37,
+     "coverage": 0.9818,
+     "mode": "assist",
+     "automation": 0.262,
+     "augmentation": 0.738
+    },
+    {
+     "id": "8114",
+     "text": "Recommend products to customers, based on customers' needs and interests.",
+     "type": "Core",
+     "importance": 4.29,
+     "coverage": 1.0,
+     "mode": "assist",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "8116",
+     "text": "Estimate or quote prices, credit or contract terms, warranties, and delivery dates.",
+     "type": "Core",
+     "importance": 4.27,
+     "coverage": 0.9632,
+     "mode": "assist",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "8117",
+     "text": "Consult with clients after sales or contract signings to resolve problems and to provide ongoing support.",
+     "type": "Core",
+     "importance": 4.23,
+     "coverage": 1.0,
+     "mode": "assist",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "20268",
+     "text": "Negotiate details of contracts and payments.",
+     "type": "Supplemental",
+     "importance": 4.19,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "20267",
+     "text": "Prepare sales contracts and order forms.",
+     "type": "Core",
+     "importance": 4.16,
+     "coverage": 0.8095,
+     "mode": "assist",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "8119",
+     "text": "Provide customers with product samples and catalogs.",
+     "type": "Core",
+     "importance": 4.14,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "8122",
+     "text": "Monitor market conditions, product innovations, and competitors' products, prices, and sales.",
+     "type": "Core",
+     "importance": 4.06,
+     "coverage": 0.933,
+     "mode": "assist",
+     "automation": 0.244,
+     "augmentation": 0.756
+    },
+    {
+     "id": "8124",
+     "text": "Perform administrative duties, such as preparing sales budgets and reports, keeping sales records, and filing expense account reports.",
+     "type": "Core",
+     "importance": 4.04,
+     "coverage": 0.9687,
+     "mode": "assist",
+     "automation": null,
+     "augmentation": null
+    }
+   ]
+  },
+  "41-2011.00": {
+   "soc": "41-2011.00",
+   "title": "Cashiers",
+   "label": "Cashier",
+   "family": "Customer & sales",
+   "kind": "current",
+   "declineNote": "WEF Future of Jobs 2025 lists cashiers and ticket clerks among the jobs declining most to 2030 — driven by self-service and digital payments.",
+   "exposure": 0.0846,
+   "exposureSource": "aei_job_exposure",
+   "computedExposure": 0.0667,
+   "taskCount": 28,
+   "coveredTaskCount": 2,
+   "automateShare": 0.0,
+   "tasks": [
+    {
+     "id": "2400",
+     "text": "Receive payment by cash, check, credit cards, vouchers, or automatic debits.",
+     "type": "Core",
+     "importance": 4.75,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": 0.396,
+     "augmentation": 0.604
+    },
+    {
+     "id": "2403",
+     "text": "Greet customers entering establishments.",
+     "type": "Core",
+     "importance": 4.7,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": 0.0,
+     "augmentation": 1.0
+    },
+    {
+     "id": "2411",
+     "text": "Calculate total payments received during a time period, and reconcile this with total sales.",
+     "type": "Supplemental",
+     "importance": 4.67,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "2401",
+     "text": "Issue receipts, refunds, credits, or change due to customers.",
+     "type": "Core",
+     "importance": 4.66,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "2402",
+     "text": "Count money in cash drawers at the beginning of shifts to ensure that amounts are correct and that there is adequate change.",
+     "type": "Supplemental",
+     "importance": 4.6,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "2406",
+     "text": "Issue trading stamps, and redeem food stamps and coupons.",
+     "type": "Supplemental",
+     "importance": 4.53,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "18765",
+     "text": "Assist customers by providing information and resolving their complaints.",
+     "type": "Core",
+     "importance": 4.5,
+     "coverage": 0.8856,
+     "mode": "assist",
+     "automation": 0.333,
+     "augmentation": 0.667
+    },
+    {
+     "id": "2422",
+     "text": "Monitor checkout stations to ensure they have adequate cash available and are staffed appropriately.",
+     "type": "Core",
+     "importance": 4.47,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "2405",
+     "text": "Establish or identify prices of goods, services, or admission, and tabulate bills, using calculators, cash registers, or optical price scanners.",
+     "type": "Core",
+     "importance": 4.42,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "2423",
+     "text": "Post charges against guests' or patients' accounts.",
+     "type": "Supplemental",
+     "importance": 4.41,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "2412",
+     "text": "Compute and record totals of transactions.",
+     "type": "Supplemental",
+     "importance": 4.4,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "2410",
+     "text": "Weigh items sold by weight to determine prices.",
+     "type": "Supplemental",
+     "importance": 4.4,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    }
+   ]
+  },
+  "13-1071.00": {
+   "soc": "13-1071.00",
+   "title": "Human Resources Specialists",
+   "label": "HR Specialist",
+   "family": "People & HR",
+   "kind": "current",
+   "declineNote": null,
+   "exposure": 0.4034,
+   "exposureSource": "aei_job_exposure",
+   "computedExposure": 0.3153,
+   "taskCount": 26,
+   "coveredTaskCount": 9,
+   "automateShare": 0.329,
+   "tasks": [
+    {
+     "id": "18861",
+     "text": "Interpret and explain human resources policies, procedures, laws, standards, or regulations.",
+     "type": "Core",
+     "importance": 4.66,
+     "coverage": 0.7865,
+     "mode": "assist",
+     "automation": 0.186,
+     "augmentation": 0.814
+    },
+    {
+     "id": "18859",
+     "text": "Hire employees and process hiring-related paperwork.",
+     "type": "Core",
+     "importance": 4.5,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "21097",
+     "text": "Administer employee benefit plans.",
+     "type": "Supplemental",
+     "importance": 4.45,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "18864",
+     "text": "Maintain current knowledge of Equal Employment Opportunity (EEO) and affirmative action guidelines and laws, such as the Americans with Disabilities Act (ADA).",
+     "type": "Core",
+     "importance": 4.44,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "18869",
+     "text": "Schedule or administer skill, intelligence, psychological, or drug tests for current or prospective employees.",
+     "type": "Supplemental",
+     "importance": 4.34,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "18866",
+     "text": "Prepare or maintain employment records related to events, such as hiring, termination, leaves, transfers, or promotions, using human resources management system software.",
+     "type": "Core",
+     "importance": 4.33,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "18852",
+     "text": "Address employee relations issues, such as harassment allegations, work complaints, or other employee concerns.",
+     "type": "Core",
+     "importance": 4.31,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "18855",
+     "text": "Conduct reference or background checks on job applicants.",
+     "type": "Supplemental",
+     "importance": 4.28,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "18868",
+     "text": "Review employment applications and job orders to match applicants with job requirements.",
+     "type": "Core",
+     "importance": 4.18,
+     "coverage": 0.9369,
+     "mode": "automate",
+     "automation": 0.51,
+     "augmentation": 0.49
+    },
+    {
+     "id": "18860",
+     "text": "Inform job applicants of details such as duties and responsibilities, compensation, benefits, schedules, working conditions, or promotion opportunities.",
+     "type": "Core",
+     "importance": 4.18,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "18871",
+     "text": "Select qualified job applicants or refer them to managers, making hiring recommendations when appropriate.",
+     "type": "Core",
+     "importance": 4.16,
+     "coverage": 0.9296,
+     "mode": "assist",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "18870",
+     "text": "Schedule or conduct new employee orientations.",
+     "type": "Core",
+     "importance": 4.14,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    }
+   ]
+  },
+  "15-1232.00": {
+   "soc": "15-1232.00",
+   "title": "Computer User Support Specialists",
+   "label": "IT Support Technician",
+   "family": "Technology",
+   "kind": "current",
+   "declineNote": null,
+   "exposure": 0.4685,
+   "exposureSource": "aei_job_exposure",
+   "computedExposure": 0.3345,
+   "taskCount": 16,
+   "coveredTaskCount": 6,
+   "automateShare": 0.189,
+   "tasks": [
+    {
+     "id": "1285",
+     "text": "Oversee the daily performance of computer systems.",
+     "type": "Core",
+     "importance": 3.99,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "1286",
+     "text": "Set up equipment for employee use, performing or ensuring proper installation of cables, operating systems, or appropriate software.",
+     "type": "Core",
+     "importance": 3.94,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": 0.409,
+     "augmentation": 0.591
+    },
+    {
+     "id": "1288",
+     "text": "Read technical manuals, confer with users, or conduct computer diagnostics to investigate and resolve problems or to provide technical assistance and support.",
+     "type": "Core",
+     "importance": 3.94,
+     "coverage": 0.9733,
+     "mode": "automate",
+     "automation": 0.516,
+     "augmentation": 0.484
+    },
+    {
+     "id": "1282",
+     "text": "Answer user inquiries regarding computer software or hardware operation to resolve problems.",
+     "type": "Core",
+     "importance": 3.79,
+     "coverage": 0.925,
+     "mode": "assist",
+     "automation": 0.284,
+     "augmentation": 0.716
+    },
+    {
+     "id": "1284",
+     "text": "Install and perform minor repairs to hardware, software, or peripheral equipment, following design or installation specifications.",
+     "type": "Core",
+     "importance": 3.77,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": 0.558,
+     "augmentation": 0.442
+    },
+    {
+     "id": "1289",
+     "text": "Confer with staff, users, and management to establish requirements for new systems or modifications.",
+     "type": "Core",
+     "importance": 3.71,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "1283",
+     "text": "Enter commands and observe system functioning to verify correct operations and detect errors.",
+     "type": "Core",
+     "importance": 3.57,
+     "coverage": 0.9777,
+     "mode": "assist",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "1287",
+     "text": "Maintain records of daily data communication transactions, problems and remedial actions taken, or installation activities.",
+     "type": "Core",
+     "importance": 3.47,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "1291",
+     "text": "Refer major hardware or software problems or defective products to vendors or technicians for service.",
+     "type": "Core",
+     "importance": 3.4,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "1292",
+     "text": "Prepare evaluations of software or hardware, and recommend improvements or upgrades.",
+     "type": "Core",
+     "importance": 3.39,
+     "coverage": 0.772,
+     "mode": "assist",
+     "automation": 0.328,
+     "augmentation": 0.672
+    },
+    {
+     "id": "1290",
+     "text": "Develop training materials and procedures, or train users in the proper use of hardware or software.",
+     "type": "Core",
+     "importance": 3.3,
+     "coverage": 0.7603,
+     "mode": "assist",
+     "automation": 0.0,
+     "augmentation": 1.0
+    },
+    {
+     "id": "1295",
+     "text": "Inspect equipment and read order sheets to prepare for delivery to users.",
+     "type": "Core",
+     "importance": 3.21,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    }
+   ]
+  },
+  "15-1252.00": {
+   "soc": "15-1252.00",
+   "title": "Software Developers",
+   "label": "Software Developer",
+   "family": "Technology",
+   "kind": "both",
+   "declineNote": null,
+   "exposure": 0.288,
+   "exposureSource": "aei_job_exposure",
+   "computedExposure": 0.2982,
+   "taskCount": 17,
+   "coveredTaskCount": 6,
+   "automateShare": 0.0,
+   "tasks": [
+    {
+     "id": "21671",
+     "text": "Monitor functioning of equipment to ensure system operates in conformance with specifications.",
+     "type": "Supplemental",
+     "importance": 4.12,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "21662",
+     "text": "Analyze user needs and software requirements to determine feasibility of design within time and cost constraints.",
+     "type": "Core",
+     "importance": 4.08,
+     "coverage": 0.9097,
+     "mode": "assist",
+     "automation": 0.262,
+     "augmentation": 0.738
+    },
+    {
+     "id": "21669",
+     "text": "Develop or direct software system testing or validation procedures, programming, or documentation.",
+     "type": "Core",
+     "importance": 3.9,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "21664",
+     "text": "Confer with systems analysts, engineers, programmers and others to design systems and to obtain information on project limitations and capabilities, performance requirements and interfaces.",
+     "type": "Core",
+     "importance": 3.75,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "21666",
+     "text": "Coordinate installation of software system.",
+     "type": "Supplemental",
+     "importance": 3.75,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "21670",
+     "text": "Modify existing software to correct errors, adapt it to new hardware, or upgrade interfaces and improve performance.",
+     "type": "Core",
+     "importance": 3.74,
+     "coverage": 0.7239,
+     "mode": "assist",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "21673",
+     "text": "Prepare reports or correspondence concerning project specifications, activities, or status.",
+     "type": "Core",
+     "importance": 3.68,
+     "coverage": 0.7988,
+     "mode": "assist",
+     "automation": 0.331,
+     "augmentation": 0.669
+    },
+    {
+     "id": "21661",
+     "text": "Analyze information to determine, recommend, and plan installation of a new system or modification of an existing system.",
+     "type": "Core",
+     "importance": 3.61,
+     "coverage": 0.8614,
+     "mode": "assist",
+     "automation": 0.307,
+     "augmentation": 0.693
+    },
+    {
+     "id": "21676",
+     "text": "Store, retrieve, and manipulate data for analysis of system capabilities and requirements.",
+     "type": "Core",
+     "importance": 3.59,
+     "coverage": 0.9561,
+     "mode": "assist",
+     "automation": 0.371,
+     "augmentation": 0.629
+    },
+    {
+     "id": "21667",
+     "text": "Design, develop and modify software systems, using scientific analysis and mathematical models to predict and measure outcomes and consequences of design.",
+     "type": "Core",
+     "importance": 3.56,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "21668",
+     "text": "Determine system performance standards.",
+     "type": "Core",
+     "importance": 3.53,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "21678",
+     "text": "Supervise the work of programmers, technologists and technicians and other engineering and scientific personnel.",
+     "type": "Supplemental",
+     "importance": 3.51,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    }
+   ]
+  },
+  "15-1244.00": {
+   "soc": "15-1244.00",
+   "title": "Network and Computer Systems Administrators",
+   "label": "Network & Systems Administrator",
+   "family": "Technology",
+   "kind": "current",
+   "declineNote": null,
+   "exposure": 0.3373,
+   "exposureSource": "aei_job_exposure",
+   "computedExposure": 0.2546,
+   "taskCount": 20,
+   "coveredTaskCount": 6,
+   "automateShare": 0.19,
+   "tasks": [
+    {
+     "id": "1319",
+     "text": "Plan, coordinate, and implement network security measures to protect data, software, and hardware.",
+     "type": "Core",
+     "importance": 4.56,
+     "coverage": 0.8309,
+     "mode": "assist",
+     "automation": 0.301,
+     "augmentation": 0.699
+    },
+    {
+     "id": "1317",
+     "text": "Perform data backups and disaster recovery operations.",
+     "type": "Core",
+     "importance": 4.35,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": 0.278,
+     "augmentation": 0.722
+    },
+    {
+     "id": "15205",
+     "text": "Diagnose, troubleshoot, and resolve hardware, software, or other network and system problems, and replace defective components when necessary.",
+     "type": "Core",
+     "importance": 4.12,
+     "coverage": 0.9351,
+     "mode": "automate",
+     "automation": 0.569,
+     "augmentation": 0.431
+    },
+    {
+     "id": "1318",
+     "text": "Maintain and administer computer networks and related computing environments, including computer hardware, systems software, applications software, and all configurations.",
+     "type": "Core",
+     "importance": 4.08,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "15206",
+     "text": "Configure, monitor, and maintain email applications or virus protection software.",
+     "type": "Core",
+     "importance": 3.92,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "1324",
+     "text": "Confer with network users about solutions to existing system problems.",
+     "type": "Core",
+     "importance": 3.79,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "1320",
+     "text": "Operate master consoles to monitor the performance of computer systems and networks and to coordinate computer network access and use.",
+     "type": "Core",
+     "importance": 3.73,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "1330",
+     "text": "Maintain logs related to network functions, as well as maintenance and repair records.",
+     "type": "Core",
+     "importance": 3.65,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "1325",
+     "text": "Monitor network performance to determine whether adjustments are needed and where changes will be needed in the future.",
+     "type": "Core",
+     "importance": 3.57,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "1322",
+     "text": "Design, configure, and test computer hardware, networking software and operating system software.",
+     "type": "Core",
+     "importance": 3.48,
+     "coverage": 0.9137,
+     "mode": "assist",
+     "automation": 0.481,
+     "augmentation": 0.519
+    },
+    {
+     "id": "1332",
+     "text": "Maintain an inventory of parts for emergency repairs.",
+     "type": "Core",
+     "importance": 3.44,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "1321",
+     "text": "Perform routine network startup and shutdown procedures, and maintain control records.",
+     "type": "Core",
+     "importance": 3.35,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    }
+   ]
+  },
+  "51-9061.00": {
+   "soc": "51-9061.00",
+   "title": "Inspectors, Testers, Sorters, Samplers, and Weighers",
+   "label": "Quality Inspector (Manufacturing)",
+   "family": "Manufacturing",
+   "kind": "current",
+   "declineNote": null,
+   "exposure": 0.0324,
+   "exposureSource": "aei_job_exposure",
+   "computedExposure": 0.0324,
+   "taskCount": 31,
+   "coveredTaskCount": 1,
+   "automateShare": 0.0,
+   "tasks": [
+    {
+     "id": "12472",
+     "text": "Discard or reject products, materials, or equipment not meeting specifications.",
+     "type": "Core",
+     "importance": 4.68,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "12478",
+     "text": "Mark items with details, such as grade or acceptance-rejection status.",
+     "type": "Core",
+     "importance": 4.57,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "12480",
+     "text": "Measure dimensions of products to verify conformance to specifications, using measuring instruments, such as rulers, calipers, gauges, or micrometers.",
+     "type": "Core",
+     "importance": 4.49,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "20299",
+     "text": "Notify supervisors or other personnel of production problems.",
+     "type": "Core",
+     "importance": 4.48,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "12474",
+     "text": "Inspect, test, or measure materials, products, installations, or work for conformance to specifications.",
+     "type": "Core",
+     "importance": 4.46,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "12485",
+     "text": "Write test or inspection reports describing results, recommendations, or needed repairs.",
+     "type": "Core",
+     "importance": 4.39,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "20300",
+     "text": "Recommend necessary corrective actions, based on inspection results.",
+     "type": "Core",
+     "importance": 4.36,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "12486",
+     "text": "Read dials or meters to verify that equipment is functioning at specified levels.",
+     "type": "Core",
+     "importance": 4.33,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "12495",
+     "text": "Make minor adjustments to equipment, such as turning setscrews to calibrate instruments to required tolerances.",
+     "type": "Core",
+     "importance": 4.32,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "20298",
+     "text": "Read blueprints, data, manuals, or other materials to determine specifications, inspection and testing procedures, adjustment methods, certification processes, formulas, or measuring instruments required.",
+     "type": "Core",
+     "importance": 4.31,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "20302",
+     "text": "Check arriving materials to ensure that they match purchase orders, submitting discrepancy reports as necessary.",
+     "type": "Supplemental",
+     "importance": 4.29,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "20306",
+     "text": "Monitor production operations or equipment to ensure conformance to specifications, making necessary process or assembly adjustments.",
+     "type": "Core",
+     "importance": 4.27,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    }
+   ]
+  },
+  "11-1021.00": {
+   "soc": "11-1021.00",
+   "title": "General and Operations Managers",
+   "label": "General / Operations Manager",
+   "family": "Management",
+   "kind": "both",
+   "declineNote": null,
+   "exposure": 0.1378,
+   "exposureSource": "aei_job_exposure",
+   "computedExposure": 0.1082,
+   "taskCount": 17,
+   "coveredTaskCount": 2,
+   "automateShare": 0.0,
+   "tasks": [
+    {
+     "id": "20699",
+     "text": "Review financial statements, sales or activity reports, or other performance data to measure productivity or goal achievement or to identify areas needing cost reduction or program improvement.",
+     "type": "Core",
+     "importance": 4.18,
+     "coverage": 0.9284,
+     "mode": "assist",
+     "automation": 0.458,
+     "augmentation": 0.542
+    },
+    {
+     "id": "933",
+     "text": "Direct and coordinate activities of businesses or departments concerned with the production, pricing, sales, or distribution of products.",
+     "type": "Core",
+     "importance": 4.14,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "20708",
+     "text": "Manage the movement of goods into and out of production facilities to ensure efficiency, effectiveness, or sustainability of operations.",
+     "type": "Supplemental",
+     "importance": 4.03,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "20700",
+     "text": "Direct administrative activities directly related to making products or providing services.",
+     "type": "Core",
+     "importance": 4.01,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "20707",
+     "text": "Set prices or credit terms for goods or services, based on forecasts of customer demand.",
+     "type": "Supplemental",
+     "importance": 4.01,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "20701",
+     "text": "Prepare staff work schedules and assign specific duties.",
+     "type": "Core",
+     "importance": 3.98,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "20703",
+     "text": "Direct or coordinate financial or budget activities to fund operations, maximize investments, or increase efficiency.",
+     "type": "Core",
+     "importance": 3.9,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "944",
+     "text": "Perform sales floor work, such as greeting or assisting customers, stocking shelves, or taking inventory.",
+     "type": "Supplemental",
+     "importance": 3.87,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "20706",
+     "text": "Plan or direct activities, such as sales promotions, that require coordination with other department managers.",
+     "type": "Core",
+     "importance": 3.83,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "20705",
+     "text": "Perform personnel functions, such as selection, training, or evaluation.",
+     "type": "Core",
+     "importance": 3.79,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "20704",
+     "text": "Establish or implement departmental policies, goals, objectives, or procedures in conjunction with board members, organization officials, or staff members.",
+     "type": "Core",
+     "importance": 3.74,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "945",
+     "text": "Develop or implement product-marketing strategies, including advertising campaigns or sales promotions.",
+     "type": "Supplemental",
+     "importance": 3.57,
+     "coverage": 0.8167,
+     "mode": "assist",
+     "automation": null,
+     "augmentation": null
+    }
+   ]
+  },
+  "25-2031.00": {
+   "soc": "25-2031.00",
+   "title": "Secondary School Teachers, Except Special and Career/Technical Education",
+   "label": "Secondary School Teacher",
+   "family": "Education",
+   "kind": "both",
+   "declineNote": null,
+   "exposure": 0.2901,
+   "exposureSource": "aei_job_exposure",
+   "computedExposure": 0.2322,
+   "taskCount": 32,
+   "coveredTaskCount": 8,
+   "automateShare": 0.499,
+   "tasks": [
+    {
+     "id": "6650",
+     "text": "Prepare students for later grades by encouraging them to explore learning opportunities and to persevere with challenging tasks.",
+     "type": "Core",
+     "importance": 4.34,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "6640",
+     "text": "Instruct through lectures, discussions, and demonstrations in one or more subjects, such as English, mathematics, or social studies.",
+     "type": "Core",
+     "importance": 4.32,
+     "coverage": 0.8533,
+     "mode": "assist",
+     "automation": 0.217,
+     "augmentation": 0.783
+    },
+    {
+     "id": "6639",
+     "text": "Establish and enforce rules for behavior and procedures for maintaining order among students.",
+     "type": "Core",
+     "importance": 4.32,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "6643",
+     "text": "Prepare materials and classrooms for class activities.",
+     "type": "Core",
+     "importance": 4.3,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": 0.5,
+     "augmentation": 0.5
+    },
+    {
+     "id": "6644",
+     "text": "Adapt teaching methods and instructional materials to meet students' varying needs and interests.",
+     "type": "Core",
+     "importance": 4.24,
+     "coverage": 0.8162,
+     "mode": "assist",
+     "automation": 0.291,
+     "augmentation": 0.709
+    },
+    {
+     "id": "6642",
+     "text": "Prepare, administer, and grade tests and assignments to evaluate students' progress.",
+     "type": "Core",
+     "importance": 4.06,
+     "coverage": 0.9441,
+     "mode": "automate",
+     "automation": 0.633,
+     "augmentation": 0.367
+    },
+    {
+     "id": "6641",
+     "text": "Establish clear objectives for all lessons, units, and projects, and communicate those objectives to students.",
+     "type": "Core",
+     "importance": 3.94,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "6647",
+     "text": "Observe and evaluate students' performance, behavior, social development, and physical health.",
+     "type": "Core",
+     "importance": 3.93,
+     "coverage": 0.9429,
+     "mode": "automate",
+     "automation": 0.85,
+     "augmentation": 0.15
+    },
+    {
+     "id": "6649",
+     "text": "Plan and conduct activities for a balanced program of instruction, demonstration, and work time that provides students with opportunities to observe, question, and investigate.",
+     "type": "Core",
+     "importance": 3.92,
+     "coverage": 0.8702,
+     "mode": "assist",
+     "automation": 0.455,
+     "augmentation": 0.545
+    },
+    {
+     "id": "6651",
+     "text": "Guide and counsel students with adjustments, academic problems, or special academic interests.",
+     "type": "Core",
+     "importance": 3.91,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "6654",
+     "text": "Use computers, audio-visual aids, and other equipment and materials to supplement presentations.",
+     "type": "Core",
+     "importance": 3.91,
+     "coverage": 0.8833,
+     "mode": "automate",
+     "automation": 0.512,
+     "augmentation": 0.488
+    },
+    {
+     "id": "6657",
+     "text": "Prepare objectives and outlines for courses of study, following curriculum guidelines or requirements of states and schools.",
+     "type": "Core",
+     "importance": 3.91,
+     "coverage": 0.8566,
+     "mode": "automate",
+     "automation": 0.636,
+     "augmentation": 0.364
+    }
+   ]
+  },
+  "29-1141.00": {
+   "soc": "29-1141.00",
+   "title": "Registered Nurses",
+   "label": "Registered Nurse",
+   "family": "Health",
+   "kind": "both",
+   "declineNote": null,
+   "exposure": 0.0595,
+   "exposureSource": "aei_job_exposure",
+   "computedExposure": 0.0398,
+   "taskCount": 27,
+   "coveredTaskCount": 1,
+   "automateShare": 0.0,
+   "tasks": [
+    {
+     "id": "1841",
+     "text": "Record patients' medical information and vital signs.",
+     "type": "Core",
+     "importance": 4.74,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "20413",
+     "text": "Administer medications to patients and monitor patients for reactions or side effects.",
+     "type": "Core",
+     "importance": 4.7,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "1839",
+     "text": "Maintain accurate, detailed reports and records.",
+     "type": "Core",
+     "importance": 4.69,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "1840",
+     "text": "Monitor, record, and report symptoms or changes in patients' conditions.",
+     "type": "Core",
+     "importance": 4.61,
+     "coverage": 0.9934,
+     "mode": "assist",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "1855",
+     "text": "Provide health care, first aid, immunizations, or assistance in convalescence or rehabilitation in locations such as schools, hospitals, or industry.",
+     "type": "Core",
+     "importance": 4.56,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "1843",
+     "text": "Consult and coordinate with healthcare team members to assess, plan, implement, or evaluate patient care plans.",
+     "type": "Core",
+     "importance": 4.48,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "1846",
+     "text": "Direct or supervise less-skilled nursing or healthcare personnel or supervise a particular unit.",
+     "type": "Core",
+     "importance": 4.46,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "1845",
+     "text": "Monitor all aspects of patient care, including diet and physical activity.",
+     "type": "Core",
+     "importance": 4.44,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "1861",
+     "text": "Perform administrative or managerial functions, such as taking responsibility for a unit's staff, budget, planning, or long-range goals.",
+     "type": "Supplemental",
+     "importance": 4.42,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "1844",
+     "text": "Order, interpret, and evaluate diagnostic tests to identify and assess patient's condition.",
+     "type": "Supplemental",
+     "importance": 4.41,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "1859",
+     "text": "Prescribe or recommend drugs, medical devices, or other forms of treatment, such as physical therapy, inhalation therapy, or related therapeutic procedures.",
+     "type": "Supplemental",
+     "importance": 4.4,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "1860",
+     "text": "Direct or coordinate infection control programs, advising or consulting with specified personnel about necessary precautions.",
+     "type": "Supplemental",
+     "importance": 4.38,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    }
+   ]
+  },
+  "11-1011.00": {
+   "soc": "11-1011.00",
+   "title": "Chief Executives",
+   "label": "Chief Executive",
+   "family": "Management",
+   "kind": "anchor",
+   "declineNote": null,
+   "exposure": 0.0333,
+   "exposureSource": "aei_job_exposure",
+   "computedExposure": 0.0542,
+   "taskCount": 31,
+   "coveredTaskCount": 2,
+   "automateShare": 0.0,
+   "tasks": [
+    {
+     "id": "8823",
+     "text": "Direct or coordinate an organization's financial or budget activities to fund operations, maximize investments, or increase efficiency.",
+     "type": "Core",
+     "importance": 4.52,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": 0.377,
+     "augmentation": 0.623
+    },
+    {
+     "id": "8824",
+     "text": "Confer with board members, organization officials, or staff members to discuss issues, coordinate activities, or resolve problems.",
+     "type": "Core",
+     "importance": 4.32,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": 0.289,
+     "augmentation": 0.711
+    },
+    {
+     "id": "8827",
+     "text": "Prepare budgets for approval, including those for funding or implementation of programs.",
+     "type": "Core",
+     "importance": 4.3,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "8826",
+     "text": "Direct, plan, or implement policies, objectives, or activities of organizations or businesses to ensure continuing operations, to maximize returns on investments, or to increase productivity.",
+     "type": "Core",
+     "importance": 4.24,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "8834",
+     "text": "Prepare or present reports concerning activities, expenses, budgets, government statutes or rulings, or other items affecting businesses or program services.",
+     "type": "Core",
+     "importance": 4.17,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": 0.396,
+     "augmentation": 0.604
+    },
+    {
+     "id": "8836",
+     "text": "Implement corrective action plans to solve organizational or departmental problems.",
+     "type": "Core",
+     "importance": 4.14,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "8825",
+     "text": "Analyze operations to evaluate performance of a company or its staff in meeting objectives or to determine areas of potential cost reduction, program improvement, or policy change.",
+     "type": "Core",
+     "importance": 4.13,
+     "coverage": 0.831,
+     "mode": "assist",
+     "automation": 0.323,
+     "augmentation": 0.677
+    },
+    {
+     "id": "8828",
+     "text": "Direct or coordinate activities of businesses or departments concerned with production, pricing, sales, or distribution of products.",
+     "type": "Core",
+     "importance": 4.13,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "8832",
+     "text": "Direct human resources activities, including the approval of human resource plans or activities, the selection of directors or other high-level staff, or establishment or organization of major departments.",
+     "type": "Core",
+     "importance": 4.13,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "8831",
+     "text": "Appoint department heads or managers and assign or delegate responsibilities to them.",
+     "type": "Core",
+     "importance": 4.09,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "8843",
+     "text": "Interpret and explain policies, rules, regulations, or laws to organizations, government or corporate officials, or individuals.",
+     "type": "Core",
+     "importance": 4.09,
+     "coverage": 0.7833,
+     "mode": "assist",
+     "automation": 0.113,
+     "augmentation": 0.887
+    },
+    {
+     "id": "8830",
+     "text": "Review reports submitted by staff members to recommend approval or to suggest changes.",
+     "type": "Core",
+     "importance": 4.07,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    }
+   ]
+  },
+  "11-3031.00": {
+   "soc": "11-3031.00",
+   "title": "Financial Managers",
+   "label": "Finance Manager",
+   "family": "Management",
+   "kind": "anchor",
+   "declineNote": null,
+   "exposure": 0.3907,
+   "exposureSource": "aei_job_exposure",
+   "computedExposure": 0.2808,
+   "taskCount": 17,
+   "coveredTaskCount": 5,
+   "automateShare": 0.205,
+   "tasks": [
+    {
+     "id": "21327",
+     "text": "Establish procedures for custody or control of assets, records, loan collateral, or securities to ensure safekeeping.",
+     "type": "Supplemental",
+     "importance": 4.38,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "21311",
+     "text": "Establish and maintain relationships with individual or business customers or provide assistance with problems these customers may encounter.",
+     "type": "Core",
+     "importance": 4.3,
+     "coverage": 1.0,
+     "mode": "assist",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "21322",
+     "text": "Communicate with stockholders or other investors to provide information or to raise capital.",
+     "type": "Supplemental",
+     "importance": 4.24,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "21319",
+     "text": "Oversee the flow of cash or financial instruments.",
+     "type": "Core",
+     "importance": 4.2,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "21321",
+     "text": "Develop or analyze information to assess the current or future financial status of firms.",
+     "type": "Supplemental",
+     "importance": 4.14,
+     "coverage": 0.9225,
+     "mode": "assist",
+     "automation": 0.385,
+     "augmentation": 0.615
+    },
+    {
+     "id": "21312",
+     "text": "Plan, direct, or coordinate the activities of workers in branches, offices, or departments of establishments, such as branch banks, brokerage firms, risk and insurance departments, or credit departments.",
+     "type": "Core",
+     "importance": 4.13,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "21318",
+     "text": "Approve, reject, or coordinate the approval or rejection of lines of credit or commercial, real estate, or personal loans.",
+     "type": "Supplemental",
+     "importance": 4.09,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "21320",
+     "text": "Prepare financial or regulatory reports required by laws, regulations, or boards of directors.",
+     "type": "Supplemental",
+     "importance": 4.04,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "21317",
+     "text": "Examine, evaluate, or process loan applications.",
+     "type": "Supplemental",
+     "importance": 3.98,
+     "coverage": 0.9784,
+     "mode": "automate",
+     "automation": 0.553,
+     "augmentation": 0.447
+    },
+    {
+     "id": "21323",
+     "text": "Evaluate financial reporting systems, accounting or collection procedures, or investment activities and make recommendations for changes to procedures, operating systems, budgets, or other financial control functions.",
+     "type": "Supplemental",
+     "importance": 3.82,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": 0.368,
+     "augmentation": 0.632
+    },
+    {
+     "id": "21313",
+     "text": "Recruit staff members.",
+     "type": "Core",
+     "importance": 3.78,
+     "coverage": 0.9241,
+     "mode": "assist",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "21325",
+     "text": "Network within communities to find and attract new business.",
+     "type": "Supplemental",
+     "importance": 3.76,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    }
+   ]
+  },
+  "11-3021.00": {
+   "soc": "11-3021.00",
+   "title": "Computer and Information Systems Managers",
+   "label": "IT Manager",
+   "family": "Management",
+   "kind": "anchor",
+   "declineNote": null,
+   "exposure": 0.1559,
+   "exposureSource": "aei_job_exposure",
+   "computedExposure": 0.1869,
+   "taskCount": 17,
+   "coveredTaskCount": 4,
+   "automateShare": 0.0,
+   "tasks": [
+    {
+     "id": "966",
+     "text": "Manage backup, security and user help systems.",
+     "type": "Supplemental",
+     "importance": 4.19,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "968",
+     "text": "Direct daily operations of department, analyzing workflow, establishing priorities, developing standards and setting deadlines.",
+     "type": "Core",
+     "importance": 4.11,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "975",
+     "text": "Meet with department heads, managers, supervisors, vendors, and others, to solicit cooperation and resolve problems.",
+     "type": "Core",
+     "importance": 4.1,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "978",
+     "text": "Review project plans to plan and coordinate project activity.",
+     "type": "Core",
+     "importance": 4.08,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "969",
+     "text": "Assign and review the work of systems analysts, programmers, and other computer-related workers.",
+     "type": "Core",
+     "importance": 4.04,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "15198",
+     "text": "Provide users with technical support for computer problems.",
+     "type": "Core",
+     "importance": 3.99,
+     "coverage": 0.9603,
+     "mode": "assist",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "971",
+     "text": "Develop computer information resources, providing for data security and control, strategic computing, and disaster recovery.",
+     "type": "Core",
+     "importance": 3.94,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "977",
+     "text": "Recruit, hire, train and supervise staff, or participate in staffing decisions.",
+     "type": "Core",
+     "importance": 3.88,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "970",
+     "text": "Stay abreast of advances in technology.",
+     "type": "Core",
+     "importance": 3.88,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "967",
+     "text": "Consult with users, management, vendors, and technicians to assess computing needs and system requirements.",
+     "type": "Core",
+     "importance": 3.85,
+     "coverage": 0.7066,
+     "mode": "assist",
+     "automation": 0.22,
+     "augmentation": 0.78
+    },
+    {
+     "id": "976",
+     "text": "Develop and interpret organizational goals, policies, and procedures.",
+     "type": "Core",
+     "importance": 3.7,
+     "coverage": 0.7344,
+     "mode": "assist",
+     "automation": 0.357,
+     "augmentation": 0.643
+    },
+    {
+     "id": "973",
+     "text": "Evaluate the organization's technology use and needs and recommend improvements, such as hardware and software upgrades.",
+     "type": "Core",
+     "importance": 3.7,
+     "coverage": 0.7921,
+     "mode": "assist",
+     "automation": 0.409,
+     "augmentation": 0.591
+    }
+   ]
+  },
+  "11-3121.00": {
+   "soc": "11-3121.00",
+   "title": "Human Resources Managers",
+   "label": "HR Manager",
+   "family": "Management",
+   "kind": "anchor",
+   "declineNote": null,
+   "exposure": 0.0,
+   "exposureSource": "aei_job_exposure",
+   "computedExposure": 0.0,
+   "taskCount": 26,
+   "coveredTaskCount": 0,
+   "automateShare": 0.0,
+   "tasks": [
+    {
+     "id": "990",
+     "text": "Serve as a link between management and employees by handling questions, interpreting and administering contracts and helping resolve work-related problems.",
+     "type": "Core",
+     "importance": 4.68,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "991",
+     "text": "Plan, direct, supervise, and coordinate work activities of subordinates and staff relating to employment, compensation, labor relations, and employee relations.",
+     "type": "Core",
+     "importance": 4.55,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "986",
+     "text": "Perform difficult staffing duties, including dealing with understaffing, refereeing disputes, firing employees, and administering disciplinary procedures.",
+     "type": "Core",
+     "importance": 4.48,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "998",
+     "text": "Represent organization at personnel-related hearings and investigations.",
+     "type": "Core",
+     "importance": 4.41,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "999",
+     "text": "Negotiate bargaining agreements and help interpret labor contracts.",
+     "type": "Core",
+     "importance": 4.33,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "987",
+     "text": "Advise managers on organizational policy matters, such as equal employment opportunity and sexual harassment, and recommend needed changes.",
+     "type": "Core",
+     "importance": 4.32,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "989",
+     "text": "Plan and conduct new employee orientation to foster positive attitude toward organizational objectives.",
+     "type": "Core",
+     "importance": 4.09,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "988",
+     "text": "Analyze and modify compensation and benefits policies to establish competitive programs and ensure compliance with legal requirements.",
+     "type": "Core",
+     "importance": 4.05,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": 0.491,
+     "augmentation": 0.509
+    },
+    {
+     "id": "983",
+     "text": "Identify staff vacancies and recruit, interview, and select applicants.",
+     "type": "Core",
+     "importance": 4.05,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "997",
+     "text": "Investigate and report on industrial accidents for insurance carriers.",
+     "type": "Core",
+     "importance": 4.0,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "994",
+     "text": "Analyze statistical data and reports to identify and determine causes of personnel problems and develop recommendations for improvement of organization's personnel policies and practices.",
+     "type": "Core",
+     "importance": 4.0,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": 0.431,
+     "augmentation": 0.569
+    },
+    {
+     "id": "982",
+     "text": "Administer compensation, benefits, and performance management systems, and safety and recreation programs.",
+     "type": "Core",
+     "importance": 3.91,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    }
+   ]
+  },
+  "11-2021.00": {
+   "soc": "11-2021.00",
+   "title": "Marketing Managers",
+   "label": "Marketing Manager",
+   "family": "Management",
+   "kind": "anchor",
+   "declineNote": null,
+   "exposure": 0.3195,
+   "exposureSource": "aei_job_exposure",
+   "computedExposure": 0.2172,
+   "taskCount": 20,
+   "coveredTaskCount": 5,
+   "automateShare": 0.0,
+   "tasks": [
+    {
+     "id": "20709",
+     "text": "Formulate, direct, or coordinate marketing activities or policies to promote products or services, working with advertising or promotion managers.",
+     "type": "Core",
+     "importance": 4.08,
+     "coverage": 0.8136,
+     "mode": "assist",
+     "automation": 0.336,
+     "augmentation": 0.664
+    },
+    {
+     "id": "958",
+     "text": "Use sales forecasting or strategic planning to ensure the sale and profitability of products, lines, or services, analyzing business developments and monitoring market trends.",
+     "type": "Core",
+     "importance": 3.94,
+     "coverage": 0.803,
+     "mode": "assist",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "951",
+     "text": "Identify, develop, or evaluate marketing strategy, based on knowledge of establishment objectives, market characteristics, and cost and markup factors.",
+     "type": "Core",
+     "importance": 3.89,
+     "coverage": 0.7316,
+     "mode": "assist",
+     "automation": 0.0,
+     "augmentation": 1.0
+    },
+    {
+     "id": "954",
+     "text": "Direct the hiring, training, or performance evaluations of marketing or sales staff and oversee their daily activities.",
+     "type": "Core",
+     "importance": 3.82,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "952",
+     "text": "Evaluate the financial aspects of product development, such as budgets, expenditures, research and development appropriations, or return-on-investment and profit-loss projections.",
+     "type": "Core",
+     "importance": 3.77,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "950",
+     "text": "Develop pricing strategies, balancing firm objectives and customer satisfaction.",
+     "type": "Core",
+     "importance": 3.76,
+     "coverage": 0.6326,
+     "mode": "assist",
+     "automation": 0.0,
+     "augmentation": 1.0
+    },
+    {
+     "id": "963",
+     "text": "Initiate market research studies, or analyze their findings.",
+     "type": "Core",
+     "importance": 3.71,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "964",
+     "text": "Consult with buying personnel to gain advice regarding the types of products or services expected to be in demand.",
+     "type": "Supplemental",
+     "importance": 3.64,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "957",
+     "text": "Compile lists describing product or service offerings.",
+     "type": "Core",
+     "importance": 3.62,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "956",
+     "text": "Consult with product development personnel on product specifications, such as design, color, or packaging.",
+     "type": "Core",
+     "importance": 3.61,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "19505",
+     "text": "Recommend modifications to products, packaging, production processes, or other characteristics to improve the environmental soundness or sustainability of products.",
+     "type": "Core",
+     "importance": 3.57,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "965",
+     "text": "Conduct economic or commercial surveys to identify potential markets for products or services.",
+     "type": "Core",
+     "importance": 3.43,
+     "coverage": 0.9165,
+     "mode": "assist",
+     "automation": null,
+     "augmentation": null
+    }
+   ]
+  },
+  "15-1221.00": {
+   "soc": "15-1221.00",
+   "title": "Computer and Information Research Scientists",
+   "label": "AI & Machine Learning Specialist",
+   "family": "Technology",
+   "kind": "anchor",
+   "declineNote": null,
+   "exposure": 0.3404,
+   "exposureSource": "aei_job_exposure",
+   "computedExposure": 0.2964,
+   "taskCount": 15,
+   "coveredTaskCount": 5,
+   "automateShare": 0.0,
+   "tasks": [
+    {
+     "id": "14623",
+     "text": "Analyze problems to develop solutions involving computer hardware and software.",
+     "type": "Core",
+     "importance": 4.24,
+     "coverage": 0.8725,
+     "mode": "assist",
+     "automation": 0.319,
+     "augmentation": 0.681
+    },
+    {
+     "id": "14626",
+     "text": "Apply theoretical expertise and innovation to create or apply new technology, such as adapting principles for applying computers to new uses.",
+     "type": "Core",
+     "importance": 3.89,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": 0.0,
+     "augmentation": 1.0
+    },
+    {
+     "id": "14624",
+     "text": "Assign or schedule tasks to meet work priorities and goals.",
+     "type": "Core",
+     "importance": 3.76,
+     "coverage": 1.0,
+     "mode": "assist",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "14634",
+     "text": "Maintain network hardware and software, direct network security measures, and monitor networks to ensure availability to system users.",
+     "type": "Supplemental",
+     "importance": 3.69,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "14628",
+     "text": "Meet with managers, vendors, and others to solicit cooperation and resolve problems.",
+     "type": "Core",
+     "importance": 3.64,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "14633",
+     "text": "Design computers and the software that runs them.",
+     "type": "Core",
+     "importance": 3.63,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": 0.458,
+     "augmentation": 0.542
+    },
+    {
+     "id": "14629",
+     "text": "Conduct logical analyses of business, scientific, engineering, and other technical problems, formulating mathematical models of problems for solution by computers.",
+     "type": "Core",
+     "importance": 3.61,
+     "coverage": 0.8987,
+     "mode": "assist",
+     "automation": 0.29,
+     "augmentation": 0.71
+    },
+    {
+     "id": "14625",
+     "text": "Evaluate project plans and proposals to assess feasibility issues.",
+     "type": "Core",
+     "importance": 3.46,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "14635",
+     "text": "Participate in multidisciplinary projects in areas such as virtual reality, human-computer interaction, or robotics.",
+     "type": "Core",
+     "importance": 3.37,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "14627",
+     "text": "Consult with users, management, vendors, and technicians to determine computing needs and system requirements.",
+     "type": "Core",
+     "importance": 3.35,
+     "coverage": 0.7063,
+     "mode": "assist",
+     "automation": 0.224,
+     "augmentation": 0.776
+    },
+    {
+     "id": "14637",
+     "text": "Direct daily operations of departments, coordinating project activities with other departments.",
+     "type": "Supplemental",
+     "importance": 3.33,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "14630",
+     "text": "Develop and interpret organizational goals, policies, and procedures.",
+     "type": "Core",
+     "importance": 3.2,
+     "coverage": 0.7344,
+     "mode": "assist",
+     "automation": 0.357,
+     "augmentation": 0.643
+    }
+   ]
+  },
+  "15-1243.00": {
+   "soc": "15-1243.00",
+   "title": "Database Architects",
+   "label": "Big Data Specialist",
+   "family": "Technology",
+   "kind": "anchor",
+   "declineNote": null,
+   "exposure": 0.5787,
+   "exposureSource": "aei_job_exposure",
+   "computedExposure": 0.44,
+   "taskCount": 25,
+   "coveredTaskCount": 13,
+   "automateShare": 0.071,
+   "tasks": [
+    {
+     "id": "16115",
+     "text": "Develop and document database architectures.",
+     "type": "Core",
+     "importance": 4.52,
+     "coverage": 0.829,
+     "mode": "assist",
+     "automation": 0.302,
+     "augmentation": 0.698
+    },
+    {
+     "id": "16113",
+     "text": "Collaborate with system architects, software architects, design analysts, and others to understand business or industry requirements.",
+     "type": "Core",
+     "importance": 4.48,
+     "coverage": 0.7746,
+     "mode": "assist",
+     "automation": 0.241,
+     "augmentation": 0.759
+    },
+    {
+     "id": "16114",
+     "text": "Develop database architectural strategies at the modeling, design and implementation stages to address business or industry requirements.",
+     "type": "Core",
+     "importance": 4.45,
+     "coverage": 0.7425,
+     "mode": "assist",
+     "automation": 0.257,
+     "augmentation": 0.743
+    },
+    {
+     "id": "16109",
+     "text": "Design databases to support business applications, ensuring system scalability, security, performance, and reliability.",
+     "type": "Core",
+     "importance": 4.4,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "16108",
+     "text": "Develop data models for applications, metadata tables, views or related database structures.",
+     "type": "Core",
+     "importance": 4.1,
+     "coverage": 0.8337,
+     "mode": "assist",
+     "automation": 0.358,
+     "augmentation": 0.642
+    },
+    {
+     "id": "16110",
+     "text": "Design database applications, such as interfaces, data transfer mechanisms, global temporary tables, data partitions, and function-based indexes to enable efficient access of the generic database structure.",
+     "type": "Core",
+     "importance": 4.1,
+     "coverage": 0.8235,
+     "mode": "assist",
+     "automation": 0.425,
+     "augmentation": 0.575
+    },
+    {
+     "id": "21653",
+     "text": "Develop methods for integrating different products so they work properly together, such as customizing commercial databases to fit specific needs.",
+     "type": "Core",
+     "importance": 4.05,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "16112",
+     "text": "Create and enforce database development standards.",
+     "type": "Core",
+     "importance": 4.0,
+     "coverage": 0.7943,
+     "mode": "assist",
+     "automation": 0.357,
+     "augmentation": 0.643
+    },
+    {
+     "id": "16105",
+     "text": "Document and communicate database schemas, using accepted notations.",
+     "type": "Core",
+     "importance": 3.95,
+     "coverage": 0.8885,
+     "mode": "assist",
+     "automation": 0.263,
+     "augmentation": 0.737
+    },
+    {
+     "id": "21652",
+     "text": "Develop data model describing data elements and their use, following procedures and using pen, template or computer software.",
+     "type": "Core",
+     "importance": 3.95,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "21659",
+     "text": "Work as part of a project team to coordinate database development and determine project scope and limitations.",
+     "type": "Core",
+     "importance": 3.9,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "21655",
+     "text": "Identify and evaluate industry trends in database systems to serve as a source of information and advice for upper management.",
+     "type": "Core",
+     "importance": 3.85,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    }
+   ]
+  },
+  "15-2051.00": {
+   "soc": "15-2051.00",
+   "title": "Data Scientists",
+   "label": "Data Scientist",
+   "family": "Technology",
+   "kind": "anchor",
+   "declineNote": null,
+   "exposure": 0.4605,
+   "exposureSource": "aei_job_exposure",
+   "computedExposure": 0.0437,
+   "taskCount": 16,
+   "coveredTaskCount": 1,
+   "automateShare": 0.0,
+   "tasks": [
+    {
+     "id": "21823",
+     "text": "Analyze, manipulate, or process large sets of data using statistical software.",
+     "type": "Core",
+     "importance": 4.33,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "21828",
+     "text": "Create graphs, charts, or other visualizations to convey the results of data analysis using specialized software.",
+     "type": "Core",
+     "importance": 4.33,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "21837",
+     "text": "Test, validate, and reformulate models to ensure accurate prediction of outcomes of interest.",
+     "type": "Core",
+     "importance": 4.25,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "21829",
+     "text": "Deliver oral or written presentations of the results of mathematical modeling and data analysis to management or other end users.",
+     "type": "Core",
+     "importance": 4.21,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "21836",
+     "text": "Recommend data-driven solutions to key stakeholders.",
+     "type": "Core",
+     "importance": 4.17,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "21831",
+     "text": "Identify business problems or management objectives that can be addressed through data analysis.",
+     "type": "Core",
+     "importance": 4.13,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "21827",
+     "text": "Compare models using statistical performance metrics, such as loss functions or proportion of explained variance.",
+     "type": "Core",
+     "importance": 4.04,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "21826",
+     "text": "Clean and manipulate raw data using statistical software.",
+     "type": "Core",
+     "importance": 4.04,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "21833",
+     "text": "Identify solutions to business problems, such as budgeting, staffing, and marketing decisions, using the results of data analysis.",
+     "type": "Core",
+     "importance": 3.91,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "21824",
+     "text": "Apply feature selection algorithms to models predicting outcomes of interest, such as sales, attrition, and healthcare use.",
+     "type": "Core",
+     "importance": 3.75,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "21832",
+     "text": "Identify relationships and trends or any factors that could affect the results of research.",
+     "type": "Core",
+     "importance": 3.67,
+     "coverage": 0.7239,
+     "mode": "assist",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "21838",
+     "text": "Write new functions or applications in programming languages to conduct analyses.",
+     "type": "Core",
+     "importance": 3.61,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    }
+   ]
+  },
+  "15-2051.01": {
+   "soc": "15-2051.01",
+   "title": "Business Intelligence Analysts",
+   "label": "Data / BI Analyst",
+   "family": "Technology",
+   "kind": "anchor",
+   "declineNote": null,
+   "exposure": 0.5479,
+   "exposureSource": "nexa_task_weighted",
+   "computedExposure": 0.5479,
+   "taskCount": 17,
+   "coveredTaskCount": 10,
+   "automateShare": 0.319,
+   "tasks": [
+    {
+     "id": "16150",
+     "text": "Generate standard or custom reports summarizing business, financial, or economic data for review by executives, managers, clients, and other stakeholders.",
+     "type": "Core",
+     "importance": 4.64,
+     "coverage": 0.9337,
+     "mode": "automate",
+     "automation": 0.5,
+     "augmentation": 0.5
+    },
+    {
+     "id": "16139",
+     "text": "Maintain or update business intelligence tools, databases, dashboards, systems, or methods.",
+     "type": "Core",
+     "importance": 4.36,
+     "coverage": 1.0,
+     "mode": "assist",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "16140",
+     "text": "Manage timely flow of business intelligence information to users.",
+     "type": "Core",
+     "importance": 4.19,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "16134",
+     "text": "Provide technical support for existing reports, dashboards, or other tools.",
+     "type": "Core",
+     "importance": 3.95,
+     "coverage": 0.9197,
+     "mode": "automate",
+     "automation": 0.635,
+     "augmentation": 0.365
+    },
+    {
+     "id": "16141",
+     "text": "Identify and analyze industry or geographic trends with business strategy implications.",
+     "type": "Core",
+     "importance": 3.86,
+     "coverage": 0.728,
+     "mode": "assist",
+     "automation": 0.382,
+     "augmentation": 0.618
+    },
+    {
+     "id": "16142",
+     "text": "Document specifications for business intelligence or information technology reports, dashboards, or other outputs.",
+     "type": "Core",
+     "importance": 3.73,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "16144",
+     "text": "Create business intelligence tools or systems, including design of related databases, spreadsheets, or outputs.",
+     "type": "Core",
+     "importance": 3.7,
+     "coverage": 0.9223,
+     "mode": "assist",
+     "automation": 0.473,
+     "augmentation": 0.527
+    },
+    {
+     "id": "16146",
+     "text": "Collect business intelligence data from available industry reports, public information, field reports, or purchased sources.",
+     "type": "Core",
+     "importance": 3.68,
+     "coverage": 0.974,
+     "mode": "automate",
+     "automation": 0.577,
+     "augmentation": 0.423
+    },
+    {
+     "id": "16143",
+     "text": "Disseminate information regarding tools, reports, or metadata enhancements.",
+     "type": "Core",
+     "importance": 3.65,
+     "coverage": 0.9181,
+     "mode": "assist",
+     "automation": 0.097,
+     "augmentation": 0.903
+    },
+    {
+     "id": "16145",
+     "text": "Conduct or coordinate tests to ensure that intelligence is consistent with defined needs.",
+     "type": "Core",
+     "importance": 3.64,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "16149",
+     "text": "Synthesize current business intelligence or trend data to support recommendations for action.",
+     "type": "Core",
+     "importance": 3.59,
+     "coverage": 0.8462,
+     "mode": "assist",
+     "automation": 0.415,
+     "augmentation": 0.585
+    },
+    {
+     "id": "16148",
+     "text": "Analyze competitive market strategies through analysis of related product, market, or share trends.",
+     "type": "Core",
+     "importance": 3.58,
+     "coverage": 0.7922,
+     "mode": "assist",
+     "automation": 0.331,
+     "augmentation": 0.669
+    }
+   ]
+  },
+  "15-1212.00": {
+   "soc": "15-1212.00",
+   "title": "Information Security Analysts",
+   "label": "Information Security Analyst",
+   "family": "Technology",
+   "kind": "anchor",
+   "declineNote": null,
+   "exposure": 0.4859,
+   "exposureSource": "aei_job_exposure",
+   "computedExposure": 0.4107,
+   "taskCount": 11,
+   "coveredTaskCount": 5,
+   "automateShare": 0.0,
+   "tasks": [
+    {
+     "id": "5314",
+     "text": "Develop plans to safeguard computer files against accidental or unauthorized modification, destruction, or disclosure and to meet emergency data processing needs.",
+     "type": "Core",
+     "importance": 4.4,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": 0.295,
+     "augmentation": 0.705
+    },
+    {
+     "id": "5316",
+     "text": "Monitor current reports of computer viruses to determine when to update virus protection systems.",
+     "type": "Core",
+     "importance": 4.23,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": 0.0,
+     "augmentation": 1.0
+    },
+    {
+     "id": "5321",
+     "text": "Encrypt data transmissions and erect firewalls to conceal confidential information as it is being transmitted and to keep out tainted digital transfers.",
+     "type": "Core",
+     "importance": 4.18,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": 0.195,
+     "augmentation": 0.805
+    },
+    {
+     "id": "5320",
+     "text": "Perform risk assessments and execute tests of data processing system to ensure functioning of data processing activities and security measures.",
+     "type": "Core",
+     "importance": 4.12,
+     "coverage": 0.947,
+     "mode": "assist",
+     "automation": 0.317,
+     "augmentation": 0.683
+    },
+    {
+     "id": "5317",
+     "text": "Modify computer security files to incorporate new software, correct errors, or change individual access status.",
+     "type": "Core",
+     "importance": 4.1,
+     "coverage": 0.955,
+     "mode": "assist",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "5323",
+     "text": "Review violations of computer security procedures and discuss procedures with violators to ensure violations are not repeated.",
+     "type": "Core",
+     "importance": 4.04,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "5322",
+     "text": "Document computer security and emergency measures policies, procedures, and tests.",
+     "type": "Core",
+     "importance": 3.94,
+     "coverage": 0.8315,
+     "mode": "assist",
+     "automation": 0.345,
+     "augmentation": 0.655
+    },
+    {
+     "id": "5315",
+     "text": "Confer with users to discuss issues such as computer data access needs, security violations, and programming changes.",
+     "type": "Core",
+     "importance": 3.94,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "5319",
+     "text": "Monitor use of data files and regulate access to safeguard information in computer files.",
+     "type": "Core",
+     "importance": 3.89,
+     "coverage": 0.9735,
+     "mode": "assist",
+     "automation": 0.286,
+     "augmentation": 0.714
+    },
+    {
+     "id": "5318",
+     "text": "Coordinate implementation of computer system plan with establishment personnel and outside vendors.",
+     "type": "Core",
+     "importance": 3.87,
+     "coverage": 0.8791,
+     "mode": "assist",
+     "automation": 0.379,
+     "augmentation": 0.621
+    },
+    {
+     "id": "5313",
+     "text": "Train users and promote security awareness to ensure system security and to improve server and network efficiency.",
+     "type": "Core",
+     "importance": 3.81,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    }
+   ]
+  },
+  "15-1299.08": {
+   "soc": "15-1299.08",
+   "title": "Computer Systems Engineers/Architects",
+   "label": "Cloud / DevOps Engineer",
+   "family": "Technology",
+   "kind": "anchor",
+   "declineNote": null,
+   "exposure": 0.3145,
+   "exposureSource": "nexa_task_weighted",
+   "computedExposure": 0.3145,
+   "taskCount": 28,
+   "coveredTaskCount": 10,
+   "automateShare": 0.084,
+   "tasks": [
+    {
+     "id": "14666",
+     "text": "Communicate with staff or clients to understand specific system requirements.",
+     "type": "Core",
+     "importance": 4.24,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "14677",
+     "text": "Investigate system component suitability for specified purposes, and make recommendations regarding component use.",
+     "type": "Core",
+     "importance": 4.19,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "14674",
+     "text": "Provide customers or installation teams guidelines for implementing secure systems.",
+     "type": "Core",
+     "importance": 4.18,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "14676",
+     "text": "Direct the analysis, development, and operation of complete computer systems.",
+     "type": "Core",
+     "importance": 4.16,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "14689",
+     "text": "Direct the installation of operating systems, network or application software, or computer or network hardware.",
+     "type": "Core",
+     "importance": 4.09,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "14675",
+     "text": "Monitor system operation to detect potential problems.",
+     "type": "Core",
+     "importance": 4.09,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "14673",
+     "text": "Identify system data, hardware, or software components required to meet user needs.",
+     "type": "Core",
+     "importance": 3.95,
+     "coverage": 0.8663,
+     "mode": "assist",
+     "automation": 0.437,
+     "augmentation": 0.563
+    },
+    {
+     "id": "14678",
+     "text": "Perform ongoing hardware and software maintenance operations, including installing or upgrading hardware or software.",
+     "type": "Core",
+     "importance": 3.95,
+     "coverage": 0.9842,
+     "mode": "assist",
+     "automation": 0.478,
+     "augmentation": 0.522
+    },
+    {
+     "id": "14669",
+     "text": "Verify stability, interoperability, portability, security, or scalability of system architecture.",
+     "type": "Core",
+     "importance": 3.95,
+     "coverage": 1.0,
+     "mode": "assist",
+     "automation": 0.281,
+     "augmentation": 0.719
+    },
+    {
+     "id": "14686",
+     "text": "Research, test, or verify proper functioning of software patches and fixes.",
+     "type": "Core",
+     "importance": 3.91,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "14679",
+     "text": "Configure servers to meet functional specifications.",
+     "type": "Core",
+     "importance": 3.9,
+     "coverage": 0.8881,
+     "mode": "assist",
+     "automation": 0.39,
+     "augmentation": 0.61
+    },
+    {
+     "id": "14670",
+     "text": "Collaborate with engineers or software developers to select appropriate design solutions or ensure the compatibility of system components.",
+     "type": "Core",
+     "importance": 3.81,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": 0.444,
+     "augmentation": 0.556
+    }
+   ]
+  },
+  "15-1241.00": {
+   "soc": "15-1241.00",
+   "title": "Computer Network Architects",
+   "label": "IoT & Network Architect",
+   "family": "Technology",
+   "kind": "anchor",
+   "declineNote": null,
+   "exposure": 0.1987,
+   "exposureSource": "aei_job_exposure",
+   "computedExposure": 0.1806,
+   "taskCount": 33,
+   "coveredTaskCount": 7,
+   "automateShare": 0.158,
+   "tasks": [
+    {
+     "id": "18968",
+     "text": "Develop disaster recovery plans.",
+     "type": "Core",
+     "importance": 4.44,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": 0.0,
+     "augmentation": 1.0
+    },
+    {
+     "id": "18971",
+     "text": "Develop or recommend network security measures, such as firewalls, network security audits, or automated security probes.",
+     "type": "Core",
+     "importance": 4.35,
+     "coverage": 0.7417,
+     "mode": "assist",
+     "automation": 0.198,
+     "augmentation": 0.802
+    },
+    {
+     "id": "18965",
+     "text": "Develop and implement solutions for network problems.",
+     "type": "Core",
+     "importance": 4.2,
+     "coverage": 0.9166,
+     "mode": "assist",
+     "automation": 0.0,
+     "augmentation": 1.0
+    },
+    {
+     "id": "18977",
+     "text": "Maintain networks by performing activities such as file addition, deletion, or backup.",
+     "type": "Core",
+     "importance": 4.16,
+     "coverage": 0.9408,
+     "mode": "automate",
+     "automation": 0.602,
+     "augmentation": 0.398
+    },
+    {
+     "id": "18960",
+     "text": "Coordinate network operations, maintenance, repairs, or upgrades.",
+     "type": "Core",
+     "importance": 4.15,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "18959",
+     "text": "Coordinate installation of new equipment.",
+     "type": "Core",
+     "importance": 3.95,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "18979",
+     "text": "Monitor and analyze network performance and reports on data input or output to detect problems, identify inefficient use of computer resources, or perform capacity planning.",
+     "type": "Core",
+     "importance": 3.9,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "18969",
+     "text": "Develop network-related documentation.",
+     "type": "Core",
+     "importance": 3.89,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": 0.0,
+     "augmentation": 1.0
+    },
+    {
+     "id": "18966",
+     "text": "Develop and write procedures for installation, use, or troubleshooting of communications hardware or software.",
+     "type": "Core",
+     "importance": 3.84,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": 0.375,
+     "augmentation": 0.625
+    },
+    {
+     "id": "18980",
+     "text": "Participate in network technology upgrade or expansion projects, including installation of hardware and software and integration testing.",
+     "type": "Core",
+     "importance": 3.83,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "18962",
+     "text": "Design, build, or operate equipment configuration prototypes, including network hardware, software, servers, or server operation systems.",
+     "type": "Core",
+     "importance": 3.8,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": 0.578,
+     "augmentation": 0.422
+    },
+    {
+     "id": "18956",
+     "text": "Adjust network sizes to meet volume or capacity demands.",
+     "type": "Core",
+     "importance": 3.79,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    }
+   ]
+  },
+  "15-1255.00": {
+   "soc": "15-1255.00",
+   "title": "Web and Digital Interface Designers",
+   "label": "UI / UX Designer",
+   "family": "Technology",
+   "kind": "anchor",
+   "declineNote": null,
+   "exposure": 0.249,
+   "exposureSource": "aei_job_exposure",
+   "computedExposure": 0.3728,
+   "taskCount": 30,
+   "coveredTaskCount": 13,
+   "automateShare": 0.152,
+   "tasks": [
+    {
+     "id": "21702",
+     "text": "Identify problems uncovered by testing or customer feedback, and correct problems or refer problems to appropriate personnel for correction.",
+     "type": "Core",
+     "importance": 4.31,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "21692",
+     "text": "Design, build, or maintain Web sites, using authoring or scripting languages, content creation tools, management tools, and digital media.",
+     "type": "Core",
+     "importance": 4.13,
+     "coverage": 0.9054,
+     "mode": "automate",
+     "automation": 0.553,
+     "augmentation": 0.447
+    },
+    {
+     "id": "21714",
+     "text": "Write supporting code for Web applications or Web sites.",
+     "type": "Core",
+     "importance": 4.1,
+     "coverage": 0.8944,
+     "mode": "assist",
+     "automation": 0.49,
+     "augmentation": 0.51
+    },
+    {
+     "id": "21706",
+     "text": "Perform Web site tests according to planned schedules, or after any Web site or product revision.",
+     "type": "Core",
+     "importance": 4.06,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "21686",
+     "text": "Collaborate with web development professionals, such as front-end or back-end developers, to complete the full scope of Web development projects.",
+     "type": "Core",
+     "importance": 4.05,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "21685",
+     "text": "Collaborate with management or users to develop e-commerce strategies and to integrate these strategies with Web sites.",
+     "type": "Supplemental",
+     "importance": 4.04,
+     "coverage": 0.8411,
+     "mode": "assist",
+     "automation": 0.285,
+     "augmentation": 0.715
+    },
+    {
+     "id": "21694",
+     "text": "Develop new visual design concepts and modify concepts based on stakeholder feedback.",
+     "type": "Core",
+     "importance": 4.01,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "21704",
+     "text": "Maintain understanding of current Web technologies or programming practices through continuing education, reading, or participation in professional conferences, workshops, or groups.",
+     "type": "Core",
+     "importance": 3.95,
+     "coverage": 0.7817,
+     "mode": "assist",
+     "automation": 0.077,
+     "augmentation": 0.923
+    },
+    {
+     "id": "21711",
+     "text": "Respond to user email inquiries, or set up automated systems to send responses.",
+     "type": "Core",
+     "importance": 3.92,
+     "coverage": 1.0,
+     "mode": "assist",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "21691",
+     "text": "Create Web models or prototypes that include physical, interface, logical, or data models.",
+     "type": "Supplemental",
+     "importance": 3.86,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": 0.6,
+     "augmentation": 0.4
+    },
+    {
+     "id": "21688",
+     "text": "Conduct user research to determine design requirements and analyze user feedback to improve design quality.",
+     "type": "Core",
+     "importance": 3.79,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "21705",
+     "text": "Perform or direct Web site updates.",
+     "type": "Core",
+     "importance": 3.78,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    }
+   ]
+  },
+  "13-1082.00": {
+   "soc": "13-1082.00",
+   "title": "Project Management Specialists",
+   "label": "Project Manager",
+   "family": "Management",
+   "kind": "anchor",
+   "declineNote": null,
+   "exposure": 0.1128,
+   "exposureSource": "nexa_task_weighted",
+   "computedExposure": 0.1128,
+   "taskCount": 20,
+   "coveredTaskCount": 3,
+   "automateShare": 0.0,
+   "tasks": [
+    {
+     "id": "21463",
+     "text": "Communicate with key stakeholders to determine project requirements and objectives.",
+     "type": "Core",
+     "importance": 4.54,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "21467",
+     "text": "Identify project needs such as resources, staff, or finances by reviewing project objectives and schedules.",
+     "type": "Core",
+     "importance": 4.5,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "21481",
+     "text": "Submit project deliverables to clients, ensuring adherence to quality standards.",
+     "type": "Core",
+     "importance": 4.36,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "21464",
+     "text": "Confer with project personnel to identify and resolve problems.",
+     "type": "Core",
+     "importance": 4.33,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "21473",
+     "text": "Plan, schedule, or coordinate project activities to meet deadlines.",
+     "type": "Core",
+     "importance": 4.3,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "21479",
+     "text": "Request and review project updates to ensure deadlines are met.",
+     "type": "Core",
+     "importance": 4.29,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "21470",
+     "text": "Monitor project milestones and deliverables.",
+     "type": "Core",
+     "importance": 4.11,
+     "coverage": 0.7239,
+     "mode": "assist",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "21462",
+     "text": "Assign duties or responsibilities to project personnel.",
+     "type": "Core",
+     "importance": 4.07,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "21465",
+     "text": "Create project status presentations for delivery to customers or project personnel.",
+     "type": "Core",
+     "importance": 3.89,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "21475",
+     "text": "Produce and distribute project documents.",
+     "type": "Core",
+     "importance": 3.89,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "21472",
+     "text": "Negotiate with project stakeholders or suppliers to obtain resources or materials.",
+     "type": "Core",
+     "importance": 3.88,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "21469",
+     "text": "Monitor costs incurred by project staff to identify budget issues.",
+     "type": "Core",
+     "importance": 3.83,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    }
+   ]
+  },
+  "13-1199.05": {
+   "soc": "13-1199.05",
+   "title": "Sustainability Specialists",
+   "label": "Sustainability Specialist",
+   "family": "Green economy",
+   "kind": "anchor",
+   "declineNote": null,
+   "exposure": 0.0502,
+   "exposureSource": "nexa_task_weighted",
+   "computedExposure": 0.0502,
+   "taskCount": 14,
+   "coveredTaskCount": 1,
+   "automateShare": 0.0,
+   "tasks": [
+    {
+     "id": "15981",
+     "text": "Develop sustainability project goals, objectives, initiatives, or strategies in collaboration with other sustainability professionals.",
+     "type": "Core",
+     "importance": 4.39,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "15980",
+     "text": "Monitor or track sustainability indicators, such as energy usage, natural resource usage, waste generation, and recycling.",
+     "type": "Core",
+     "importance": 4.22,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "15979",
+     "text": "Assess or propose sustainability initiatives, considering factors such as cost effectiveness, technical feasibility, and acceptance.",
+     "type": "Core",
+     "importance": 4.13,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "15973",
+     "text": "Provide technical or administrative support for sustainability programs or issues.",
+     "type": "Core",
+     "importance": 4.0,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "15968",
+     "text": "Review and revise sustainability proposals or policies.",
+     "type": "Core",
+     "importance": 4.0,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": 0.0,
+     "augmentation": 1.0
+    },
+    {
+     "id": "15976",
+     "text": "Develop reports or presentations to communicate the effectiveness of sustainability initiatives.",
+     "type": "Core",
+     "importance": 3.96,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": 0.422,
+     "augmentation": 0.578
+    },
+    {
+     "id": "15975",
+     "text": "Create or maintain plans or other documents related to sustainability projects.",
+     "type": "Core",
+     "importance": 3.96,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": 0.396,
+     "augmentation": 0.604
+    },
+    {
+     "id": "15978",
+     "text": "Collect information about waste stream management or green building practices to inform decision makers.",
+     "type": "Core",
+     "importance": 3.95,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "15969",
+     "text": "Research or review regulatory, technical, or market issues related to sustainability.",
+     "type": "Core",
+     "importance": 3.74,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "15970",
+     "text": "Identify or investigate violations of natural resources, waste management, recycling, or other environmental policies.",
+     "type": "Core",
+     "importance": 3.71,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "15971",
+     "text": "Identify or create new sustainability indicators.",
+     "type": "Core",
+     "importance": 3.61,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "15977",
+     "text": "Create marketing or outreach media, such as brochures or Web sites, to communicate sustainability issues, procedures, or objectives.",
+     "type": "Core",
+     "importance": 3.43,
+     "coverage": 0.7859,
+     "mode": "assist",
+     "automation": 0.367,
+     "augmentation": 0.633
+    }
+   ]
+  },
+  "17-2199.11": {
+   "soc": "17-2199.11",
+   "title": "Solar Energy Systems Engineers",
+   "label": "Solar Energy Systems Engineer",
+   "family": "Green economy",
+   "kind": "anchor",
+   "declineNote": null,
+   "exposure": 0.0,
+   "exposureSource": "nexa_task_weighted",
+   "computedExposure": 0.0,
+   "taskCount": 13,
+   "coveredTaskCount": 0,
+   "automateShare": 0.0,
+   "tasks": [
+    {
+     "id": "16575",
+     "text": "Conduct engineering site audits to collect structural, electrical, and related site information for use in the design of residential or commercial solar power systems.",
+     "type": "Core",
+     "importance": 4.46,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "16571",
+     "text": "Create plans for solar energy system development, monitoring, and evaluation activities.",
+     "type": "Core",
+     "importance": 4.44,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "16574",
+     "text": "Design or coordinate design of photovoltaic (PV) or solar thermal systems, including system components, for residential and commercial buildings.",
+     "type": "Core",
+     "importance": 4.4,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "16568",
+     "text": "Provide technical direction or support to installation teams during installation, start-up, testing, system commissioning, or performance monitoring.",
+     "type": "Core",
+     "importance": 4.33,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "16572",
+     "text": "Create electrical single-line diagrams, panel schedules, or connection diagrams for solar electric systems, using computer-aided design (CAD) software.",
+     "type": "Core",
+     "importance": 4.21,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "16569",
+     "text": "Perform computer simulation of solar photovoltaic (PV) generation system performance or energy production to optimize efficiency.",
+     "type": "Core",
+     "importance": 4.14,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "16564",
+     "text": "Review specifications and recommend engineering or manufacturing changes to achieve solar design objectives.",
+     "type": "Core",
+     "importance": 3.88,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "16570",
+     "text": "Develop design specifications and functional requirements for residential, commercial, or industrial solar energy systems or components.",
+     "type": "Core",
+     "importance": 3.83,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "16566",
+     "text": "Develop standard operation procedures and quality or safety standards for solar installation work.",
+     "type": "Core",
+     "importance": 3.65,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "16573",
+     "text": "Create checklists for review or inspection of completed solar installation projects.",
+     "type": "Core",
+     "importance": 3.56,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "16565",
+     "text": "Perform thermal, stress, or cost reduction analyses for solar systems.",
+     "type": "Core",
+     "importance": 3.24,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "16563",
+     "text": "Test or evaluate photovoltaic (PV) cells or modules.",
+     "type": "Supplemental",
+     "importance": 2.87,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    }
+   ]
+  },
+  "17-2081.00": {
+   "soc": "17-2081.00",
+   "title": "Environmental Engineers",
+   "label": "Environmental Engineer",
+   "family": "Green economy",
+   "kind": "anchor",
+   "declineNote": null,
+   "exposure": 0.0358,
+   "exposureSource": "aei_job_exposure",
+   "computedExposure": 0.0284,
+   "taskCount": 29,
+   "coveredTaskCount": 1,
+   "automateShare": 0.0,
+   "tasks": [
+    {
+     "id": "15210",
+     "text": "Design, or supervise the design of, systems, processes, or equipment for control, management, or remediation of water, air, or soil quality.",
+     "type": "Core",
+     "importance": 4.29,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "1377",
+     "text": "Assess the existing or potential environmental impact of land use projects on air, water, or land.",
+     "type": "Core",
+     "importance": 4.2,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "20195",
+     "text": "Collaborate with environmental scientists, planners, hazardous waste technicians, engineers, experts in law or business, or other specialists to address environmental problems.",
+     "type": "Core",
+     "importance": 4.19,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "1374",
+     "text": "Advise corporations or government agencies of procedures to follow in cleaning up contaminated sites to protect people and the environment.",
+     "type": "Core",
+     "importance": 4.17,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "1373",
+     "text": "Develop proposed project objectives and targets and report to management on progress in attaining them.",
+     "type": "Core",
+     "importance": 4.15,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "1370",
+     "text": "Monitor progress of environmental improvement programs.",
+     "type": "Core",
+     "importance": 4.11,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "1366",
+     "text": "Prepare, review, or update environmental investigation or recommendation reports.",
+     "type": "Core",
+     "importance": 3.95,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "20197",
+     "text": "Prepare, maintain, or revise quality assurance documentation or procedures.",
+     "type": "Core",
+     "importance": 3.84,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "1379",
+     "text": "Develop site-specific health and safety protocols, such as spill contingency plans or methods for loading or transporting waste.",
+     "type": "Core",
+     "importance": 3.82,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "1369",
+     "text": "Provide technical support for environmental remediation or litigation projects, including remediation system design or determination of regulatory applicability.",
+     "type": "Core",
+     "importance": 3.82,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "19625",
+     "text": "Prepare or present public briefings on the status of environmental engineering projects.",
+     "type": "Core",
+     "importance": 3.81,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "1378",
+     "text": "Assist in budget implementation, forecasts, or administration.",
+     "type": "Core",
+     "importance": 3.8,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    }
+   ]
+  },
+  "13-1151.00": {
+   "soc": "13-1151.00",
+   "title": "Training and Development Specialists",
+   "label": "Training & Development Specialist",
+   "family": "People & HR",
+   "kind": "anchor",
+   "declineNote": null,
+   "exposure": 0.2793,
+   "exposureSource": "aei_job_exposure",
+   "computedExposure": 0.201,
+   "taskCount": 20,
+   "coveredTaskCount": 4,
+   "automateShare": 0.0,
+   "tasks": [
+    {
+     "id": "94",
+     "text": "Present information with a variety of instructional techniques or formats, such as role playing, simulations, team exercises, group discussions, videos, or lectures.",
+     "type": "Core",
+     "importance": 4.65,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "20475",
+     "text": "Obtain, organize, or develop training procedure manuals, guides, or course materials, such as handouts or visual materials.",
+     "type": "Core",
+     "importance": 4.62,
+     "coverage": 0.8389,
+     "mode": "assist",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "19559",
+     "text": "Evaluate modes of training delivery, such as in-person or virtual, to optimize training effectiveness, training costs, or environmental impacts.",
+     "type": "Core",
+     "importance": 4.45,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "97",
+     "text": "Offer specific training programs to help workers maintain or improve job skills.",
+     "type": "Core",
+     "importance": 4.43,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "103",
+     "text": "Assess training needs through surveys, interviews with employees, focus groups, or consultation with managers, instructors, or customer representatives.",
+     "type": "Core",
+     "importance": 4.43,
+     "coverage": 1.0,
+     "mode": "assist",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "98",
+     "text": "Monitor, evaluate, or record training activities or program effectiveness.",
+     "type": "Core",
+     "importance": 4.4,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "20474",
+     "text": "Design, plan, organize, or direct orientation and training programs for employees or customers.",
+     "type": "Core",
+     "importance": 4.33,
+     "coverage": 0.8219,
+     "mode": "assist",
+     "automation": 0.423,
+     "augmentation": 0.577
+    },
+    {
+     "id": "102",
+     "text": "Develop alternative training methods if expected improvements are not seen.",
+     "type": "Core",
+     "importance": 4.1,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "101",
+     "text": "Evaluate training materials prepared by instructors, such as outlines, text, or handouts.",
+     "type": "Core",
+     "importance": 4.0,
+     "coverage": 0.9079,
+     "mode": "assist",
+     "automation": 0.373,
+     "augmentation": 0.627
+    },
+    {
+     "id": "20476",
+     "text": "Monitor training costs and prepare budget reports to justify expenditures.",
+     "type": "Core",
+     "importance": 3.82,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "106",
+     "text": "Devise programs to develop executive potential among employees in lower-level positions.",
+     "type": "Core",
+     "importance": 3.79,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "93",
+     "text": "Keep up with developments in area of expertise by reading current journals, books, or magazine articles.",
+     "type": "Core",
+     "importance": 3.73,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    }
+   ]
+  },
+  "21-1012.00": {
+   "soc": "21-1012.00",
+   "title": "Educational, Guidance, and Career Counselors and Advisors",
+   "label": "Career Counsellor",
+   "family": "Education",
+   "kind": "anchor",
+   "declineNote": null,
+   "exposure": 0.1182,
+   "exposureSource": "aei_job_exposure",
+   "computedExposure": 0.113,
+   "taskCount": 35,
+   "coveredTaskCount": 5,
+   "automateShare": 0.0,
+   "tasks": [
+    {
+     "id": "5606",
+     "text": "Maintain accurate and complete student records as required by laws, district policies, and administrative regulations.",
+     "type": "Core",
+     "importance": 4.62,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "18627",
+     "text": "Counsel students regarding educational issues, such as course and program selection, class scheduling and registration, school adjustment, truancy, study habits, and career planning.",
+     "type": "Core",
+     "importance": 4.54,
+     "coverage": 0.9064,
+     "mode": "assist",
+     "automation": 0.486,
+     "augmentation": 0.514
+    },
+    {
+     "id": "5608",
+     "text": "Provide crisis intervention to students when difficult situations occur at schools.",
+     "type": "Core",
+     "importance": 4.43,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "23990",
+     "text": "Counsel individuals or groups to help them understand and overcome personal, social, or behavioral problems affecting their educational or vocational situations.",
+     "type": "Core",
+     "importance": 4.43,
+     "coverage": 0.0,
+     "mode": "unknown",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "5631",
+     "text": "Review transcripts to ensure that students meet graduation or college entrance requirements, and write letters of recommendation.",
+     "type": "Core",
+     "importance": 4.41,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "18626",
+     "text": "Identify cases of domestic abuse or other family problems and encourage students or parents to seek additional assistance from mental health professionals.",
+     "type": "Supplemental",
+     "importance": 4.38,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "5611",
+     "text": "Prepare students for later educational experiences by encouraging them to explore learning opportunities and to persevere with challenging tasks.",
+     "type": "Core",
+     "importance": 4.29,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "23991",
+     "text": "Refer students to outside counseling services.",
+     "type": "Core",
+     "importance": 4.29,
+     "coverage": 0.0,
+     "mode": "unknown",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "18624",
+     "text": "Confer with parents or guardians, teachers, administrators, and other professionals to discuss children's progress, resolve behavioral, academic, and other problems, and to determine priorities for students and their resource needs.",
+     "type": "Supplemental",
+     "importance": 4.27,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "5632",
+     "text": "Refer students to degree programs based on interests, aptitudes, or educational assessments.",
+     "type": "Core",
+     "importance": 4.19,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "18625",
+     "text": "Evaluate students' or individuals' abilities, interests, and personality characteristics, using tests, records, interviews, or professional sources.",
+     "type": "Core",
+     "importance": 4.15,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "5633",
+     "text": "Provide special services such as alcohol and drug prevention programs and classes that teach students to handle conflicts without resorting to violence.",
+     "type": "Supplemental",
+     "importance": 4.15,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    }
+   ]
+  },
+  "13-2051.00": {
+   "soc": "13-2051.00",
+   "title": "Financial and Investment Analysts",
+   "label": "Financial / Fintech Analyst",
+   "family": "Finance",
+   "kind": "anchor",
+   "declineNote": null,
+   "exposure": 0.5716,
+   "exposureSource": "aei_job_exposure",
+   "computedExposure": 0.3869,
+   "taskCount": 26,
+   "coveredTaskCount": 11,
+   "automateShare": 0.091,
+   "tasks": [
+    {
+     "id": "21579",
+     "text": "Advise clients on aspects of capitalization, such as amounts, sources, or timing.",
+     "type": "Core",
+     "importance": 3.0,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "21580",
+     "text": "Analyze financial or operational performance of companies facing financial difficulties to identify or recommend remedies.",
+     "type": "Core",
+     "importance": 3.0,
+     "coverage": 0.9006,
+     "mode": "assist",
+     "automation": 0.314,
+     "augmentation": 0.686
+    },
+    {
+     "id": "21581",
+     "text": "Assess companies as investments for clients by examining company facilities.",
+     "type": "Core",
+     "importance": 3.0,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "21582",
+     "text": "Collaborate on projects with other professionals, such as lawyers, accountants, or public relations experts.",
+     "type": "Core",
+     "importance": 3.0,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "21583",
+     "text": "Collaborate with investment bankers to attract new corporate clients.",
+     "type": "Core",
+     "importance": 3.0,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "21584",
+     "text": "Conduct financial analyses related to investments in green construction or green retrofitting projects.",
+     "type": "Core",
+     "importance": 3.0,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "21585",
+     "text": "Confer with clients to restructure debt, refinance debt, or raise new debt.",
+     "type": "Core",
+     "importance": 3.0,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "21586",
+     "text": "Create client presentations of plan details.",
+     "type": "Core",
+     "importance": 3.0,
+     "coverage": 0.7853,
+     "mode": "assist",
+     "automation": 0.404,
+     "augmentation": 0.596
+    },
+    {
+     "id": "21587",
+     "text": "Determine the prices at which securities should be syndicated and offered to the public.",
+     "type": "Core",
+     "importance": 3.0,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "21588",
+     "text": "Develop and maintain client relationships.",
+     "type": "Core",
+     "importance": 3.0,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "21589",
+     "text": "Draw charts and graphs, using computer spreadsheets, to illustrate technical reports.",
+     "type": "Core",
+     "importance": 3.0,
+     "coverage": 0.8626,
+     "mode": "assist",
+     "automation": 0.424,
+     "augmentation": 0.576
+    },
+    {
+     "id": "21590",
+     "text": "Employ financial models to develop solutions to financial problems or to assess the financial or capital impact of transactions.",
+     "type": "Core",
+     "importance": 3.0,
+     "coverage": 0.8572,
+     "mode": "assist",
+     "automation": 0.475,
+     "augmentation": 0.525
+    }
+   ]
+  },
+  "29-9021.00": {
+   "soc": "29-9021.00",
+   "title": "Health Information Technologists and Medical Registrars",
+   "label": "Health Information Specialist",
+   "family": "Health",
+   "kind": "anchor",
+   "declineNote": null,
+   "exposure": 0.3063,
+   "exposureSource": "aei_job_exposure",
+   "computedExposure": 0.2257,
+   "taskCount": 16,
+   "coveredTaskCount": 4,
+   "automateShare": 0.0,
+   "tasks": [
+    {
+     "id": "22894",
+     "text": "Assign the patient to diagnosis-related groups (DRGs), using appropriate computer software.",
+     "type": "Core",
+     "importance": 3.0,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "22895",
+     "text": "Compile medical care and census data for statistical reports on diseases treated, surgery performed, or use of hospital beds.",
+     "type": "Core",
+     "importance": 3.0,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": 1.0,
+     "augmentation": 0.0
+    },
+    {
+     "id": "22896",
+     "text": "Design databases to support healthcare applications, ensuring security, performance and reliability.",
+     "type": "Core",
+     "importance": 3.0,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "22897",
+     "text": "Develop in-service educational materials.",
+     "type": "Core",
+     "importance": 3.0,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": 0.417,
+     "augmentation": 0.583
+    },
+    {
+     "id": "22898",
+     "text": "Evaluate and recommend upgrades or improvements to existing computerized healthcare systems.",
+     "type": "Core",
+     "importance": 3.0,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "22899",
+     "text": "Facilitate and promote activities, such as lunches, seminars, or tours, to foster healthcare information privacy or security awareness within the organization.",
+     "type": "Core",
+     "importance": 3.0,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "22900",
+     "text": "Identify, compile, abstract, and code patient data, using standard classification systems.",
+     "type": "Core",
+     "importance": 3.0,
+     "coverage": 0.9776,
+     "mode": "assist",
+     "automation": 0.444,
+     "augmentation": 0.556
+    },
+    {
+     "id": "22901",
+     "text": "Manage the department or supervise clerical workers, directing or controlling activities of personnel in the medical records department.",
+     "type": "Core",
+     "importance": 3.0,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "22902",
+     "text": "Monitor changes in legislation and accreditation standards that affect information security or privacy in the computerized healthcare system.",
+     "type": "Core",
+     "importance": 3.0,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    },
+    {
+     "id": "22903",
+     "text": "Plan, develop, maintain, or operate a variety of health record indexes or storage and retrieval systems to collect, classify, store, or analyze information.",
+     "type": "Core",
+     "importance": 3.0,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": 0.0,
+     "augmentation": 1.0
+    },
+    {
+     "id": "22904",
+     "text": "Prepare statistical reports, narrative reports, or graphic presentations of information, such as tumor registry data for use by hospital staff, researchers, or other users.",
+     "type": "Core",
+     "importance": 3.0,
+     "coverage": 0.9095,
+     "mode": "assist",
+     "automation": 0.463,
+     "augmentation": 0.537
+    },
+    {
+     "id": "22905",
+     "text": "Protect the security of medical records to ensure that confidentiality is maintained.",
+     "type": "Core",
+     "importance": 3.0,
+     "coverage": 0.0,
+     "mode": "human",
+     "automation": null,
+     "augmentation": null
+    }
+   ]
+  }
+ }
+}

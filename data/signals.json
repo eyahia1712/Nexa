@@ -1,0 +1,273 @@
+{
+ "snapshots": [
+  {
+   "id": "2025-10",
+   "label": "October 2025 reading",
+   "kind": "bundled",
+   "asOf": "2025-10-01",
+   "fetchedAt": "2026-10-22T10:35:00.101Z",
+   "window": {
+    "current": {
+     "from": "2025-07-01",
+     "to": "2025-09-30"
+    },
+    "previous": {
+     "from": "2024-07-01",
+     "to": "2024-09-30"
+    }
+   },
+   "arxiv": {
+    "total": {
+     "current": 72404,
+     "previous": 58903
+    },
+    "skills": {
+     "genai": {
+      "query": "abs:\"large language model\"",
+      "current": 7117,
+      "previous": 3997
+     },
+     "ai_agents": {
+      "query": "abs:\"AI agent\"",
+      "current": 294,
+      "previous": 94
+     },
+     "machine_learning": {
+      "query": "cat:cs.LG",
+      "current": 10960,
+      "previous": 8429
+     },
+     "ai_ethics": {
+      "query": "abs:\"AI governance\" OR abs:\"responsible AI\"",
+      "current": 102,
+      "previous": 58
+     },
+     "big_data": {
+      "query": "abs:\"big data\"",
+      "current": 67,
+      "previous": 77
+     },
+     "cybersecurity": {
+      "query": "cat:cs.CR",
+      "current": 1978,
+      "previous": 1583
+     },
+     "cloud": {
+      "query": "abs:\"cloud computing\"",
+      "current": 55,
+      "previous": 77
+     },
+     "software_dev": {
+      "query": "cat:cs.SE",
+      "current": 1300,
+      "previous": 945
+     },
+     "iot": {
+      "query": "abs:\"internet of things\"",
+      "current": 185,
+      "previous": 208
+     },
+     "ux_design": {
+      "query": "cat:cs.HC",
+      "current": 1792,
+      "previous": 1381
+     },
+     "renewable_energy": {
+      "query": "abs:\"renewable energy\"",
+      "current": 123,
+      "previous": 90
+     }
+    }
+   },
+   "labour": null,
+   "errors": []
+  },
+  {
+   "id": "2026-10",
+   "label": "October 2026 reading",
+   "kind": "bundled",
+   "asOf": "2026-10-01",
+   "fetchedAt": "2026-10-22T10:36:21.462Z",
+   "window": {
+    "current": {
+     "from": "2026-07-01",
+     "to": "2026-09-30"
+    },
+    "previous": {
+     "from": "2025-07-01",
+     "to": "2025-09-30"
+    }
+   },
+   "arxiv": {
+    "total": {
+     "current": 100927,
+     "previous": 72404
+    },
+    "skills": {
+     "genai": {
+      "query": "abs:\"large language model\"",
+      "current": 6814,
+      "previous": 7117
+     },
+     "ai_agents": {
+      "query": "abs:\"AI agent\"",
+      "current": 565,
+      "previous": 294
+     },
+     "machine_learning": {
+      "query": "cat:cs.LG",
+      "current": 14074,
+      "previous": 10960
+     },
+     "ai_ethics": {
+      "query": "abs:\"AI governance\" OR abs:\"responsible AI\"",
+      "current": 97,
+      "previous": 102
+     },
+     "big_data": {
+      "query": "abs:\"big data\"",
+      "current": 30,
+      "previous": 67
+     },
+     "cybersecurity": {
+      "query": "cat:cs.CR",
+      "current": 3045,
+      "previous": 1978
+     },
+     "cloud": {
+      "query": "abs:\"cloud computing\"",
+      "current": 37,
+      "previous": 55
+     },
+     "software_dev": {
+      "query": "cat:cs.SE",
+      "current": 2229,
+      "previous": 1300
+     },
+     "iot": {
+      "query": "abs:\"internet of things\"",
+      "current": 168,
+      "previous": 185
+     },
+     "ux_design": {
+      "query": "cat:cs.HC",
+      "current": 1923,
+      "previous": 1792
+     },
+     "renewable_energy": {
+      "query": "abs:\"renewable energy\"",
+      "current": 91,
+      "previous": 123
+     }
+    }
+   },
+   "labour": [
+    {
+     "date": "2026-08-01",
+     "labourForce": 17386,
+     "employed": 16874.4,
+     "unemployed": 511.6,
+     "unemploymentRate": 2.9,
+     "participationRate": 71
+    },
+    {
+     "date": "2026-07-01",
+     "labourForce": 17365.9,
+     "employed": 16845.6,
+     "unemployed": 520.3,
+     "unemploymentRate": 3,
+     "participationRate": 70.9
+    },
+    {
+     "date": "2026-06-01",
+     "labourForce": 17344.9,
+     "employed": 16827.1,
+     "unemployed": 517.8,
+     "unemploymentRate": 3,
+     "participationRate": 70.9
+    },
+    {
+     "date": "2026-05-01",
+     "labourForce": 17338.2,
+     "employed": 16824.8,
+     "unemployed": 513.4,
+     "unemploymentRate": 3,
+     "participationRate": 70.9
+    },
+    {
+     "date": "2026-04-01",
+     "labourForce": 17327.6,
+     "employed": 16815.8,
+     "unemployed": 511.8,
+     "unemploymentRate": 3,
+     "participationRate": 70.9
+    },
+    {
+     "date": "2026-03-01",
+     "labourForce": 17313,
+     "employed": 16804,
+     "unemployed": 509,
+     "unemploymentRate": 2.9,
+     "participationRate": 70.9
+    },
+    {
+     "date": "2026-02-01",
+     "labourForce": 17297.6,
+     "employed": 16790.9,
+     "unemployed": 506.8,
+     "unemploymentRate": 2.9,
+     "participationRate": 70.9
+    },
+    {
+     "date": "2026-01-01",
+     "labourForce": 17281,
+     "employed": 16771.4,
+     "unemployed": 509.6,
+     "unemploymentRate": 2.9,
+     "participationRate": 70.9
+    },
+    {
+     "date": "2025-12-01",
+     "labourForce": 17272.3,
+     "employed": 16764.3,
+     "unemployed": 508,
+     "unemploymentRate": 2.9,
+     "participationRate": 70.8
+    },
+    {
+     "date": "2025-11-01",
+     "labourForce": 17610.9,
+     "employed": 17092.5,
+     "unemployed": 518.4,
+     "unemploymentRate": 2.9,
+     "participationRate": 70.9
+    },
+    {
+     "date": "2025-10-01",
+     "labourForce": 17579,
+     "employed": 17060.1,
+     "unemployed": 518.9,
+     "unemploymentRate": 3,
+     "participationRate": 70.9
+    },
+    {
+     "date": "2025-09-01",
+     "labourForce": 17544.8,
+     "employed": 17026.3,
+     "unemployed": 518.6,
+     "unemploymentRate": 3,
+     "participationRate": 70.9
+    },
+    {
+     "date": "2025-08-01",
+     "labourForce": 17203.5,
+     "employed": 16684.5,
+     "unemployed": 519,
+     "unemploymentRate": 3,
+     "participationRate": 70.8
+    }
+   ],
+   "errors": []
+  }
+ ]
+}
