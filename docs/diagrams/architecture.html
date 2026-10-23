@@ -1,0 +1,88 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="base.css">
+<style>
+.grid{display:grid;grid-template-columns:420px 640px 600px;column-gap:150px;margin-top:40px;align-items:start}
+.col{display:flex;flex-direction:column;gap:22px}
+.engine{padding:22px 22px 18px}
+.engine .box{margin-top:16px;border-radius:20px;padding:14px 18px}
+</style></head><body>
+<h1>Nexa: system architecture</h1>
+<div class="sub">One explainable engine. The language model never invents roles, courses or numbers.</div>
+
+<div class="timeline"><div class="line"></div>
+  <div class="dot" style="left:0%"></div><div class="lab" style="left:0%">1  upload a CV</div>
+  <div class="dot" style="left:20%"></div><div class="lab" style="left:20%">2  confirm skills</div>
+  <div class="dot" style="left:40%"></div><div class="lab" style="left:40%">3  task X-ray
+   (3 futures)</div>
+  <div class="dot" style="left:60%"></div><div class="lab" style="left:60%">4  rank future roles</div>
+  <div class="dot" style="left:80%"></div><div class="lab" style="left:80%">5  pathway + SDGs</div>
+  <div class="dot" style="left:100%"></div><div class="lab" style="left:calc(100% - 120px)">6  HR view</div>
+</div>
+
+<div class="grid">
+  <div class="col">
+    <div class="box" id="clients" style="min-height:330px"><h3>CLIENTS</h3><p style="white-space:pre">Web app (Next.js 16, React 19)
+/        landing
+/start   CV or sample person
+/me      personal dashboard
+/org     HR / organisation view
+/evidence  every source + formula
+
+Phone, tablet, laptop</p></div>
+    <div class="box inv" id="formula"><p style="white-space:pre">match = skills (60)
+      + transferable (15)
+      + future demand (25)
+      − entry barrier
+
+AI share 2030 = Σ task time
+  × AI use (slow | moderate | fast)
+
+age, gender, background:
+never inputs</p></div>
+  </div>
+
+  <div class="col">
+    <div class="box dash engine" id="engine"><h3>NEXA ENGINE <small>(deterministic, TypeScript)</small></h3>
+      <p style="font-size:16px">Vercel serverless. Same input, same answer, every time.</p>
+      <div class="box" id="cv"><p><b>CV reader</b>
+PDF / Word → text (unpdf, mammoth) → skill ids
+keyword matcher; Claude optional, ids only</p></div>
+      <div class="box" id="score"><p><b>scoring engine</b>
+task shift · skill momentum · role match
+3 futures · "safe in all 3" badge · pathway</p></div>
+      <div class="box" id="org"><p><b>organisation analytics</b>
+headcount · org tree · mobility · cohorts
+fairness check · SDG report · CSV (browser only)</p></div>
+      <p style="margin-top:14px;font-size:16px">fail safe. no key? the app still works, fully.</p>
+    </div>
+    <div class="box dash" id="ui" style="margin-top:44px"><p><b>DASHBOARDS</b>
+Task X-ray · Skills Radar · Future roles
+Pathway · Impact Compass · What changed
+every number shows its source and date</p></div>
+  </div>
+
+  <div class="col">
+    <div class="box" id="data"><h3>EVIDENCE DATA <small>(versioned JSON)</small></h3><p>O*NET 31.0: 18,838 tasks, 42 occupations
+Anthropic Economic Index: 18,680 tasks matched
+WEF Future of Jobs 2025 · TalentCorp 2024
+21 roles · 51 skills · 56 courses · 25 SDG targets</p></div>
+    <div class="box" id="live"><h3>LIVE SIGNALS</h3><p>arXiv API: AI research momentum per skill
+OpenDOSM: Malaysia labour force survey
+dated snapshots ship with the app</p></div>
+    <div class="box bold" id="runpod"><h3>RUNPOD <small>(GPU, serverless)</small></h3><p>BAAI/bge-small-en-v1.5 embeddings
+semantic closeness: person ↔ role skills
+context only, never changes the score</p></div>
+    <div class="box" id="claude"><h3>CLAUDE <small>(optional)</small></h3><p>reads a CV → returns skill ids only</p></div>
+    <div class="box" id="host"><h3>VERCEL + GITHUB · REPLIT</h3><p>auto-deploy on every push · Replit for ideation</p></div>
+  </div>
+</div>
+<div class="foot">Evidence decides. The engine explains. People choose.</div>
+<script src="arrows.js"></script>
+<script>document.fonts.ready.then(()=>{drawArrows([
+ ["clients","r@0.4","engine","l@0.3","requests",{}],
+ ["engine","r@0.12","data","l@0.5","read",{}],
+ ["engine","r@0.38","live","l@0.5","arXiv · OpenDOSM",{dy:-14,dx:20}],
+ ["engine","r@0.62","runpod","l@0.5","/api/semantic",{}],
+ ["engine","r@0.82","claude","l@0.5","/api/parse-cv",{dy:-12}],
+ ["engine","b","ui","t","results",{dash:true,dx:60,dy:4}],
+]);window.__done=true});</script>
+</body></html>
