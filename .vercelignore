@@ -1,2 +1,5 @@
 # The RunPod handler runs on RunPod's GPUs, not on Vercel.
 runpod/
+# Docs, diagrams and submission PDFs aren't needed by the live site.
+docs/
+submission/
