@@ -1,26 +1,24 @@
-# <img src="app/icon.svg" alt="Nexa logo" width="36" height="36" valign="middle" /> Nexa
+# <img src="app/icon.svg" alt="Nexa logo" width="34" height="34" valign="middle" /> Nexa
 
-<!-- markdownlint-disable MD013 MD033 -->
+AI takes tasks, not people.
 
-> Nexa shows workers which of their tasks AI is already doing, which skills carry them forward, and a cited path to their next role, and gives HR the same view for the whole workforce.
+**Nexa forecasts at the level of tasks, not job titles, in three possible
+futures, with every number cited and dated, and maps every pathway to the UN
+Sustainable Development Goals.**
 
-**AI takes tasks, not people.** Nexa forecasts at the level of **tasks**, not
-job titles, in **three possible futures**, with **every number cited and
-dated**, and maps every pathway to the **UN Sustainable Development Goals**.
+![Nexa: AI takes tasks, not people](docs/screenshots/nexa-hero.png)
 
-**Live:** [nexa-xxx.vercel.app](https://nexa-xxx.vercel.app/) · **Video:** [youtu.be/dp5byv_Zbzo](https://youtu.be/dp5byv_Zbzo) · **Slides:** [Pitch deck](https://drive.google.com/file/d/1aasnv7n8EIVwiowdyzulz0QttzTl282e/view?usp=sharing) · **Team EcoByte** · SDC Hackathon 2026
+![Three roads, one decision: Data Analyst, ESG Specialist or UX Designer](docs/screenshots/nexa-city.png)
 
-<img alt="Nexa landing page" src="docs/assets/screenshots/landing.jpg" />
-
-*The landing page at [nexa-xxx.vercel.app](https://nexa-xxx.vercel.app/):
-the problem, how it works, the two views and the evidence behind every number.*
+*Three roads, one decision. Nexa shows a person which of their tasks AI is
+already doing, and a cited, step-by-step path down the road that fits them.*
 
 ---
 
 ## 📋 Team Information
 
 | Field | Details |
-| --- | --- |
+|---|---|
 | **Team Name** | EcoByte |
 | **Team Domain** | Domain 1 — Aiversecity Future-Ready Workforce |
 | **SDG Track (1–17)** | SDG 4 — Quality Education (Target 4.4), with SDG 5, 8, 9 and 10 |
@@ -31,13 +29,13 @@ the problem, how it works, the two views and the evidence behind every number.*
 ## 🔗 Links
 
 | Resource | Link |
-| --- | --- |
-| GitHub Repository | https://github.com/eyahia1712/Nexa |
-| Replit Project | Team workspace on Replit (ideation and pitch deck) · proof: [`submission/SDC2026_EcoByte_Replit_POU.pdf`](submission/SDC2026_EcoByte_Replit_POU.pdf) |
-| Live Demo | https://nexa-xxx.vercel.app/ |
-| RunPod Endpoint | RunPod Serverless endpoint (ID kept private in environment variables) · proof: [`submission/SDC2026_EcoByte_Runpod_POU.pdf`](submission/SDC2026_EcoByte_Runpod_POU.pdf) |
-| Slide Deck | https://drive.google.com/file/d/1aasnv7n8EIVwiowdyzulz0QttzTl282e/view?usp=sharing · PDF copy: [`docs/Nexa_Pitch_Deck.pdf`](docs/Nexa_Pitch_Deck.pdf) |
-| Demo Video | https://youtu.be/dp5byv_Zbzo |
+|---|---|
+| 💻 **GitHub Repository** | **[github.com/eyahia1712/Nexa](https://github.com/eyahia1712/Nexa)** |
+| 🟠 **Replit Project** | **[Replit proof of use (PDF)](submission/SDC2026_EcoByte_Replit_POU.pdf)** |
+| 🌐 **Live Demo** | **[nexa-xxx.vercel.app](https://nexa-xxx.vercel.app/)** |
+| 🟣 **RunPod Endpoint** | **[RunPod proof of use (PDF)](submission/SDC2026_EcoByte_Runpod_POU.pdf)** |
+| 📄 **Slide Deck** | **[Nexa pitch deck](https://drive.google.com/file/d/1aasnv7n8EIVwiowdyzulz0QttzTl282e/view?usp=sharing)** |
+| 🎬 **Demo Video** | **[Watch the pitch video](https://youtu.be/dp5byv_Zbzo)** |
 
 ---
 
@@ -45,155 +43,132 @@ the problem, how it works, the two views and the evidence behind every number.*
 
 ### Problem
 
-- **56%** of Malaysian professionals already use AI at work; only **26%** have been trained for it (Hays Asia Salary Guide 2025)
-- **600,000+** Malaysian workers need reskilling in the next three to five years (MOSTI, cited in the SDC brief)
-- Forecasts talk about **job titles**, but AI takes over **tasks**, so nobody gets a personal answer
-- Course lists and career advice are **out of date** the quarter they are published
-- HR teams still plan reskilling with **spreadsheets and guesswork**
+AI is changing Malaysian work one task at a time, and almost nobody gets a
+personal answer about what that means for them.
+
+- **The training gap is huge.** 56% of Malaysian professionals already use AI
+  at work, but only 26% have been trained for it (Hays Asia Salary Guide 2025).
+- **The scale is national.** More than 600,000 Malaysian workers need
+  reskilling in the next three to five years (MOSTI, cited in the SDC brief).
+- **Forecasts talk about job titles, but AI takes over tasks.** So a customer
+  service worker reads the headlines and still can't tell which of their own
+  tasks are changing, or what to learn next.
+- **HR plans with spreadsheets and guesswork.** Who to reskill, into what, how
+  long it takes, and whether it is fair are answered by gut feeling.
 
 **Everyone can see the storm coming. Nobody has a personal forecast, or a road out.**
 
 ### Solution
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="docs/diagrams/journey-dark.png">
-  <img alt="Nexa user journey: six steps for a person, six steps for an organisation, one engine" src="docs/diagrams/journey.png">
-</picture>
-
 #### 📄 1. Upload a CV
 
-- Drop a **PDF or Word CV**, fill a short form, or pick a **synthetic sample person**
-- Nexa reads the **name, job and skills**; the person **confirms every skill** before anything is scored
-- No account, no database: the profile **stays in the browser**
+- PDF or Word, a short form, or a synthetic sample person
+- Nexa reads the name, job and skills; **the person confirms every skill**
+- No account, no database: the profile stays in the browser
 
-**The person is in charge of their own profile from the first second.**
+**The person is in charge of their profile from the first second.**
 
-<img src="docs/assets/hairline.svg" width="100%" height="1" alt="" />
+---
 
-#### 🔬 2. Task X-ray
+#### 🔬 2. See which tasks AI is already doing
 
-- The job is broken into its **official O\*NET tasks** (18,838 tasks across the catalogue)
-- Each task is checked against **measured real-world AI use** (Anthropic Economic Index, 18,680 tasks matched)
-- Result: the share of **this person's task time** done with AI by 2030, as a **range**, plus a clear **verdict for every skill** (for example *future-proof*: rising, and AI can't do it for you)
+- The job is broken into its official **O\*NET tasks**
+- Each task is checked against **measured real-world AI use** (Anthropic
+  Economic Index, 18,680 tasks matched)
+- The result is a range, not a guess: *57% of Aisyah's working time is done
+  with AI by 2030*, and a clear verdict for every skill
 
 **Forecasts at the level of tasks, not job titles.**
 
-<img src="docs/assets/hairline.svg" width="100%" height="1" alt="" />
+---
 
-#### 📡 3. Skills Radar
+#### 📡 3. Know which skills are rising
 
-- **51 skills** plotted by **Skill Momentum**, one 0–100 number per skill
-- Built from three named pieces of evidence: **WEF Future of Jobs 2025**, **live arXiv research growth** and **AI substitution pressure**
-- Tap any skill: the **"Why?" panel** shows every point and its source
+- **51 skills** scored by Skill Momentum, from WEF Future of Jobs 2025, live
+  arXiv research growth and AI substitution pressure
+- Tap any skill and the **"Why?" panel** shows every point and its source
 
-**Every score is explained, with sources.**
+**Every score is explained.**
 
-<img src="docs/assets/hairline.svg" width="100%" height="1" alt="" />
+---
 
-#### 🎯 4. Future roles, in three futures
+#### 🎯 4. Rank future roles, in three futures
 
-- **21 cited roles** ranked with a score you can **add up by hand** (skills + transferable + demand − entry barrier)
-- Every role shows the **exact skills gap** and the **weeks to get ready**
-- Every forecast runs in **slow, moderate and fast** disruption; roles on top in all three get a **"safe in all 3 futures"** badge
+- **21 cited roles**, each with a score you can **add up by hand**: skills you
+  have + transferable + future demand − entry barrier
+- Every forecast runs in **slow, moderate and fast** futures; roles on top in
+  all three are marked **safe in all 3 futures**
 
 **No single prediction. No black box.**
 
-<img src="docs/assets/hairline.svg" width="100%" height="1" alt="" />
+---
 
-#### 🛣️ 5. A pathway to start today
+#### 🛣️ 5. Get a pathway you can start today
 
-- Prerequisites first, then a **week-by-week plan** timed to the hours the person has (for example **6 hours a week, about 5 weeks**)
+- A week-by-week plan timed to the hours a person has (*6 hours a week, about
+  5 weeks*)
 - **56 real, link-checked courses**, free or claimable through **HRD Corp**
-- **Impact Compass:** pick up to 3 SDGs you care about, and roles **re-rank ▲▼** in front of you
+- The **Impact Compass** re-ranks roles by the SDGs a person cares about
 
-**Nothing invented: 0 made-up jobs or courses.**
+**Nothing invented: no made-up jobs, courses or numbers.**
 
-<img src="docs/assets/hairline.svg" width="100%" height="1" alt="" />
+---
 
 #### 🔄 6. When the evidence moves, the plan moves
 
-- **Refresh signals** queries **arXiv** and **OpenDOSM** live
-- Two **dated real readings** ship with the app, so the change is visible even offline
-- **What changed** explains, in plain words, which roles moved and why
+- **arXiv** and **OpenDOSM** are read live; dated readings ship with the app
+- **What changed** explains which roles moved, and why
 
 **A plan that ages with the evidence, not against it.**
 
-<p align="center"><img alt="Animated demo: the personal dashboard, future roles and pathway" src="docs/assets/gifs/people.gif" width="100%" /></p>
+---
 
-*Aisyah's journey, live: CV review, her dashboard (57% of her work changes with
-AI), future roles in three futures, and her pathway.*
+#### 🏢 7. Give HR the whole workforce on one screen
 
-<img src="docs/assets/hairline.svg" width="100%" height="1" alt="" />
+- A 37-person bank branch in demo data: headcount, departments, who grew into a
+  new role, who joined fresh
+- Org tree, each person's career story, team skills, reskilling cohorts,
+  internal mobility, a **fairness check** across gender and age, and an **SDG
+  report**
+- HR can add people or load its own CSV, which never leaves the browser
 
-#### 🏢 7. For organisations
-
-The same engine, one level up. The demo organisation is a **37-person bank
-branch** with invented staff, labelled on screen as demo data.
-
-- **Dashboard:** headcount, 7 departments, **19 people who grew into a new role**, 20 who joined fresh, growth since 2022
-- **People + org tree:** every person searchable; all **37 positions, CEO to front line**, on one screen
-- **One person's story:** career path, **how AI changes their job**, a suggested next role; **HR offers the pathway, the employee decides**
-- **Team skills, reskilling cohorts, talent mobility**, a **fairness check** across gender and age, and an **SDG report**
-- **Bring your own data:** add people and departments, or **load a CSV** (read in the browser only, never uploaded)
-
-**HR plans growth, not cuts.**
-
-<p align="center"><img alt="Animated demo of the organisation view" src="docs/assets/gifs/org.gif" width="100%" /></p>
+**HR offers the pathway. The employee decides.**
 
 ### Key Features
 
-All six must-haves from the Domain 1 brief, plus the good-to-haves:
+- **Skills profile intake** — CV upload, short form or sample person; every skill confirmed by the person
+- **Task X-ray** — the share of a person's task time done with AI by 2030, from measured AI use per task
+- **Skills Radar** — 51 skills ranked by momentum, every point sourced
+- **Future roles** — 21 cited roles, an explainable four-part score and the exact skills gap
+- **Three futures** — slow, moderate and fast, with ranges and a "safe in all 3" badge
+- **Reskilling pathway** — prerequisites first, week by week, real link-checked courses, HRD Corp route
+- **SDG mapping** — every role and skill tagged to UN targets; the Impact Compass re-ranks by the Goals you care about
+- **Organisation view** — dashboard, org tree, person stories, skills, mobility, fairness check, SDG report, CSV upload
 
-- **Skills profile intake** — CV upload (PDF / Word), short form or sample person; every skill confirmed by the person.
-- **AI-trend signal layer** — Task X-ray from measured AI use per task; Skills Radar with Skill Momentum; live arXiv and OpenDOSM refresh; every number dated.
-- **Future-role matching** — 21 cited roles, an explainable four-part score and a skills-gap breakdown.
-- **Personalised reskilling pathway** — prerequisites first, week-by-week, real link-checked courses, HRD Corp route.
-- **SDG mapping** — every role and skill tagged to UN targets; the Impact Compass re-ranks by the Goals a person cares about.
-- **Handling uncertainty** — slow / moderate / fast futures, ranges instead of single numbers, "safe in all 3" badge.
-- **Organisation view** — dashboard, org tree, person stories, skills heatmap, cohorts, mobility, fairness check, SDG report, CSV upload.
-- **Automatic re-planning** — "What changed" when the evidence moves; mobile-friendly, accessible design.
+![Aisyah's personal dashboard](docs/screenshots/personal-dashboard.jpg)
 
-<table>
-<tr>
-<td width="50%"><img alt="CV review" src="docs/assets/screenshots/start.jpg" /><br/><sub><b>Start</b>: check your profile, you are in charge of it</sub></td>
-<td width="50%"><img alt="Task X-ray" src="docs/assets/screenshots/task-xray.jpg" /><br/><sub><b>Task X-ray</b>: what AI means for her job today</sub></td>
-</tr>
-<tr>
-<td><img alt="Skills Radar" src="docs/assets/screenshots/skills-radar.jpg" /><br/><sub><b>Skills Radar</b>: rising, holding or fading, and why</sub></td>
-<td><img alt="Future roles" src="docs/assets/screenshots/future-roles.jpg" /><br/><sub><b>Future roles</b>: a score you can check by hand</sub></td>
-</tr>
-<tr>
-<td><img alt="Pathway" src="docs/assets/screenshots/pathway.jpg" /><br/><sub><b>Pathway</b>: real courses, timed to her week</sub></td>
-<td><img alt="Impact Compass" src="docs/assets/screenshots/impact-compass.jpg" /><br/><sub><b>Impact Compass</b>: the Goals she cares about re-rank roles</sub></td>
-</tr>
-<tr>
-<td><img alt="Organisation dashboard" src="docs/assets/screenshots/org-dashboard.jpg" /><br/><sub><b>Organisation</b>: how the team is growing and changing</sub></td>
-<td><img alt="Org tree" src="docs/assets/screenshots/org-tree.jpg" /><br/><sub><b>Org tree</b>: all 37 positions, roles first, names second</sub></td>
-</tr>
-<tr>
-<td><img alt="One person's story" src="docs/assets/screenshots/org-person.jpg" /><br/><sub><b>One person's story</b>: career, AI change, next role</sub></td>
-<td><img alt="Talent mobility" src="docs/assets/screenshots/org-mobility.jpg" /><br/><sub><b>Mobility</b>: reskilling groups by target role</sub></td>
-</tr>
-<tr>
-<td><img alt="Fairness check" src="docs/assets/screenshots/org-fairness.jpg" /><br/><sub><b>Fairness</b>: gender and age gaps checked</sub></td>
-<td><img alt="SDG report" src="docs/assets/screenshots/org-sdg.jpg" /><br/><sub><b>SDG report</b>: people advanced per Goal</sub></td>
-</tr>
-</table>
+*The personal dashboard: today's job, the next role and the pathway at the top;
+57% of her work done with AI by 2030; and a verdict for every skill.*
+
+![The organisation dashboard](docs/screenshots/organisation-dashboard.jpg)
+
+*The organisation view: 37 people, 7 departments, 19 who grew into a new role,
+20 who joined fresh, and how the team grew since 2022. Demo data, invented
+staff.*
 
 ### Tech Stack
 
-| Layer | Technology |
-| --- | --- |
-| Frontend | Next.js 16 (App Router), React 19, Tailwind CSS 4, Motion |
-| Backend | Next.js route handlers in TypeScript (Node.js): `/api/parse-cv`, `/api/arxiv`, `/api/labour`, `/api/semantic` |
-| Database | No personal-data database: versioned JSON datasets built from public sources; profiles stay in the browser |
-| AI / Compute | **RunPod** (GPU, serverless): BAAI/bge-small-en-v1.5 embeddings · deterministic, explainable scoring engine · optional Claude API for CV reading |
-| Hosting / Dev | **Vercel** (live app, auto-deploy from GitHub) · **Replit** (ideation, pitch deck) · GitHub |
+| Layer | Technology | Why |
+|---|---|---|
+| Frontend | Next.js 16, React 19, Tailwind CSS 4, Motion | One fast, mobile-friendly app |
+| Backend | Next.js route handlers in TypeScript | `/api/parse-cv`, `/api/arxiv`, `/api/labour`, `/api/semantic` |
+| Database | Versioned JSON from public datasets; no personal-data database | Every number reproducible; profiles stay in the browser |
+| AI / Compute | **RunPod** GPU (BAAI/bge-small-en-v1.5) · deterministic scoring engine · optional Claude for CV reading | Explainable first; AI only where it adds evidence |
+| Hosting / Dev | **Vercel** (live, auto-deploy) · **Replit** (ideation, pitch deck) · GitHub | Zero-setup deployment |
 
-**Data sources:** O\*NET 31.0 (CC BY 4.0), Anthropic Economic Index (CC BY),
-arXiv API, OpenDOSM, WEF Future of Jobs 2025, TalentCorp Impact Study 2024,
-HRD Corp, UN SDGs. Every sample person and the 37-person demo organisation are
-**synthetic**; photos are the team's own. Full list with dates in the app at
+**Data:** O\*NET 31.0, Anthropic Economic Index, WEF Future of Jobs 2025,
+TalentCorp, arXiv, OpenDOSM, HRD Corp and the UN SDGs. Every sample person and
+the demo organisation are synthetic. Full list in the app at
 [`/evidence`](https://nexa-xxx.vercel.app/evidence) and in the
 [Tech Declaration](submission/SDC2026_EcoByte_TechDeclaration.pdf).
 
@@ -204,55 +179,69 @@ HRD Corp, UN SDGs. Every sample person and the 37-person demo organisation are
 ```
 .
 ├── app/                      # Pages: / · /start · /me · /org · /evidence
-│   └── api/                  # parse-cv · arxiv · labour · semantic (RunPod proxy)
-├── components/               # landing · intake · personal dashboard · organisation view
+│   └── api/                  # parse-cv · arxiv · labour · semantic (RunPod)
+├── components/               # Landing, intake, personal dashboard, organisation view
 ├── lib/
-│   ├── engine/               # scenarios · momentum · match · pathway · org analytics · changes
-│   ├── signals/              # arXiv + OpenDOSM fetchers and dated snapshots
-│   └── cv/                   # CV reading: keyword matcher + optional Claude extractor
-├── data/
-│   ├── curated/              # roles · skills · courses · SDG targets · synthetic people & org
-│   ├── occupation-tasks.json # built from O*NET + Anthropic Economic Index
-│   └── signals.json          # dated, real trend readings
-├── docs/                     # Screenshots, GIFs, diagrams, pitch deck PDF
-├── public/                   # Logo, avatars, sample-person photos
+│   ├── engine/               # Scenarios, momentum, matching, pathway, org analytics
+│   ├── signals/              # arXiv + OpenDOSM readings
+│   └── cv/                   # CV reading
+├── data/                     # Curated roles, skills, courses, SDGs, synthetic people
+├── docs/                     # Screenshots
+├── public/                   # Logo and photos
 ├── runpod/
-│   ├── handler.py            # RunPod serverless handler (GPU workload)
-│   ├── Dockerfile
-│   └── requirements.txt
-├── scripts/                  # data build, signal snapshots, course-link check
+│   └── handler.py            # RunPod serverless handler (GPU workload)
+├── scripts/                  # Data build and course-link check
 ├── submission/               # Required submission documents
-│   ├── SDC2026_EcoByte_Preliminary.pdf       # Preliminary submission
-│   ├── SDC2026_EcoByte_TechDeclaration.pdf   # Technology declaration
-│   ├── SDC2026_EcoByte_Replit_POU.pdf        # Replit proof of use
-│   └── SDC2026_EcoByte_Runpod_POU.pdf        # RunPod proof of use
-├── tests/                    # Engine and CV-identity unit tests
+│   ├── SDC2026_EcoByte_Preliminary.pdf      # Preliminary submission
+│   ├── SDC2026_EcoByte_TechDeclaration.pdf  # Technology declaration
+│   ├── SDC2026_EcoByte_Replit_POU.pdf       # Replit proof of use
+│   └── SDC2026_EcoByte_Runpod_POU.pdf       # RunPod proof of use
+├── tests/                    # Unit tests
 ├── .env.example              # Example environment variables
 ├── .gitignore
 ├── .replit                   # Replit run configuration
 ├── LICENSE
-├── package.json              # Node.js dependencies (web app)
+├── package.json              # Node.js dependencies
 ├── requirements.txt          # Python dependencies (RunPod worker)
 └── README.md
 ```
 
 ### Architecture
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="docs/diagrams/architecture-dark.png">
-  <img alt="Nexa system architecture" src="docs/diagrams/architecture.png">
-</picture>
+```mermaid
+flowchart LR
+  subgraph Users
+    P["Person<br/>CV or sample"]
+    H["HR team<br/>demo org or CSV"]
+  end
+  P --> W
+  H --> W
+  W["Nexa web app<br/>Next.js on Vercel"] --> CV["/api/parse-cv<br/>PDF and Word to skills"]
+  CV --> E
+  W --> E
+  subgraph E["Nexa engine, deterministic"]
+    direction TB
+    E1["Task X-ray<br/>slow, moderate, fast"] --> E2["Skill Momentum<br/>51 skills"]
+    E2 --> E3["Role match<br/>4-part score, 21 roles"]
+    E3 --> E4["Pathway<br/>56 courses + SDGs"]
+    E4 --> E5["Organisation<br/>mobility, fairness, SDG report"]
+  end
+  D[("Evidence data<br/>O*NET, Anthropic Economic Index<br/>WEF, TalentCorp, HRD Corp")] --> E
+  L["Live signals<br/>arXiv API, OpenDOSM"] --> E
+  R["RunPod Serverless GPU<br/>bge-small-en-v1.5"] -. semantic closeness .-> E
+  C["Claude API, optional<br/>CV text to skill ids"] -.-> CV
+  E --> UI["Dashboards<br/>every number cited and dated"]
+```
 
-The engine is **deterministic**: the same input gives the same answer every
-time, and every number on screen carries its **source and date**. The language
-model only turns a CV into skill ids from our catalogue; it never produces
-roles, courses or numbers. Every external service is **optional**: without
-keys, Nexa still runs end to end.
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="docs/diagrams/engine-dark.png">
-  <img alt="Slow, moderate and fast scenarios and the four-part role match score" src="docs/diagrams/engine.png">
-</picture>
+- **Engine** (`lib/engine/`) — plain TypeScript. Same input, same answer, every
+  time. The language model never produces a role, a course or a number.
+- **Evidence** (`data/`) — versioned JSON built from public datasets, so every
+  figure on screen carries its source and date.
+- **Live signals** (`lib/signals/`) — arXiv and OpenDOSM are read live, with
+  dated snapshots as a fallback.
+- **RunPod** (`runpod/`) — a GPU embedding model adds semantic closeness beside
+  each role. It is context only and never changes the score.
+- **Optional by design** — without any key, Nexa still runs end to end.
 
 ---
 
@@ -265,55 +254,40 @@ keys, Nexa still runs end to end.
    - `RUNPOD_API_KEY`
    - `RUNPOD_ENDPOINT_ID`
    - `ANTHROPIC_API_KEY`
-3. Click **Run**. Replit uses the `.replit` file to run `npm run dev` on port 3000.
+3. Click **Run**. Replit uses the `.replit` file to start the app on port 3000.
 
 ### Option 2 — Run Locally
 
 ```bash
-# 1. Clone the repository
 git clone https://github.com/eyahia1712/Nexa.git
 cd Nexa
-
-# 2. Install dependencies (Node.js 20+)
-npm install
-
-# 3. Configure environment variables (optional, Nexa runs without them)
-cp .env.example .env.local
-
-# 4. Run the app
+npm install                  # Node.js 20+
+cp .env.example .env.local   # optional keys; Nexa runs without them
 npm run dev                  # http://localhost:3000
 ```
-
-### Option 3 — Deploy on Vercel (how the live demo runs)
-
-1. In Vercel, **Add New → Project** and import this repository.
-2. Optional: add the variables from `.env.example` under **Settings → Environment Variables**.
-3. Click **Deploy**. Every push to `main` redeploys automatically.
 
 ### Run Tests
 
 ```bash
-npm test              # engine and CV-identity tests
-npm run typecheck
-npm run lint
+npm test
 ```
 
 ---
 
 ## 🟠 How We Use Replit *(Required)*
 
-- **Ideation:** the team used Replit Agent (Replit Core credits) to research and compare six project ideas before choosing Nexa
-- **Pitch deck:** the editable pitch deck was redesigned in Replit
-- **Runnable on Replit:** the `.replit` file lets anyone import and run Nexa on Replit
+- **Ideation:** Replit Agent helped us research and compare six project ideas before we chose Nexa
+- **Pitch deck:** our editable pitch deck was redesigned in Replit
+- **Runnable:** the `.replit` file lets anyone import and run Nexa on Replit
 - **Secrets:** API keys live in Replit Secrets or environment variables, never in the code
 
 📄 Proof of use: [`submission/SDC2026_EcoByte_Replit_POU.pdf`](submission/SDC2026_EcoByte_Replit_POU.pdf)
 
 ## 🟣 How We Use RunPod *(Required)*
 
-- **Workload:** semantic skill closeness. The open-source embedding model **BAAI/bge-small-en-v1.5** runs on a RunPod GPU and measures how close, in meaning, a person's skills are to each target role's skills
-- **Setup:** [`runpod/handler.py`](runpod/handler.py) with its [`Dockerfile`](runpod/Dockerfile) is deployed as a **RunPod Serverless Endpoint**; the model is baked into the image
-- **Integration:** the app calls the endpoint through `/api/semantic` using `RUNPOD_API_KEY` and `RUNPOD_ENDPOINT_ID`, kept on the server. The result appears as **semantic closeness** beside each role and **never changes the explainable score**
+- **Workload:** semantic skill closeness. The open-source embedding model **BAAI/bge-small-en-v1.5** runs on a RunPod GPU and measures how close, in meaning, a person's skills are to each role's skills
+- **Setup:** [`runpod/handler.py`](runpod/handler.py) is deployed as a **RunPod Serverless Endpoint**
+- **Integration:** the app calls the endpoint through `/api/semantic` using `RUNPOD_API_KEY` and `RUNPOD_ENDPOINT_ID`, kept on the server
 
 Example request:
 
@@ -330,10 +304,10 @@ curl -X POST https://api.runpod.ai/v2/$RUNPOD_ENDPOINT_ID/runsync \
 
 ## 🧗 Challenges & Learnings
 
-- **Trustworthy forecasts without invented numbers.** We chose task-level evidence (O\*NET × Anthropic Economic Index) over asking a language model to guess, and kept every score deterministic and explainable.
-- **Uncertainty.** Instead of one prediction, every forecast runs in three scenarios with ranges; roles that hold up in all three are marked safe.
-- **Stale data.** arXiv and OpenDOSM are queried live, and dated readings ship with the app, so every number shows its date.
-- **Responsible HR use.** The organisation view is built for growth, the employee decides on any pathway, and a fairness check runs across gender and age.
+- **Trustworthy forecasts without invented numbers.** We used task-level evidence (O\*NET × Anthropic Economic Index) instead of asking a language model to guess, and kept every score explainable.
+- **Uncertainty.** One prediction would be false confidence, so every forecast runs in three futures with ranges.
+- **Stale data.** arXiv and OpenDOSM are read live, and every number shows its date.
+- **Responsible HR use.** The organisation view is built for growth: the employee decides on any pathway, and a fairness check runs across gender and age.
 
 ## 🔭 Future Improvements
 
@@ -346,11 +320,11 @@ curl -X POST https://api.runpod.ai/v2/$RUNPOD_ENDPOINT_ID/runsync \
 ## 👥 Team
 
 | Name | Role | GitHub |
-| --- | --- | --- |
-| Eya Hia | Team Leader & Lead Developer | [@eyahia1712](https://github.com/eyahia1712) |
-| Ng Wei Meng | Lead Researcher & Data | |
-| Alya Maisarah binti Jaafad Sadiq | Presenter & Pitch Lead | |
-| Mohamad Khairul Haiqal bin Mohamad Razali | QA & Submission Lead | [@redberrysss](https://github.com/redberrysss) |
+|---|---|---|
+| **Eya Hia** | Team Leader & Lead Developer | [@eyahia1712](https://github.com/eyahia1712) |
+| **Ng Wei Meng** | Lead Researcher & Data | |
+| **Alya Maisarah binti Jaafad Sadiq** | Presenter & Pitch Lead | |
+| **Mohamad Khairul Haiqal bin Mohamad Razali** | QA & Submission Lead | [@redberrysss](https://github.com/redberrysss) |
 
 ---
 
@@ -370,3 +344,7 @@ curl -X POST https://api.runpod.ai/v2/$RUNPOD_ENDPOINT_ID/runsync \
 ## 📜 License
 
 This project is licensed under the [Apache License 2.0](LICENSE).
+
+---
+
+*Nexa · Team EcoByte · SDC Hackathon 2026*
