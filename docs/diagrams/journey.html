@@ -1,0 +1,59 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="base.css">
+<style>
+.lane{margin-top:44px}
+.lane h2{font-size:24px;font-weight:500;margin-bottom:18px}
+.row{display:flex;gap:46px;align-items:stretch}
+.row .box{flex:1;padding:16px 16px;border-radius:22px}
+.row .box b{display:block;font-size:18px;margin-bottom:6px}
+.row .box p{font-size:15.5px}
+.n{display:inline-block;width:30px;height:30px;border-radius:50%;border:2.5px solid var(--ink);text-align:center;line-height:25px;font-size:15px;margin-bottom:8px}
+.box.inv .n{border-color:var(--inv-ink)}
+</style></head><body>
+<h1>Nexa: how it works</h1>
+<div class="sub">One engine, two views. A person plans their next step; HR plans the whole team. Same evidence, same score.</div>
+
+<div class="lane"><h2>FOR PEOPLE  ·  Aisyah, 12 years in customer service</h2>
+<div class="row">
+ <div class="box" id="p1"><span class="n">1</span><b>Upload a CV</b><p>PDF, Word or a sample person.
+She confirms every skill.</p></div>
+ <div class="box" id="p2"><span class="n">2</span><b>Task X-ray</b><p>57% of her task time
+done with AI by 2030.
+Verdict per skill.</p></div>
+ <div class="box" id="p3"><span class="n">3</span><b>Skills Radar</b><p>51 skills by momentum:
+WEF + arXiv + AI use.</p></div>
+ <div class="box" id="p4"><span class="n">4</span><b>Future roles</b><p>Score you can add by hand.
+Slow · moderate · fast.
+"Safe in all 3" badge.</p></div>
+ <div class="box" id="p5"><span class="n">5</span><b>Pathway</b><p>Link-checked courses,
+free or HRD Corp,
+timed to 6 h a week.</p></div>
+ <div class="box inv" id="p6"><span class="n">6</span><b>Impact Compass</b><p>Pick SDGs she cares
+about; roles re-rank.
+Live arXiv: plan updates.</p></div>
+</div></div>
+
+<div class="lane" style="margin-top:56px"><h2>FOR ORGANISATIONS  ·  HR of a 37-person bank branch (demo data)</h2>
+<div class="row">
+ <div class="box dash" id="o1"><span class="n">1</span><b>Dashboard</b><p>Headcount, 7 departments,
+who grew, who joined,
+growth since 2022.</p></div>
+ <div class="box dash" id="o2"><span class="n">2</span><b>People + org tree</b><p>Every person searchable.
+All 37 positions,
+CEO to front line.</p></div>
+ <div class="box dash" id="o3"><span class="n">3</span><b>One person's story</b><p>Career path, how AI
+changes the job,
+suggested next role.</p></div>
+ <div class="box dash" id="o4"><span class="n">4</span><b>Skills + mobility</b><p>Team skills heatmap,
+reskilling cohorts,
+internal moves.</p></div>
+ <div class="box dash" id="o5"><span class="n">5</span><b>Fairness + SDGs</b><p>Gender and age check.
+SDG contribution
+report.</p></div>
+ <div class="box inv" id="o6"><span class="n">6</span><b>Bring your own</b><p>Add people, add
+departments, or load
+a CSV (stays in browser).</p></div>
+</div></div>
+<div class="foot">HR offers the pathway. The employee decides.</div>
+<script src="arrows.js"></script>
+<script>document.fonts.ready.then(()=>{const a=[];for(const l of["p","o"])for(let i=1;i<6;i++)a.push([l+i,"r",l+(i+1),"l","",{}]);a.push(["p5","b","o5","t","same engine, same evidence",{dash:true,both:true,dx:150,dy:6}]);drawArrows(a);window.__done=true});</script>
+</body></html>
