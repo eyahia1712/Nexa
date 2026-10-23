@@ -1,0 +1,5 @@
+# Python dependencies.
+# The web app is Next.js (see package.json). Python is used for:
+#   - the RunPod GPU worker (runpod/handler.py)  -> packages below
+#   - data scripts in scripts/ (standard library only, nothing to install)
+-r runpod/requirements.txt
